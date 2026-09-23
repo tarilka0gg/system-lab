@@ -1,0 +1,3 @@
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p3  759G  438G  317G  59% /home
+61G	/home/tarilka0gg/autofdo-work

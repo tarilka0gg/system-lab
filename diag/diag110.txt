@@ -1,0 +1,3 @@
+/bin/rdmsr
+/bin/wrmsr
+3030303030303434

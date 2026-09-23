@@ -1,0 +1,4 @@
+warning: 0.04%(17/45130) of functions failed to determine function entry due to inconsistent name from symbol table and dwarf info.
+warning: 0.53%(11952428/2268301610) of samples are from ranges that are not on instruction boundary.
+warning: 1.86%(42252821/2268301610) of samples are from ranges that do not belong to any functions.
+warning: 2.66%(60226168/2268301610) of samples are from ranges that have range start after or too far from range end acrossing the unconditinal jmp.

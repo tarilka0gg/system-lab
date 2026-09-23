@@ -1,0 +1,12 @@
+/lib/modules/7.1.8-cachyos1-tuned/video/nvidia-uvm.ko
+/lib/modules/7.1.8-cachyos1-tuned/video/nvidia.ko
+/lib/modules/7.1.8-cachyos1-tuned/video/nvidia-peermem.ko
+/lib/modules/7.1.8-cachyos1-tuned/video/nvidia-drm.ko
+/lib/modules/7.1.8-cachyos1-tuned/video/nvidia-modeset.ko
+/lib/modules/7.1.8-cachyos1-tuned/kernel/drivers/platform/x86/nvidia-wmi-ec-backlight.ko
+nvidia_uvm           1499136  12
+nvidia_drm            110592  3
+nvidia_modeset       1748992  3 nvidia_drm
+nvidia              14950400  83 nvidia_uvm,nvidia_modeset
+video                  73728  3 xe,i915,nvidia_modeset
+drm_ttm_helper         16384  2 nvidia_drm,xe

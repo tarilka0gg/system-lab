@@ -1,0 +1,1 @@
+root       79300 12.5  0.1 243944 64548 ?        Sl   20:26   0:00 perf record -b -e cycles:kp -a -N -c 500009 -o /usr/src/linux/tools/perf/kernel-compilation.data

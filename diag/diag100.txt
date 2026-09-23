@@ -1,0 +1,27 @@
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +73.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 0:        +61.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 4:        +54.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 8:        +63.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 12:       +62.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 16:       +59.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 20:       +74.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 24:       +58.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 28:       +64.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 32:       +60.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 33:       +60.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 34:       +60.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 35:       +61.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 36:       +60.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 37:       +60.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 38:       +60.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 39:       +60.0°C  (high = +100.0°C, crit = +100.0°C)
+
+BAT1-acpi-0
+---throttle status---
+7941
+---turbo/governor---
+powersave
+5200000
+0

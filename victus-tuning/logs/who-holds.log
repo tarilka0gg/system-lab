@@ -1,0 +1,16 @@
+=== ХТО ТРИМАЄ у точці CORE=-140 CACHE=-140 ===
+  base       CORE=-140 CACHE=-140   -> Vcore=905mV  P-freq=3890MHz
+  CORE -20   CORE=-160 CACHE=-140   -> Vcore=898mV  P-freq=3995MHz
+  CACHE -20  CORE=-140 CACHE=-160   -> Vcore=910mV  P-freq=3896MHz
+
+  дельта від CORE -20 : +7 mV
+  дельта від CACHE -20: -5 mV
+  => ТРИМАЄ CORE. Наступний крок: CORE=-160, CACHE=-140 (не чіпати)
+=== ХТО ТРИМАЄ у точці CORE=-160 CACHE=-140 ===
+  base       CORE=-160 CACHE=-140   -> Vcore=895mV  P-freq=3900MHz
+  CORE -20   CORE=-180 CACHE=-140   -> Vcore=878mV  P-freq=4015MHz
+  CACHE -20  CORE=-160 CACHE=-160   -> Vcore=893mV  P-freq=3893MHz
+
+  дельта від CORE -20 : +17 mV
+  дельта від CACHE -20: +2 mV
+  => ТРИМАЄ CORE. Наступний крок: CORE=-180, CACHE=-140 (не чіпати)

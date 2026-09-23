@@ -1,0 +1,21 @@
+=== Розміри файлів ===
+-rw-r--r-- 1 root root 9098240 Aug  3 21:21 /boot/vmlinuz-7.1.3-cachyos-trim10-tuned
+-rw-r--r-- 1 root root 9106432 Aug 12 12:09 /boot/vmlinuz-7.1.6-cachyos-trim11-tuned
+-rw-r--r-- 1 root root 9085952 Sep 13 01:14 /boot/vmlinuz-7.1.8-cachyos1-tuned
+=== Версії/дати ===
+--/boot/vmlinuz-7.1.3-cachyos-trim10-tuned--
+/boot/vmlinuz-7.1.3-cachyos-trim10-tuned: Linux kernel x86 boot executable, bzImage, version 7.1.3-cachyos-trim10-tuned (root@gentoo) #12 SMP PREEMPT_DYNAMIC Mon Aug  3 21:19:41 EEST 2026, RO-rootFS, Normal VGA, setup size 512*39, syssize 0x8a840, jump 0x26c 0x8cd88ec0fc8cd239 instruction, protocol 2.15, from protected-mode code at offset 0x2c4 0x87ccfe bytes ZST compressed, relocatable, legacy 64-bit entry point, can be above 4G, xloadflags bit 5, max cmdline size 2047, init_size 0x1e00000
+--/boot/vmlinuz-7.1.6-cachyos-trim11-tuned--
+/boot/vmlinuz-7.1.6-cachyos-trim11-tuned: Linux kernel x86 boot executable, bzImage, version 7.1.6-cachyos-trim11-tuned (root@gentoo) #1 SMP PREEMPT_DYNAMIC Wed Aug 12 12:09:27 EEST 2026, RO-rootFS, Normal VGA, setup size 512*39, syssize 0x8aa40, jump 0x26c 0x8cd88ec0fc8cd239 instruction, protocol 2.15, from protected-mode code at offset 0x2c4 0x87f528 bytes ZST compressed, relocatable, legacy 64-bit entry point, can be above 4G, xloadflags bit 5, max cmdline size 2047, init_size 0x1e02000
+--/boot/vmlinuz-7.1.8-cachyos1-tuned--
+/boot/vmlinuz-7.1.8-cachyos1-tuned: Linux kernel x86 boot executable, bzImage, version 7.1.8-cachyos1-tuned (root@gentoo) #4 SMP PREEMPT_DYNAMIC Sun Sep 13 01:07:20 EEST 2026, RO-rootFS, Normal VGA, setup size 512*39, syssize 0x8a540, jump 0x26c 0x8cd88ec0fc8cd239 instruction, protocol 2.15, from protected-mode code at offset 0x2c4 0x878431 bytes ZST compressed, relocatable, legacy 64-bit entry point, can be above 4G, xloadflags bit 5, max cmdline size 2047, init_size 0x1ebb000
+--/boot/vmlinuz-7.1.8-cachyos1-tuned.old--
+/boot/vmlinuz-7.1.8-cachyos1-tuned.old: Linux kernel x86 boot executable, bzImage, version 7.1.8-cachyos1-tuned (root@gentoo) #3 SMP PREEMPT_DYNAMIC Sat Sep 12 14:24:15 EEST 2026, RO-rootFS, Normal VGA, setup size 512*39, syssize 0x85940, jump 0x26c 0x8cd88ec0fc8cd239 instruction, protocol 2.15, from protected-mode code at offset 0x2c4 0x82c4f2 bytes ZST compressed, relocatable, legacy 64-bit entry point, can be above 4G, xloadflags bit 5, max cmdline size 2047, init_size 0x1e9f000
+=== Кількість модулів ===
+/lib/modules/7.1.3-cachyos-trim10-tuned/: 1090
+/lib/modules/7.1.6-cachyos-trim11-tuned/: 1089
+/lib/modules/7.1.8-cachyos1-tuned/: 1139
+=== Компілятор ===
+/usr/src/linux/.config:CONFIG_CC_VERSION_TEXT="clang version 22.1.8"
+/boot/config-7.1.6-cachyos-trim11-tuned:CONFIG_CC_VERSION_TEXT="gcc (Gentoo Hardened 15.2.1_p20260214 p5) 15.2.1 20260214"
+/boot/config-7.1.3-cachyos-trim10-tuned:CONFIG_CC_VERSION_TEXT="gcc (Gentoo Hardened 15.2.1_p20260214 p5) 15.2.1 20260214"

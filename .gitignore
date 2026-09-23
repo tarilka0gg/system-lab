@@ -1,0 +1,13 @@
+# derived
+data/lab.db
+__pycache__/
+
+# large binaries / dumps — stay on disk, not in git
+kernel/autofdo-work/
+flashing/
+tools/ventoy-*
+misc/native.dtb
+victus-tuning/usb-payload/*.efi
+
+# AutoFDO profiles (binary, local)
+*.afdo

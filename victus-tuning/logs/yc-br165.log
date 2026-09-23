@@ -1,0 +1,223 @@
+[22;32my-cruncher v0.8.7 Build 9547-gcc[01;37m
+
+Detecting Environment...
+
+Hardware Features:
+(*) Indicates it is used explicitly by y-cruncher.
+
+CPU Vendor:
+    AMD         = [01;31mNo[01;37m
+    Intel       = [01;32mYes[01;37m
+
+OS Features:
+  * 64-bit      = [01;32mYes[01;37m
+  * OS AVX      = [01;32mYes[01;37m
+  * OS AVX512   = [01;31mNo[01;37m
+
+Hardware Features:
+    MMX         = [01;32mYes[01;37m
+  * x64         = [01;32mYes[01;37m
+  * ABM         = [01;32mYes[01;37m
+    RDRAND      = [01;32mYes[01;37m
+    RDSEED      = [01;32mYes[01;37m
+  * BMI1        = [01;32mYes[01;37m
+  * BMI2        = [01;32mYes[01;37m
+  * ADX         = [01;32mYes[01;37m
+    PREFETCHW   = [01;32mYes[01;37m
+    PREFETCHWT1 = [01;31mNo[01;37m
+    RDPID       = [01;32mYes[01;37m
+    SERIALIZE   = [01;32mYes[01;37m
+    CLDEMOTE    = [01;31mNo[01;37m
+
+SIMD: 128-bit
+  * SSE         = [01;32mYes[01;37m
+  * SSE2        = [01;32mYes[01;37m
+  * SSE3        = [01;32mYes[01;37m
+  * SSSE3       = [01;32mYes[01;37m
+    SSE4a       = [01;31mNo[01;37m
+  * SSE4.1      = [01;32mYes[01;37m
+  * SSE4.2      = [01;32mYes[01;37m
+    PCLMULQDQ   = [01;32mYes[01;37m
+    AES         = [01;32mYes[01;37m
+    SHA         = [01;32mYes[01;37m
+    GFNI        = [01;32mYes[01;37m
+    SM3         = [01;31mNo[01;37m
+
+SIMD: 256-bit
+  * AVX             = [01;32mYes[01;37m
+    FMA4            = [01;31mNo[01;37m
+    XOP             = [01;31mNo[01;37m
+  * FMA3            = [01;32mYes[01;37m
+  * AVX2            = [01;32mYes[01;37m
+    VAES            = [01;32mYes[01;37m
+    VPCLMULQDQ      = [01;32mYes[01;37m
+  * AVX-GFNI        = [01;32mYes[01;37m
+    AVX-VNNI        = [01;32mYes[01;37m
+    AVX-VNNI_INT8   = [01;31mNo[01;37m
+    AVX-IFMA        = [01;31mNo[01;37m
+    AVX-NE-CONVERT  = [01;31mNo[01;37m
+    AVX-VNNI_INT16  = [01;31mNo[01;37m
+    SHA512          = [01;31mNo[01;37m
+    SM4             = [01;31mNo[01;37m
+
+SIMD: 512-bit
+  * AVX512-F                = [01;31mNo[01;37m
+    AVX512-CD               = [01;31mNo[01;37m
+    AVX512-PF               = [01;31mNo[01;37m
+    AVX512-ER               = [01;31mNo[01;37m
+  * AVX512-VL               = [01;31mNo[01;37m
+  * AVX512-BW               = [01;31mNo[01;37m
+  * AVX512-DQ               = [01;31mNo[01;37m
+    AVX512-VPOPCNTDQ        = [01;31mNo[01;37m
+    AVX512-4VNNIW           = [01;31mNo[01;37m
+    AVX512-4FMAPS           = [01;31mNo[01;37m
+  * AVX512-IFMA             = [01;31mNo[01;37m
+  * AVX512-VBMI             = [01;31mNo[01;37m
+    AVX512-VNNI             = [01;31mNo[01;37m
+  * AVX512-VBMI2            = [01;31mNo[01;37m
+    AVX512-BITALG           = [01;31mNo[01;37m
+    AVX512-VPCLMULQDQ       = [01;31mNo[01;37m
+    AVX512-VAES             = [01;31mNo[01;37m
+  * AVX512-GFNI             = [01;31mNo[01;37m
+    AVX512-BF16             = [01;31mNo[01;37m
+    AVX512-VP2INTERSECT     = [01;31mNo[01;37m
+    AVX512-FP16             = [01;31mNo[01;37m
+
+APX + AVX10:
+    APX-F           = [01;31mNo[01;37m
+    AVX10           = [01;31mNo[01;37m
+    AVX10/128       = [01;31mNo[01;37m
+    AVX10/256       = [01;31mNo[01;37m
+    AVX10/512       = [01;31mNo[01;37m
+
+AMX:
+    AMX-TILE        = [01;31mNo[01;37m
+    AMX-INT8        = [01;31mNo[01;37m
+    AMX-BF16        = [01;31mNo[01;37m
+    AMX-FP16        = [01;31mNo[01;37m
+    AMX-COMPLEX     = [01;31mNo[01;37m
+
+[01;33m
+Hahahaha, your *modern* Intel chip doesn't have AVX512. Too bad...
+
+[01;37m
+
+
+Auto-Selecting: 14-BDW ~ Kurumi
+
+/opt/y-cruncher/Binaries/14-BDW ~ Kurumi
+
+
+[01;33mLaunching y-cruncher...
+[22;32m================================================================
+
+[01;37mRunning from console...
+
+
+Checking processor/OS features...
+
+Required Features:
+[01;36m    x64, ABM, BMI1, BMI2, ADX,
+    SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2,
+    AVX, FMA3, AVX2
+
+[01;37m
+
+Reading Hardware Topology...
+
+Logical Cores:
+    0-23
+
+Physical Cores:
+    0-15
+
+[01;31m
+Unable to read or parse "/sys/devices/system/node/".
+Thread and node affinities may not function correctly.
+
+[01;37mPress ENTER to continue . . .[01;36m[39;49mNUMA Node 0:
+    0-23
+
+Scheduling Group 0:
+    0-23
+
+
+[01;35m
+Component Stress Tester
+
+[01;37m  1   Logical Cores:      [01;36m24[01;37m
+[01;37m  2   Memory:             [01;33m4.00 GiB[01;37m[01;37m  ( [01;36m 171 MiB[01;37m per thread )
+[01;37m  3   NUMA Mode:          [01;31mLocal - Memory allocated from local thread.[01;37m
+  4/5 Time Limit:         [01;32m60[01;37m seconds per test / [01;32m600[01;37m seconds total
+[01;37m  6   Stop on Error:      [01;32mEnabled[01;37m
+
+[01;37m 7/8  [22;32mEnable All Tests / Disable All Tests[01;37m
+[01;37m 9/10 [22;32mLoad/Save Configuration File[01;37m
+
+[01;37m  #  Tag   Test Name                   Mem/Thread  Component      CPU------Mem
+ 11  [01;31mBKT  [01;37m [01;36mBasecase + Karatsuba          [01;32m27.8 KiB  [01;33mScalar Integer  [01;37m-|--------
+ 12  [01;31mBBP  [01;37m [01;36mBBP Digit Extraction          [01;32m  small   [01;33mAVX2 Float      [01;37m|---------
+ 13  [01;31mSFTv4[01;37m [01;36mSmall In-Cache FFTv4          [01;32m 229 KiB  [01;33mAVX2 Float      [01;37m-|--------
+ 14  [01;31mSNT  [01;37m [01;36mSmall In-Cache N63            [01;32m21.3 MiB  [01;33mAVX2 Integer    [01;37m--|-------
+ 15  [01;31mSVT  [01;37m [01;36mSmall In-Cache VT3            [01;32m10.3 MiB  [01;33mAVX2 Float      [01;37m--|-------
+ 16  [01;31mFFTv4[01;37m [01;36mFast Fourier Transform (v4)   [01;32m 124 MiB  [01;33mAVX2 Float      [01;37m---------|
+ 17  [01;31mN63  [01;37m [01;36mClassic NTT (v2)              [01;32m 171 MiB  [01;33mAVX2 Integer    [01;37m---|------
+ 18  [01;31mVT3  [01;37m [01;36mVector Transform (v3)         [01;32m 168 MiB  [01;33mAVX2 Float      [01;37m----|-----
+
+[01;37m  0   [01;32mStart Stress-Testing![01;37m
+
+
+Allocating Memory...
+[01;37m  Core   0:  [01;32m 171 MiB[01;33m  
+[01;37m  Core   1:  [01;32m 171 MiB[01;33m  
+[01;37m  Core   2:  [01;32m 171 MiB[01;33m  
+[01;37m  Core   3:  [01;32m 171 MiB[01;33m  
+[01;37m  Core   4:  [01;32m 171 MiB[01;33m  
+[01;37m  Core   5:  [01;32m 171 MiB[01;33m  
+[01;37m  Core   8:  [01;32m 171 MiB[01;33m  
+[01;37m  Core   9:  [01;32m 171 MiB[01;33m  
+[01;37m  Core   7:  [01;32m 171 MiB[01;33m  
+[01;37m  Core   6:  [01;32m 171 MiB[01;33m  
+[01;37m  Core  10:  [01;32m 171 MiB[01;33m  
+[01;37m  Core  11:  [01;32m 171 MiB[01;33m  
+[01;37m  Core  15:  [01;32m 171 MiB[01;33m  
+[01;37m  Core  14:  [01;32m 171 MiB[01;33m  
+[01;37m  Core  13:  [01;32m 171 MiB[01;33m  
+[01;37m  Core  12:  [01;32m 171 MiB[01;33m  
+[01;37m  Core  16:  [01;32m 171 MiB[01;33m  
+[01;37m  Core  19:  [01;32m 171 MiB[01;33m  
+[01;37m  Core  18:  [01;32m 171 MiB[01;33m  
+[01;37m  Core  23:  [01;32m 171 MiB[01;33m  
+[01;37m  Core  17:  [01;32m 171 MiB[01;33m  
+[01;37m  Core  20:  [01;32m 171 MiB[01;33m  
+[01;37m  Core  21:  [01;32m 171 MiB[01;33m  
+[01;37m  Core  22:  [01;32m 171 MiB[01;33m  
+
+[01;37mIteration: [01;33m0[01;37m[01;37m  Total Elapsed Time: [01;32m0.623 seconds  ( 0.010 minutes )[01;37m
+Running BKT:                                                                   [39;49mRunning BKT: [01;32mPassed[01;37m  Test Speed:  [01;36m1.21 * 10^10[01;37m  bits / sec                     [39;49m                                                                               [01;37mRunning BKT: [01;32mPassed[01;37m  Test Speed:  [01;36m1.21 * 10^10[01;37m  bits / sec[01;37m
+Running BBP:                                                                   [39;49mRunning BBP: [01;32mPassed[01;37m  Test Speed:  [01;36m1.12 * 10^09[01;37m  terms / sec                    [39;49m                                                                               [01;37mRunning BBP: [01;32mPassed[01;37m  Test Speed:  [01;36m1.12 * 10^09[01;37m  terms / sec[01;37m
+Running SFTv4:                                                                 [39;49m[01;31m
+
+Exception Encountered: AlgorithmFailedException
+
+Checksum Mismatch
+
+
+[01;37m[01;31mError(s) encountered on logical core 1.
+[01;37m
+Running SFTv4: [01;31mFailed[01;37m  Test Speed:  [01;36m2.45 * 10^10[01;37m  bits / sec                   [39;49m[01;31m
+Error encountered.[01;37m  Total Elapsed Time: [01;32m0.623 seconds  ( 0.010 minutes )[01;37m
+[01;31m
+Stopping test...
+[01;37m
+                                                                               [01;37mRunning SFTv4: [01;31mFailed[01;37m  Test Speed:  [01;36m2.45 * 10^10[01;37m  bits / sec[01;37m
+Test Finished. Waiting for threads to terminate...
+[01;31m
+
+Exception Encountered: StressTestFailedException
+
+Stress test failed with 1 error.
+
+
+[01;37m[39;49m
+Press ENTER to continue . . .[01;36m[39;49m[39;49m

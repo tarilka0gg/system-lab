@@ -1,0 +1,3 @@
+-rw------- 1 root root 12908036112 Sep 12 20:31 /usr/src/linux/tools/perf/kernel-compilation.data
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  195G   69G  124G  36% /

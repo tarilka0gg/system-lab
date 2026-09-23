@@ -1,0 +1,4 @@
+hp-isa-0000
+Adapter: ISA adapter
+fan1:        4400 RPM
+fan2:        4400 RPM

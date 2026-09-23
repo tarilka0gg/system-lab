@@ -1,0 +1,2 @@
+/dev/nvme0n1p2 on / type btrfs (rw,noatime,ssd,discard=async,space_cache=v2,subvolid=5,subvol=/)
+98G	/tmp

@@ -1,0 +1,9 @@
+ID 256 gen 1580 top level 5 path srv
+---exit was above---
+Label: none  uuid: 1661ff0b-703f-43b8-adaa-f1b1b552c45c
+	Total devices 1 FS bytes used 164.51GiB
+	devid    1 size 194.60GiB used 194.60GiB path /dev/nvme0n1p2
+
+Label: none  uuid: f38bc1dc-c010-4b91-9172-01429c6a4f3f
+	Total devices 1 FS bytes used 562.09GiB
+	devid    1 size 758.77GiB used 650.02GiB path /dev/nvme0n1p3

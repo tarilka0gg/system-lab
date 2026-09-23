@@ -1,0 +1,8 @@
+-rwxr-xr-x 1 root root 258929104 Sep 12 14:24 /usr/src/linux/vmlinux
+1.9G	/lib/modules/7.1.8-cachyos1-tuned
+40G	/usr/src
+du: warning: summarizing is the same as using --max-depth=0
+4.0K	/usr/src/linux
+2.7G	/usr/src/linux-7.1.3-cachyos0
+1.9G	/usr/src/linux-7.1.6-cachyos0
+36G	/usr/src/linux-7.1.8-cachyos1

@@ -1,0 +1,220 @@
+#!/bin/bash
+# sustained-turbo — утримує повний турбо-режим під тривалим CPU-навантаженням.
+#
+# ЧОМУ ВОНО ПОТРІБНЕ
+# EC цього ноута дає повні PL1 (80W) лише ~2-2.5 хв, після чого знімає дозвіл
+# на турбо і CPU падає на гарантований рівень (HWP guaranteed, ratio 28 ->
+# ~2586 MHz, 45W). Це НЕ RAPL-ліміт: MSR 0x610 і MMIO 0x59A0 весь час показують
+# 80W, PROCHOT не смикається, PSYS вимкнений, до TjMax лишається 35 градусів.
+# Обійти через MSR не вийшло: CONFIG_TDP_LEVEL1 (0x649) read-only, підняття
+# HWP min (11 -> 39) платформа ігнорує.
+# Єдиний робочий важіль — РЕАЛЬНИЙ запис у /sys/firmware/acpi/platform_profile:
+# він скидає турбо-бюджет EC і одразу повертає 80W/3550MHz навіть посеред
+# навантаження. Саме це тут і робиться, раз на REARM_INTERVAL секунд.
+#
+# ЧОМУ НЕ ЗАВЖДИ
+# Постійне переармування тримає пакет на 78-80C замість 64C і крутить
+# вентилятори. Тому за замовчуванням режим AUTO: демон вмикається лише коли
+# навантаження реально тривале, і гасне у простої.
+#
+# ЧОМУ ТУТ Є СВОЯ КРИВА ВЕНТИЛЯТОРІВ (2026-08-01)
+# Кожен запис у platform_profile (тобто rearm()) під капотом дзвонить у
+# hp_wmi hp_wmi_get_fan_count_userdefine_trigger(), яка тримає EC у режимі
+# "user-defined thermal/fan state" ще 120с. Поки ми переармовуємо частіше
+# за ці 120с (а REARM_INTERVAL=90 < 120 — саме так і є), EC НІКОЛИ не
+# повертається у свій fallback-стан, від якого залежить pwm1_enable=2 (auto)
+# на платі 8C99 ("Unknown EC layout" в dmesg — upstream не має for неї
+# fallback-таблиці). Наслідок: поки цей демон активний, штатна авто-крива
+# вентиляторів НЕ працює — вентилятори мовчать навіть при 87C. Тому, раз ми
+# й так тримаємо EC в user-defined стані, беремо керування вентиляторами
+# на себе (pwm1_enable=1 + проста температурна крива) на весь час, поки
+# rearm активний, і повертаємо pwm1_enable=2 назад, щойно перестаємо
+# переармовувати (auto: при деактивації; always: ніколи, поки не зупинений).
+#
+# РЕЖИМИ
+#   auto   (типово) — стежить за завантаженням CPU; вмикає переармування, коли
+#                     воно тримається вище LOAD_THRESHOLD довше LOAD_SUSTAIN
+#                     секунд, і відпускає після LOAD_RELEASE секунд нижче порогу
+#   always          — переармовує постійно (для довгих збірок, коли точно треба)
+#   off             — нічого не робить
+set -u
+
+CONF=/etc/conf.d/sustained-turbo
+[ -f "$CONF" ] && . "$CONF"
+
+MODE="${MODE:-auto}"
+REARM_INTERVAL="${REARM_INTERVAL:-90}"
+LOAD_THRESHOLD="${LOAD_THRESHOLD:-70}"   # % завантаження всіх ядер
+LOAD_SUSTAIN="${LOAD_SUSTAIN:-60}"       # с вище порогу перед активацією
+LOAD_RELEASE="${LOAD_RELEASE:-45}"       # с нижче порогу перед деактивацією
+POLL="${POLL:-10}"                       # період семплювання, с
+PROFILE_PATH=/sys/firmware/acpi/platform_profile
+LOG="${LOG:-/var/log/sustained-turbo.log}"
+
+log(){ echo "$(date '+%F %T') $*" >> "$LOG"; }
+
+# --- завантаження CPU у % за інтервал, з /proc/stat ---
+prev_idle=0; prev_total=0
+cpu_usage(){
+    local line idle total diff_idle diff_total usage
+    line=$(head -1 /proc/stat)
+    set -- $line
+    shift                      # прибрати "cpu"
+    idle=$4                    # idle
+    total=0
+    for v in "$@"; do total=$((total + v)); done
+    diff_idle=$((idle - prev_idle))
+    diff_total=$((total - prev_total))
+    prev_idle=$idle; prev_total=$total
+    if [ "$diff_total" -le 0 ]; then echo 0; return; fi
+    usage=$(( (100 * (diff_total - diff_idle)) / diff_total ))
+    echo "$usage"
+}
+
+rearm(){
+    if echo performance > "$PROFILE_PATH" 2>/dev/null; then
+        return 0
+    fi
+    log "УВАГА: не вдалось записати в $PROFILE_PATH"
+    return 1
+}
+
+# --- власне керування вентиляторами (див. коментар вище) ---
+find_fan_hwmon(){
+    local h
+    for h in /sys/class/hwmon/hwmon*; do
+        [ "$(cat "$h/name" 2>/dev/null)" = "hp" ] && { echo "$h"; return 0; }
+    done
+    return 1
+}
+find_cpu_temp(){
+    local h l
+    for h in /sys/class/hwmon/hwmon*; do
+        [ "$(cat "$h/name" 2>/dev/null)" = "coretemp" ] || continue
+        for l in "$h"/temp*_label; do
+            [ -f "$l" ] || continue
+            grep -qi 'Package' "$l" 2>/dev/null && { echo "${l%_label}_input"; return 0; }
+        done
+    done
+    return 1
+}
+FAN_HWMON=$(find_fan_hwmon || true)
+CPU_TEMP_PATH=$(find_cpu_temp || true)
+[ -z "$FAN_HWMON" ] && log "УВАГА: hp fan hwmon не знайдено — крива вентиляторів вимкнена"
+[ -z "$CPU_TEMP_PATH" ] && log "УВАГА: coretemp Package не знайдено — крива вентиляторів вимкнена"
+
+fan_take_control(){
+    [ -n "$FAN_HWMON" ] || return 1
+    echo 1 > "$FAN_HWMON/pwm1_enable" 2>/dev/null
+    log "fan control: manual ($FAN_HWMON)"
+}
+fan_release_control(){
+    [ -n "$FAN_HWMON" ] || return 1
+    echo 2 > "$FAN_HWMON/pwm1_enable" 2>/dev/null
+    log "fan control: повернуто EC (pwm1_enable=2)"
+}
+
+# Крива на основі емпіричних замірів цього ноута: pwm1=193 (~76%) давав
+# 4300-4400 RPM і охолодив 87->68C за 20с. Нижня межа НЕ 0 — за вимогою
+# тримаємо мінімум ~1900 RPM завжди: pwm1=90 виміряно калібрувальним тестом
+# як точка readback=83 -> 1900/1900 RPM.
+# Стеля навмисно НЕ 255 (~5700-5800 RPM, заміряно 2026-08-01 — занадто гучно).
+# pwm1=210 заміряно (2 виміри з інтервалом 3с, стабільно): 4600-4700 RPM —
+# це і є верхня межа за вимогою користувача.
+fan_curve_pwm(){
+    local t=$1
+    if   [ "$t" -ge 90 ]; then echo 210
+    elif [ "$t" -ge 80 ]; then echo 193
+    elif [ "$t" -ge 70 ]; then echo 140
+    else echo 90
+    fi
+}
+# Feedforward (2026-08-01): температура — це power draw, згладжений тепловою
+# масою CPU з затримкою в кілька секунд. CPU load стрибає майже миттєво в
+# момент старту навантаження, тобто це випереджаючий сигнал відносно temp.
+# Піднімаємо floor pwm по load ДО того, як temp сама туди дожене — щоб пік
+# температури був нижчим, а не тільки щоб реакція на нього була швидшою.
+fan_curve_pwm_load(){
+    local u=$1
+    if   [ "$u" -ge 85 ]; then echo 193
+    elif [ "$u" -ge 50 ]; then echo 140
+    else echo 0
+    fi
+}
+last_pwm=-1
+fan_apply_curve(){
+    # $1 = поточний CPU load % (рахує викликач — щоб не смикати cpu_usage()
+    # двічі за один POLL-інтервал і не псувати prev_idle/prev_total)
+    [ -n "$FAN_HWMON" ] && [ -n "$CPU_TEMP_PATH" ] || return 1
+    local traw t pwm_t u="$1" pwm_u pwm
+    traw=$(cat "$CPU_TEMP_PATH" 2>/dev/null) || return 1
+    t=$(( traw / 1000 ))
+    pwm_t=$(fan_curve_pwm "$t")
+    pwm_u=$(fan_curve_pwm_load "$u")
+    pwm=$pwm_t
+    [ "$pwm_u" -gt "$pwm" ] && pwm=$pwm_u
+    if [ "$pwm" != "$last_pwm" ]; then
+        echo "$pwm" > "$FAN_HWMON/pwm1" 2>/dev/null
+        log "крива вентиляторів: CPU=${t}C load=${u}% -> pwm1=${pwm} (temp->${pwm_t} load->${pwm_u})"
+        last_pwm=$pwm
+    fi
+}
+
+case "$MODE" in
+  off)
+      log "режим off — виходжу"
+      exit 0
+      ;;
+  always)
+      log "режим always — переармування кожні ${REARM_INTERVAL}с + власна крива вентиляторів (temp+load feedforward)"
+      fan_take_control
+      cpu_usage >/dev/null          # ініціалізація лічильників (перший виклик інакше сміття)
+      trap 'fan_release_control; exit 0' TERM INT
+      since_rearm=$REARM_INTERVAL
+      while true; do
+          sleep 15
+          fan_apply_curve "$(cpu_usage)"
+          since_rearm=$((since_rearm + 15))
+          if [ "$since_rearm" -ge "$REARM_INTERVAL" ]; then
+              rearm && since_rearm=0
+          fi
+      done
+      ;;
+  auto)
+      log "режим auto: поріг=${LOAD_THRESHOLD}% тримати=${LOAD_SUSTAIN}с відпускати=${LOAD_RELEASE}с"
+      cpu_usage >/dev/null          # ініціалізація лічильників
+      active=0; above=0; below=0; since_rearm=0
+      trap 'fan_release_control; exit 0' TERM INT
+      while true; do
+          sleep "$POLL"
+          u=$(cpu_usage)
+          if [ "$u" -ge "$LOAD_THRESHOLD" ]; then
+              above=$((above + POLL)); below=0
+          else
+              below=$((below + POLL)); above=0
+          fi
+
+          if [ "$active" -eq 0 ] && [ "$above" -ge "$LOAD_SUSTAIN" ]; then
+              active=1; since_rearm=$REARM_INTERVAL
+              log "АКТИВАЦІЯ: навантаження ${u}% тримається ${above}с"
+              fan_take_control
+          elif [ "$active" -eq 1 ] && [ "$below" -ge "$LOAD_RELEASE" ]; then
+              active=0
+              log "ВІДПУСКАЮ: навантаження ${u}% нижче порогу ${below}с — EC працює штатно"
+              fan_release_control
+          fi
+
+          if [ "$active" -eq 1 ]; then
+              fan_apply_curve "$u"
+              since_rearm=$((since_rearm + POLL))
+              if [ "$since_rearm" -ge "$REARM_INTERVAL" ]; then
+                  rearm && since_rearm=0
+              fi
+          fi
+      done
+      ;;
+  *)
+      log "невідомий MODE='$MODE' (очікую auto|always|off)"
+      exit 1
+      ;;
+esac

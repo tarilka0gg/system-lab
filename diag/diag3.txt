@@ -1,0 +1,16 @@
+760G	/
+565G	/home
+98G	/tmp
+57G	/usr
+25G	/var
+8.0G	/opt
+7.9G	/root
+155M	/dev
+131M	/boot
+24M	/etc
+2.7M	/run
+0	/sys
+0	/srv
+0	/proc
+0	/mnt
+0	/media

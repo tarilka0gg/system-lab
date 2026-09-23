@@ -1,0 +1,34 @@
+!!! ЗАСТАРІЛЕ. −160 НЕСТАБІЛЬНИЙ (падає на light-load boost). !!!
+!!! Нижче — стара інструкція, лишена як історія. НЕ використовувати. !!!
+
+АКТУАЛЬНИЙ ВІДКАТ АНДЕРВОЛЬТУ:
+  1. У /etc/throttled.conf виставити всі UNDERVOLT.* (CORE GPU CACHE UNCORE ANALOGIO)
+     в обох секціях у 0.
+  2. rc-service throttled restart      (throttled щосекунди пише нулі в MSR 0x150)
+     Якщо система поводиться дивно — перезавантажитись.
+  3. Перевірити: python3 scripts/read-mailbox.py — усі 5 доменів мають бути +0.0 мВ.
+  Зупинка throttled САМА offset НЕ знімає: записане в MSR 0x150 тримається
+  до перезапису нулями або до перезавантаження.
+  Остання ПРОЙДЕНА точка (не безпечна): backup/throttled.conf.FINAL-150-175-150.
+
+------------------------- СТАРЕ (застаріле) -------------------------
+
+ЯКЩО СИСТЕМА НЕСТАБІЛЬНА ПІСЛЯ АНДЕРВОЛЬТУ
+
+Остання ПІДТВЕРДЖЕНА стабільна точка: CORE=-160 CACHE=-140
+(y-cruncher 10хв PASS, PL-bound 8хв, 0 WHEA, Vcore 893mV, P-freq 3894MHz)
+
+ШВИДКИЙ ВІДКАТ:
+  rc-service throttled stop          # знімає андервольт негайно
+  cp /home/tarilka0gg/victus-unlock/backup/throttled.conf.last-stable-160 /etc/throttled.conf
+  rc-service throttled start
+
+ПОВНЕ ЗНЯТТЯ АНДЕРВОЛЬТУ (якщо і -160 нестабільний):
+  редагувати /etc/throttled.conf секцію [UNDERVOLT.AC]:
+    CORE: 0
+    CACHE: 0
+  rc-service throttled restart
+
+УВАГА: throttled застосовує конфіг НА БУТІ. Нестабільне значення переживе
+ребут і система підніметься так само нестабільною. Якщо не встигаєш —
+завантажся і одразу спини сервіс.

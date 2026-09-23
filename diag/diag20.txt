@@ -1,0 +1,25 @@
+363M	/opt/zen
+168M	/opt/y-cruncher
+6.9G	/opt/cuda
+147M	/opt/android-sdk
+3.5M	/opt/logmein-hamachi
+384M	/opt/google
+8.0G	/opt
+---root---
+94M	/root/.config
+33M	/root/.local
+170M	/root/.claude
+16K	/root/.ssh
+2.8G	/root/.npm
+3.8G	/root/.cache
+72K	/root/.var
+8.0K	/root/.dbus
+106M	/root/.cargo
+12K	/root/.android
+8.0K	/root/.tpm-secrets
+177M	/root/.opencode
+860M	/root/.debug
+7.9G	/root
+---df---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  195G   66G  127G  35% /

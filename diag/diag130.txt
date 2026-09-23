@@ -1,0 +1,10 @@
+7.1.3 compressed payload: 8899838 bytes
+7.1.6 compressed payload: 8910120 bytes
+7.1.8 AutoFDO (#4) compressed payload: 8881201 bytes
+7.1.8 baseline (#3, .old) compressed payload: 8570098 bytes
+
+AutoFDO vs baseline diff: 311103 bytes ( 3.63 %)
+CONFIG_X86_NATIVE_CPU=y
+CONFIG_AUTOFDO_CLANG=y
+CONFIG_PROPELLER_CLANG=y
+CONFIG_DEBUG_INFO=y

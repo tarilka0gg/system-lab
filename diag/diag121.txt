@@ -1,0 +1,7 @@
+Kernel: arch/x86/boot/bzImage is ready  (#4)
+0
+  LD [M]  net/vmw_vsock/vsock_loopback.ko
+  LD [M]  net/nsh/nsh.ko
+  LD [M]  net/qrtr/qrtr.ko
+  LD [M]  net/qrtr/qrtr-tun.ko
+  LD [M]  net/qrtr/qrtr-mhi.ko

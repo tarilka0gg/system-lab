@@ -1,0 +1,1447 @@
+  INSTALL /boot
+ [1;32m*[0m Generating AMD CPU Microcode early initramfs image...
+ [1;32m*[0m Created temporary directory: /tmp/tmp.7s6SahArCK
+ [1;32m*[0m Created microcode archive at: /boot/amd-uc.img
+ [1;32m*[0m Cleaned up temporary directory: /tmp/tmp.7s6SahArCK
+ [1;32m*[0m Generating Intel CPU Microcode early initramfs image...
+microcode bundle 1: /lib/firmware/intel-ucode/06-dd-00
+  001/001: sig 0x000d06d0, pf_mask 0x01, 2025-08-07, rev 0x0340, size 1499136
+microcode bundle 2: /lib/firmware/intel-ucode/06-d7-00
+  002/001: sig 0x000d0670, pf_mask 0x04, 2025-08-25, rev 0x0003, size 205824
+microcode bundle 3: /lib/firmware/intel-ucode/06-cf-02
+  003/001: sig 0x000c06f2, pf_mask 0x87, 2025-12-17, rev 0x210002e0, size 567296
+           sig 0x000c06f2, pf_mask 0x87, 2025-12-17, rev 0x210002e0
+           sig 0x000c06f1, pf_mask 0x87, 2025-12-17, rev 0x210002e0
+microcode bundle 4: /lib/firmware/intel-ucode/06-cf-01
+  004/001: sig 0x000c06f2, pf_mask 0x87, 2025-12-17, rev 0x210002e0, size 567296
+           sig 0x000c06f2, pf_mask 0x87, 2025-12-17, rev 0x210002e0
+           sig 0x000c06f1, pf_mask 0x87, 2025-12-17, rev 0x210002e0
+microcode bundle 5: /lib/firmware/intel-ucode/06-cc-03
+  005/001: sig 0x000c06c1, pf_mask 0x90, 2026-03-24, rev 0x011b, size 163840
+           sig 0x000c06c1, pf_mask 0x90, 2026-03-24, rev 0x011b
+           sig 0x000c06c2, pf_mask 0x90, 2026-03-24, rev 0x011b
+           sig 0x000c06c3, pf_mask 0x90, 2026-03-24, rev 0x011b
+microcode bundle 6: /lib/firmware/intel-ucode/06-cc-02
+  006/001: sig 0x000c06c1, pf_mask 0x90, 2026-03-24, rev 0x011b, size 163840
+           sig 0x000c06c1, pf_mask 0x90, 2026-03-24, rev 0x011b
+           sig 0x000c06c2, pf_mask 0x90, 2026-03-24, rev 0x011b
+           sig 0x000c06c3, pf_mask 0x90, 2026-03-24, rev 0x011b
+microcode bundle 7: /lib/firmware/intel-ucode/06-cc-01
+  007/001: sig 0x000c06c1, pf_mask 0x90, 2026-03-24, rev 0x011b, size 163840
+           sig 0x000c06c1, pf_mask 0x90, 2026-03-24, rev 0x011b
+           sig 0x000c06c2, pf_mask 0x90, 2026-03-24, rev 0x011b
+           sig 0x000c06c3, pf_mask 0x90, 2026-03-24, rev 0x011b
+microcode bundle 8: /lib/firmware/intel-ucode/06-cc-00
+  008/001: sig 0x000c06c0, pf_mask 0x90, 2025-03-25, rev 0x0012, size 168960
+microcode bundle 9: /lib/firmware/intel-ucode/06-ca-02
+  009/001: sig 0x000c0662, pf_mask 0x82, 2025-12-15, rev 0x0121, size 91136
+           sig 0x000c0662, pf_mask 0x82, 2025-12-15, rev 0x0121
+           sig 0x000c06a2, pf_mask 0x82, 2025-12-15, rev 0x0121
+           sig 0x000c0652, pf_mask 0x82, 2025-12-15, rev 0x0121
+           sig 0x000c0664, pf_mask 0x82, 2025-12-15, rev 0x0121
+microcode bundle 10: /lib/firmware/intel-ucode/06-c6-04
+  010/001: sig 0x000c0662, pf_mask 0x82, 2025-12-15, rev 0x0121, size 91136
+           sig 0x000c0662, pf_mask 0x82, 2025-12-15, rev 0x0121
+           sig 0x000c06a2, pf_mask 0x82, 2025-12-15, rev 0x0121
+           sig 0x000c0652, pf_mask 0x82, 2025-12-15, rev 0x0121
+           sig 0x000c0664, pf_mask 0x82, 2025-12-15, rev 0x0121
+microcode bundle 11: /lib/firmware/intel-ucode/06-c6-02
+  011/001: sig 0x000c0662, pf_mask 0x82, 2025-12-15, rev 0x0121, size 91136
+           sig 0x000c0662, pf_mask 0x82, 2025-12-15, rev 0x0121
+           sig 0x000c06a2, pf_mask 0x82, 2025-12-15, rev 0x0121
+           sig 0x000c0652, pf_mask 0x82, 2025-12-15, rev 0x0121
+           sig 0x000c0664, pf_mask 0x82, 2025-12-15, rev 0x0121
+microcode bundle 12: /lib/firmware/intel-ucode/06-c6-00
+  012/001: sig 0x000c0660, pf_mask 0x02, 2024-05-16, rev 0x0018, size 90112
+microcode bundle 13: /lib/firmware/intel-ucode/06-c5-02
+  013/001: sig 0x000c0662, pf_mask 0x82, 2025-12-15, rev 0x0121, size 91136
+           sig 0x000c0662, pf_mask 0x82, 2025-12-15, rev 0x0121
+           sig 0x000c06a2, pf_mask 0x82, 2025-12-15, rev 0x0121
+           sig 0x000c0652, pf_mask 0x82, 2025-12-15, rev 0x0121
+           sig 0x000c0664, pf_mask 0x82, 2025-12-15, rev 0x0121
+microcode bundle 14: /lib/firmware/intel-ucode/06-bf-07
+  014/001: sig 0x00090672, pf_mask 0x07, 2025-10-12, rev 0x003e, size 227328
+           sig 0x00090672, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x00090675, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f2, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f5, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f6, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f7, pf_mask 0x07, 2025-10-12, rev 0x003e
+microcode bundle 15: /lib/firmware/intel-ucode/06-bf-06
+  015/001: sig 0x00090672, pf_mask 0x07, 2025-10-12, rev 0x003e, size 227328
+           sig 0x00090672, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x00090675, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f2, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f5, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f6, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f7, pf_mask 0x07, 2025-10-12, rev 0x003e
+microcode bundle 16: /lib/firmware/intel-ucode/06-bf-05
+  016/001: sig 0x00090672, pf_mask 0x07, 2025-10-12, rev 0x003e, size 227328
+           sig 0x00090672, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x00090675, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f2, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f5, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f6, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f7, pf_mask 0x07, 2025-10-12, rev 0x003e
+microcode bundle 17: /lib/firmware/intel-ucode/06-bf-02
+  017/001: sig 0x00090672, pf_mask 0x07, 2025-10-12, rev 0x003e, size 227328
+           sig 0x00090672, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x00090675, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f2, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f5, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f6, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f7, pf_mask 0x07, 2025-10-12, rev 0x003e
+microcode bundle 18: /lib/firmware/intel-ucode/06-be-00
+  018/001: sig 0x000b06e0, pf_mask 0x19, 2025-09-12, rev 0x0021, size 142336
+microcode bundle 19: /lib/firmware/intel-ucode/06-bd-01
+  019/001: sig 0x000b06d1, pf_mask 0x80, 2025-12-10, rev 0x0126, size 80896
+microcode bundle 20: /lib/firmware/intel-ucode/06-bd-00
+  020/001: sig 0x000b06d0, pf_mask 0x80, 2024-06-10, rev 0x001a, size 99328
+microcode bundle 21: /lib/firmware/intel-ucode/06-ba-08
+  021/001: sig 0x000b06a2, pf_mask 0xe0, 2025-10-08, rev 0x6134, size 224256
+           sig 0x000b06a2, pf_mask 0xe0, 2025-10-08, rev 0x6134
+           sig 0x000b06a3, pf_mask 0xe0, 2025-10-08, rev 0x6134
+           sig 0x000b06a8, pf_mask 0xe0, 2025-10-08, rev 0x6134
+microcode bundle 22: /lib/firmware/intel-ucode/06-ba-03
+  022/001: sig 0x000b06a2, pf_mask 0xe0, 2025-10-08, rev 0x6134, size 224256
+           sig 0x000b06a2, pf_mask 0xe0, 2025-10-08, rev 0x6134
+           sig 0x000b06a3, pf_mask 0xe0, 2025-10-08, rev 0x6134
+           sig 0x000b06a8, pf_mask 0xe0, 2025-10-08, rev 0x6134
+microcode bundle 23: /lib/firmware/intel-ucode/06-ba-02
+  023/001: sig 0x000b06a2, pf_mask 0xe0, 2025-10-08, rev 0x6134, size 224256
+           sig 0x000b06a2, pf_mask 0xe0, 2025-10-08, rev 0x6134
+           sig 0x000b06a3, pf_mask 0xe0, 2025-10-08, rev 0x6134
+           sig 0x000b06a8, pf_mask 0xe0, 2025-10-08, rev 0x6134
+microcode bundle 24: /lib/firmware/intel-ucode/06-b7-04
+  024/001: sig 0x000b0674, pf_mask 0x32, 2025-11-20, rev 0x0136, size 219136
+           sig 0x000b0671, pf_mask 0x32, 2025-11-20, rev 0x0136
+           sig 0x000b0674, pf_mask 0x32, 2025-11-20, rev 0x0136
+microcode bundle 25: /lib/firmware/intel-ucode/06-b7-01
+  025/001: sig 0x000b0674, pf_mask 0x32, 2025-11-20, rev 0x0136, size 219136
+           sig 0x000b0671, pf_mask 0x32, 2025-11-20, rev 0x0136
+           sig 0x000b0674, pf_mask 0x32, 2025-11-20, rev 0x0136
+microcode bundle 26: /lib/firmware/intel-ucode/06-b7-00
+  026/001: sig 0x000b0670, pf_mask 0x02, 2022-02-20, rev 0x000e, size 198656
+microcode bundle 27: /lib/firmware/intel-ucode/06-b6-04
+  027/001: sig 0x000b0664, pf_mask 0x01, 2025-05-29, rev 0x0030, size 840704
+microcode bundle 28: /lib/firmware/intel-ucode/06-b5-00
+  028/001: sig 0x000b0650, pf_mask 0x80, 2025-09-25, rev 0x000d, size 137216
+microcode bundle 29: /lib/firmware/intel-ucode/06-af-03
+  029/001: sig 0x000a06f3, pf_mask 0x01, 2026-01-30, rev 0x30003a3, size 1533952
+microcode bundle 30: /lib/firmware/intel-ucode/06-ae-01
+  030/001: sig 0x000a06e1, pf_mask 0x97, 2026-02-26, rev 0x1000307, size 1646592
+microcode bundle 31: /lib/firmware/intel-ucode/06-ad-01
+  031/001: sig 0x000a06d1, pf_mask 0x95, 2026-01-29, rev 0x1000423, size 1671168
+  031/002: sig 0x000a06d1, pf_mask 0x20, 2026-01-29, rev 0xa000142, size 1642496
+  031/003: sig 0x000a06d1, pf_mask 0x02, 2025-10-02, rev 0x10001d0, size 1640448
+microcode bundle 32: /lib/firmware/intel-ucode/06-ad-00
+  032/001: sig 0x000a06d0, pf_mask 0x95, 2024-08-18, rev 0x10000680, size 1580032
+microcode bundle 33: /lib/firmware/intel-ucode/06-ac-01
+  033/001: sig 0x000a06c1, pf_mask 0xc6, 2023-12-01, rev 0x0005, size 135168
+microcode bundle 34: /lib/firmware/intel-ucode/06-ac-00
+  034/001: sig 0x000a06c0, pf_mask 0xc6, 2023-09-01, rev 0x0013, size 137216
+microcode bundle 35: /lib/firmware/intel-ucode/06-aa-04
+  035/001: sig 0x000a06a4, pf_mask 0xe6, 2025-09-24, rev 0x0028, size 141312
+microcode bundle 36: /lib/firmware/intel-ucode/06-aa-02
+  036/001: sig 0x000a06a2, pf_mask 0xc6, 2023-06-27, rev 0x0011, size 136192
+microcode bundle 37: /lib/firmware/intel-ucode/06-aa-01
+  037/001: sig 0x000a06a1, pf_mask 0xc6, 2023-05-18, rev 0x0017, size 137216
+microcode bundle 38: /lib/firmware/intel-ucode/06-a7-01
+  038/001: sig 0x000a0671, pf_mask 0x02, 2025-07-24, rev 0x0065, size 108544
+microcode bundle 39: /lib/firmware/intel-ucode/06-a7-00
+  039/001: sig 0x000a0670, pf_mask 0x02, 2020-11-24, rev 0x002c, size 94208
+microcode bundle 40: /lib/firmware/intel-ucode/06-a6-01
+  040/001: sig 0x000a0661, pf_mask 0x80, 2024-11-14, rev 0x0100, size 97280
+microcode bundle 41: /lib/firmware/intel-ucode/06-a6-00
+  041/001: sig 0x000a0660, pf_mask 0x80, 2024-11-14, rev 0x0102, size 98304
+microcode bundle 42: /lib/firmware/intel-ucode/06-a5-05
+  042/001: sig 0x000a0655, pf_mask 0x22, 2024-11-14, rev 0x0100, size 97280
+microcode bundle 43: /lib/firmware/intel-ucode/06-a5-04
+  043/001: sig 0x000a0654, pf_mask 0x22, 2020-01-23, rev 0x00c6, size 92160
+microcode bundle 44: /lib/firmware/intel-ucode/06-a5-03
+  044/001: sig 0x000a0653, pf_mask 0x22, 2024-11-14, rev 0x0100, size 98304
+microcode bundle 45: /lib/firmware/intel-ucode/06-a5-02
+  045/001: sig 0x000a0652, pf_mask 0x20, 2024-11-14, rev 0x0100, size 97280
+microcode bundle 46: /lib/firmware/intel-ucode/06-a5-01
+  046/001: sig 0x000a0651, pf_mask 0x22, 2019-11-13, rev 0x00c2, size 91136
+microcode bundle 47: /lib/firmware/intel-ucode/06-a5-00
+  047/001: sig 0x000a0650, pf_mask 0x22, 2019-10-10, rev 0x00be, size 91136
+microcode bundle 48: /lib/firmware/intel-ucode/06-9e-0d
+  048/001: sig 0x000906ed, pf_mask 0x22, 2024-11-14, rev 0x0104, size 106496
+microcode bundle 49: /lib/firmware/intel-ucode/06-9e-0c
+  049/001: sig 0x000906ec, pf_mask 0x22, 2024-02-01, rev 0x00f8, size 106496
+microcode bundle 50: /lib/firmware/intel-ucode/06-9e-0b
+  050/001: sig 0x000906eb, pf_mask 0x02, 2024-02-01, rev 0x00f6, size 106496
+microcode bundle 51: /lib/firmware/intel-ucode/06-9e-0a
+  051/001: sig 0x000906ea, pf_mask 0x22, 2024-07-28, rev 0x00fa, size 105472
+microcode bundle 52: /lib/firmware/intel-ucode/06-9e-09
+  052/001: sig 0x000906e9, pf_mask 0x2a, 2024-03-07, rev 0x00fa, size 106496
+microcode bundle 53: /lib/firmware/intel-ucode/06-9c-00
+  053/001: sig 0x000906c0, pf_mask 0x01, 2023-09-26, rev 0x24000026, size 20480
+microcode bundle 54: /lib/firmware/intel-ucode/06-9a-04
+  054/001: sig 0x000906a4, pf_mask 0xc3, 2022-05-09, rev 0x0002, size 112640
+  054/002: sig 0x000906a3, pf_mask 0x80, 2025-10-12, rev 0x043b, size 225280
+           sig 0x000906a3, pf_mask 0x80, 2025-10-12, rev 0x043b
+           sig 0x000906a4, pf_mask 0x80, 2025-10-12, rev 0x043b
+  054/003: sig 0x000906a4, pf_mask 0x40, 2025-07-10, rev 0x000c, size 119808
+microcode bundle 55: /lib/firmware/intel-ucode/06-9a-03
+  055/001: sig 0x000906a3, pf_mask 0x80, 2025-10-12, rev 0x043b, size 225280
+           sig 0x000906a3, pf_mask 0x80, 2025-10-12, rev 0x043b
+           sig 0x000906a4, pf_mask 0x80, 2025-10-12, rev 0x043b
+microcode bundle 56: /lib/firmware/intel-ucode/06-9a-02
+  056/001: sig 0x000906a2, pf_mask 0x80, 2022-01-02, rev 0x0315, size 206848
+microcode bundle 57: /lib/firmware/intel-ucode/06-9a-01
+  057/001: sig 0x000906a1, pf_mask 0x82, 2021-11-04, rev 0x011f, size 184320
+microcode bundle 58: /lib/firmware/intel-ucode/06-9a-00
+  058/001: sig 0x000906a0, pf_mask 0x82, 2021-06-14, rev 0x001c, size 188416
+           sig 0x00090671, pf_mask 0x82, 2021-06-14, rev 0x001c
+           sig 0x000906a0, pf_mask 0x82, 2021-06-14, rev 0x001c
+microcode bundle 59: /lib/firmware/intel-ucode/06-97-05
+  059/001: sig 0x00090672, pf_mask 0x07, 2025-10-12, rev 0x003e, size 227328
+           sig 0x00090672, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x00090675, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f2, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f5, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f6, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f7, pf_mask 0x07, 2025-10-12, rev 0x003e
+microcode bundle 60: /lib/firmware/intel-ucode/06-97-04
+  060/001: sig 0x00090674, pf_mask 0x01, 2021-04-25, rev 0x0219, size 168960
+microcode bundle 61: /lib/firmware/intel-ucode/06-97-02
+  061/001: sig 0x00090672, pf_mask 0x07, 2025-10-12, rev 0x003e, size 227328
+           sig 0x00090672, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x00090675, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f2, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f5, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f6, pf_mask 0x07, 2025-10-12, rev 0x003e
+           sig 0x000b06f7, pf_mask 0x07, 2025-10-12, rev 0x003e
+microcode bundle 62: /lib/firmware/intel-ucode/06-97-01
+  062/001: sig 0x000906a0, pf_mask 0x82, 2021-06-14, rev 0x001c, size 188416
+           sig 0x00090671, pf_mask 0x82, 2021-06-14, rev 0x001c
+           sig 0x000906a0, pf_mask 0x82, 2021-06-14, rev 0x001c
+microcode bundle 63: /lib/firmware/intel-ucode/06-97-00
+  063/001: sig 0x00090670, pf_mask 0x02, 2020-11-11, rev 0x0019, size 165888
+microcode bundle 64: /lib/firmware/intel-ucode/06-96-01
+  064/001: sig 0x00090661, pf_mask 0x01, 2024-04-05, rev 0x001a, size 20480
+microcode bundle 65: /lib/firmware/intel-ucode/06-96-00
+  065/001: sig 0x00090660, pf_mask 0x01, 2020-06-17, rev 0x0009, size 16384
+microcode bundle 66: /lib/firmware/intel-ucode/06-8f-08
+  066/001: sig 0x000806f8, pf_mask 0x87, 2025-12-17, rev 0x2b000670, size 595968
+           sig 0x000806f8, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+           sig 0x000806f7, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+           sig 0x000806f6, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+           sig 0x000806f5, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+           sig 0x000806f4, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+  066/002: sig 0x000806f8, pf_mask 0x10, 2025-08-25, rev 0x2c000421, size 626688
+           sig 0x000806f8, pf_mask 0x10, 2025-08-25, rev 0x2c000421
+           sig 0x000806f6, pf_mask 0x10, 2025-08-25, rev 0x2c000421
+           sig 0x000806f5, pf_mask 0x10, 2025-08-25, rev 0x2c000421
+           sig 0x000806f4, pf_mask 0x10, 2025-08-25, rev 0x2c000421
+microcode bundle 67: /lib/firmware/intel-ucode/06-8f-07
+  067/001: sig 0x000806f8, pf_mask 0x87, 2025-12-17, rev 0x2b000670, size 595968
+           sig 0x000806f8, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+           sig 0x000806f7, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+           sig 0x000806f6, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+           sig 0x000806f5, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+           sig 0x000806f4, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+microcode bundle 68: /lib/firmware/intel-ucode/06-8f-06
+  068/001: sig 0x000806f8, pf_mask 0x87, 2025-12-17, rev 0x2b000670, size 595968
+           sig 0x000806f8, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+           sig 0x000806f7, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+           sig 0x000806f6, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+           sig 0x000806f5, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+           sig 0x000806f4, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+  068/002: sig 0x000806f8, pf_mask 0x10, 2025-08-25, rev 0x2c000421, size 626688
+           sig 0x000806f8, pf_mask 0x10, 2025-08-25, rev 0x2c000421
+           sig 0x000806f6, pf_mask 0x10, 2025-08-25, rev 0x2c000421
+           sig 0x000806f5, pf_mask 0x10, 2025-08-25, rev 0x2c000421
+           sig 0x000806f4, pf_mask 0x10, 2025-08-25, rev 0x2c000421
+microcode bundle 69: /lib/firmware/intel-ucode/06-8f-05
+  069/001: sig 0x000806f8, pf_mask 0x87, 2025-12-17, rev 0x2b000670, size 595968
+           sig 0x000806f8, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+           sig 0x000806f7, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+           sig 0x000806f6, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+           sig 0x000806f5, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+           sig 0x000806f4, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+  069/002: sig 0x000806f8, pf_mask 0x10, 2025-08-25, rev 0x2c000421, size 626688
+           sig 0x000806f8, pf_mask 0x10, 2025-08-25, rev 0x2c000421
+           sig 0x000806f6, pf_mask 0x10, 2025-08-25, rev 0x2c000421
+           sig 0x000806f5, pf_mask 0x10, 2025-08-25, rev 0x2c000421
+           sig 0x000806f4, pf_mask 0x10, 2025-08-25, rev 0x2c000421
+microcode bundle 70: /lib/firmware/intel-ucode/06-8f-04
+  070/001: sig 0x000806f8, pf_mask 0x87, 2025-12-17, rev 0x2b000670, size 595968
+           sig 0x000806f8, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+           sig 0x000806f7, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+           sig 0x000806f6, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+           sig 0x000806f5, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+           sig 0x000806f4, pf_mask 0x87, 2025-12-17, rev 0x2b000670
+  070/002: sig 0x000806f8, pf_mask 0x10, 2025-08-25, rev 0x2c000421, size 626688
+           sig 0x000806f8, pf_mask 0x10, 2025-08-25, rev 0x2c000421
+           sig 0x000806f6, pf_mask 0x10, 2025-08-25, rev 0x2c000421
+           sig 0x000806f5, pf_mask 0x10, 2025-08-25, rev 0x2c000421
+           sig 0x000806f4, pf_mask 0x10, 2025-08-25, rev 0x2c000421
+microcode bundle 71: /lib/firmware/intel-ucode/06-8f-03
+  071/001: sig 0x000806f3, pf_mask 0x87, 2022-04-19, rev 0xd0004b1, size 540672
+microcode bundle 72: /lib/firmware/intel-ucode/06-8e-0c
+  072/001: sig 0x000806ec, pf_mask 0x94, 2024-11-17, rev 0x0100, size 106496
+microcode bundle 73: /lib/firmware/intel-ucode/06-8e-0b
+  073/001: sig 0x000806eb, pf_mask 0xd0, 2024-02-01, rev 0x00f6, size 106496
+microcode bundle 74: /lib/firmware/intel-ucode/06-8e-0a
+  074/001: sig 0x000806ea, pf_mask 0xc0, 2024-02-01, rev 0x00f6, size 105472
+microcode bundle 75: /lib/firmware/intel-ucode/06-8e-09
+  075/001: sig 0x000806e9, pf_mask 0xc0, 2024-02-01, rev 0x00f6, size 106496
+  075/002: sig 0x000806e9, pf_mask 0x10, 2024-02-01, rev 0x00f6, size 106496
+microcode bundle 76: /lib/firmware/intel-ucode/06-8d-01
+  076/001: sig 0x000806d1, pf_mask 0xc2, 2025-07-24, rev 0x0058, size 105472
+microcode bundle 77: /lib/firmware/intel-ucode/06-8d-00
+  077/001: sig 0x000806d0, pf_mask 0xc2, 2021-05-07, rev 0x0054, size 113664
+microcode bundle 78: /lib/firmware/intel-ucode/06-8c-02
+  078/001: sig 0x000806c2, pf_mask 0xc2, 2025-07-24, rev 0x003e, size 99328
+microcode bundle 79: /lib/firmware/intel-ucode/06-8c-01
+  079/001: sig 0x000806c1, pf_mask 0x80, 2025-07-24, rev 0x00be, size 112640
+microcode bundle 80: /lib/firmware/intel-ucode/06-8c-00
+  080/001: sig 0x000806c0, pf_mask 0x80, 2020-04-02, rev 0x0068, size 113664
+microcode bundle 81: /lib/firmware/intel-ucode/06-8a-01
+  081/001: sig 0x000806a1, pf_mask 0x10, 2023-01-13, rev 0x0033, size 34816
+microcode bundle 82: /lib/firmware/intel-ucode/06-8a-00
+  082/001: sig 0x000806a0, pf_mask 0x01, 2019-05-07, rev 0x0010, size 21504
+microcode bundle 83: /lib/firmware/intel-ucode/06-86-07
+  083/001: sig 0x00080667, pf_mask 0x01, 2024-02-28, rev 0x4c000026, size 148480
+           sig 0x00080665, pf_mask 0x01, 2024-02-28, rev 0x4c000026
+           sig 0x00080667, pf_mask 0x01, 2024-02-28, rev 0x4c000026
+microcode bundle 84: /lib/firmware/intel-ucode/06-86-05
+  084/001: sig 0x00080667, pf_mask 0x01, 2024-02-28, rev 0x4c000026, size 148480
+           sig 0x00080665, pf_mask 0x01, 2024-02-28, rev 0x4c000026
+           sig 0x00080667, pf_mask 0x01, 2024-02-28, rev 0x4c000026
+microcode bundle 85: /lib/firmware/intel-ucode/06-86-04
+  085/001: sig 0x00080664, pf_mask 0x01, 2023-09-26, rev 0x4c000025, size 148480
+           sig 0x00080664, pf_mask 0x01, 2023-09-26, rev 0x4c000025
+           sig 0x00080665, pf_mask 0x01, 2023-09-26, rev 0x4c000025
+           sig 0x00080667, pf_mask 0x01, 2023-09-26, rev 0x4c000025
+microcode bundle 86: /lib/firmware/intel-ucode/06-85-00
+  086/001: sig 0x00080650, pf_mask 0x08, 2018-01-08, rev 0x0018, size 28672
+microcode bundle 87: /lib/firmware/intel-ucode/06-7e-05
+  087/001: sig 0x000706e5, pf_mask 0x80, 2025-07-24, rev 0x00cc, size 115712
+microcode bundle 88: /lib/firmware/intel-ucode/06-7e-04
+  088/001: sig 0x000706e4, pf_mask 0x80, 2019-09-05, rev 0x0046, size 102400
+microcode bundle 89: /lib/firmware/intel-ucode/06-7e-02
+  089/001: sig 0x000706e2, pf_mask 0x80, 2019-04-20, rev 0x0042, size 98304
+           sig 0x000706e1, pf_mask 0x80, 2019-04-20, rev 0x0042
+           sig 0x000706e2, pf_mask 0x80, 2019-04-20, rev 0x0042
+microcode bundle 90: /lib/firmware/intel-ucode/06-7e-01
+  090/001: sig 0x000706e2, pf_mask 0x80, 2019-04-20, rev 0x0042, size 98304
+           sig 0x000706e1, pf_mask 0x80, 2019-04-20, rev 0x0042
+           sig 0x000706e2, pf_mask 0x80, 2019-04-20, rev 0x0042
+microcode bundle 91: /lib/firmware/intel-ucode/06-7e-00
+  091/001: sig 0x000706e0, pf_mask 0xc0, 2018-06-14, rev 0x002c, size 95232
+microcode bundle 92: /lib/firmware/intel-ucode/06-7a-08
+  092/001: sig 0x000706a8, pf_mask 0x01, 2024-12-05, rev 0x0026, size 76800
+microcode bundle 93: /lib/firmware/intel-ucode/06-7a-01
+  093/001: sig 0x000706a1, pf_mask 0x01, 2024-04-19, rev 0x0042, size 76800
+microcode bundle 94: /lib/firmware/intel-ucode/06-7a-00
+  094/001: sig 0x000706a0, pf_mask 0x01, 2017-07-12, rev 0x0026, size 78848
+microcode bundle 95: /lib/firmware/intel-ucode/06-6e-01
+  095/001: sig 0x000606e1, pf_mask 0x01, 2019-04-23, rev 0x0108, size 117760
+microcode bundle 96: /lib/firmware/intel-ucode/06-6e-00
+  096/001: sig 0x000606e0, pf_mask 0x01, 2016-11-04, rev 0x000b, size 117760
+microcode bundle 97: /lib/firmware/intel-ucode/06-6c-01
+  097/001: sig 0x000606c1, pf_mask 0x10, 2025-08-19, rev 0x10002f1, size 301056
+microcode bundle 98: /lib/firmware/intel-ucode/06-6a-06
+  098/001: sig 0x000606a6, pf_mask 0x87, 2025-08-19, rev 0xd000421, size 309248
+microcode bundle 99: /lib/firmware/intel-ucode/06-6a-05
+  099/001: sig 0x000606a5, pf_mask 0x87, 2021-03-08, rev 0xc0002f0, size 283648
+microcode bundle 100: /lib/firmware/intel-ucode/06-6a-04
+  100/001: sig 0x000606a4, pf_mask 0x87, 2020-08-17, rev 0xb000280, size 272384
+microcode bundle 101: /lib/firmware/intel-ucode/06-6a-00
+  101/001: sig 0x000606a0, pf_mask 0x97, 2019-07-22, rev 0x001f, size 261120
+microcode bundle 102: /lib/firmware/intel-ucode/06-66-03
+  102/001: sig 0x00060663, pf_mask 0x80, 2018-04-17, rev 0x002a, size 87040
+microcode bundle 103: /lib/firmware/intel-ucode/06-66-02
+  103/001: sig 0x00060662, pf_mask 0x80, 2017-11-29, rev 0x0022, size 81920
+microcode bundle 104: /lib/firmware/intel-ucode/06-66-01
+  104/001: sig 0x00060661, pf_mask 0x80, 2017-01-28, rev 0x000e, size 81920
+microcode bundle 105: /lib/firmware/intel-ucode/06-66-00
+  105/001: sig 0x00060660, pf_mask 0x80, 2016-08-21, rev 0x000c, size 77824
+microcode bundle 106: /lib/firmware/intel-ucode/06-5f-01
+  106/001: sig 0x000506f1, pf_mask 0x01, 2023-10-05, rev 0x003e, size 11264
+microcode bundle 107: /lib/firmware/intel-ucode/06-5f-00
+  107/001: sig 0x000506f0, pf_mask 0x01, 2016-06-07, rev 0x0010, size 11264
+microcode bundle 108: /lib/firmware/intel-ucode/06-5e-08
+  108/001: sig 0x000506e8, pf_mask 0x22, 2016-07-10, rev 0x0034, size 96256
+microcode bundle 109: /lib/firmware/intel-ucode/06-5e-03
+  109/001: sig 0x000506e3, pf_mask 0x36, 2023-01-02, rev 0x00f2, size 109568
+microcode bundle 110: /lib/firmware/intel-ucode/06-5e-02
+  110/001: sig 0x000506e2, pf_mask 0x14, 2015-08-15, rev 0x002e, size 76800
+microcode bundle 111: /lib/firmware/intel-ucode/06-5e-01
+  111/001: sig 0x000506e1, pf_mask 0x22, 2015-06-02, rev 0x002a, size 76800
+microcode bundle 112: /lib/firmware/intel-ucode/06-5e-00
+  112/001: sig 0x000506e0, pf_mask 0x22, 2014-11-19, rev 0x0018, size 81920
+microcode bundle 113: /lib/firmware/intel-ucode/06-5d-01
+  113/001: sig 0x000506d1, pf_mask 0x04, 2015-06-05, rev 0x0102, size 7168
+  113/002: sig 0x000506d1, pf_mask 0x02, 2014-11-20, rev 0x0101, size 7168
+microcode bundle 114: /lib/firmware/intel-ucode/06-5c-0a
+  114/001: sig 0x000506ca, pf_mask 0x03, 2021-11-16, rev 0x0028, size 16384
+microcode bundle 115: /lib/firmware/intel-ucode/06-5c-09
+  115/001: sig 0x000506c9, pf_mask 0x03, 2021-11-16, rev 0x0048, size 17408
+microcode bundle 116: /lib/firmware/intel-ucode/06-5c-08
+  116/001: sig 0x000506c8, pf_mask 0x01, 2016-03-04, rev 0x0010, size 16384
+microcode bundle 117: /lib/firmware/intel-ucode/06-5c-02
+  117/001: sig 0x000506c2, pf_mask 0x01, 2018-05-11, rev 0x0014, size 15360
+microcode bundle 118: /lib/firmware/intel-ucode/06-5a-00
+  118/001: sig 0x000506a0, pf_mask 0x01, 2015-01-12, rev 0x0038, size 54272
+microcode bundle 119: /lib/firmware/intel-ucode/06-57-01
+  119/001: sig 0x00050671, pf_mask 0x78, 2018-01-08, rev 0x01b6, size 28672
+microcode bundle 120: /lib/firmware/intel-ucode/06-56-05
+  120/001: sig 0x00050665, pf_mask 0x10, 2023-08-03, rev 0xe000015, size 23552
+microcode bundle 121: /lib/firmware/intel-ucode/06-56-04
+  121/001: sig 0x00050664, pf_mask 0x10, 2021-06-12, rev 0xf00001a, size 27648
+microcode bundle 122: /lib/firmware/intel-ucode/06-56-03
+  122/001: sig 0x00050663, pf_mask 0x10, 2021-06-12, rev 0x700001c, size 28672
+microcode bundle 123: /lib/firmware/intel-ucode/06-56-02
+  123/001: sig 0x00050662, pf_mask 0x10, 2019-06-17, rev 0x001c, size 32768
+microcode bundle 124: /lib/firmware/intel-ucode/06-55-0b
+  124/001: sig 0x0005065b, pf_mask 0xbf, 2024-12-12, rev 0x7002b01, size 30720
+microcode bundle 125: /lib/firmware/intel-ucode/06-55-07
+  125/001: sig 0x00050657, pf_mask 0xbf, 2024-12-12, rev 0x5003901, size 39936
+microcode bundle 126: /lib/firmware/intel-ucode/06-55-06
+  126/001: sig 0x00050656, pf_mask 0xbf, 2024-12-12, rev 0x4003901, size 40960
+microcode bundle 127: /lib/firmware/intel-ucode/06-55-05
+  127/001: sig 0x00050655, pf_mask 0xb7, 2019-04-12, rev 0x3000012, size 47104
+microcode bundle 128: /lib/firmware/intel-ucode/06-55-04
+  128/001: sig 0x00050654, pf_mask 0xb7, 2024-04-15, rev 0x2007206, size 44032
+microcode bundle 129: /lib/firmware/intel-ucode/06-55-03
+  129/001: sig 0x00050653, pf_mask 0x97, 2023-07-28, rev 0x1000191, size 36864
+microcode bundle 130: /lib/firmware/intel-ucode/06-4f-00
+  130/001: sig 0x000406f0, pf_mask 0xef, 2015-07-02, rev 0x0014, size 31744
+microcode bundle 131: /lib/firmware/intel-ucode/06-4e-08
+  131/001: sig 0x000406e8, pf_mask 0x80, 2016-04-14, rev 0x0026, size 94208
+microcode bundle 132: /lib/firmware/intel-ucode/06-4e-03
+  132/001: sig 0x000406e3, pf_mask 0xc0, 2021-11-12, rev 0x00f0, size 106496
+microcode bundle 133: /lib/firmware/intel-ucode/06-4e-02
+  133/001: sig 0x000406e2, pf_mask 0xf2, 2014-11-05, rev 0x000a, size 79872
+  133/002: sig 0x000406e2, pf_mask 0xc0, 2015-05-21, rev 0x002c, size 86016
+microcode bundle 134: /lib/firmware/intel-ucode/06-4e-01
+  134/001: sig 0x000406e1, pf_mask 0xf2, 2014-08-06, rev 0x0016, size 80896
+  134/002: sig 0x000406e1, pf_mask 0x80, 2014-11-11, rev 0x0020, size 81920
+microcode bundle 135: /lib/firmware/intel-ucode/06-4d-08
+  135/001: sig 0x000406d8, pf_mask 0x01, 2019-09-16, rev 0x012d, size 84992
+microcode bundle 136: /lib/firmware/intel-ucode/06-4d-00
+  136/001: sig 0x000406d0, pf_mask 0x01, 2013-06-12, rev 0x000e, size 82944
+microcode bundle 137: /lib/firmware/intel-ucode/06-4c-04
+  137/001: sig 0x000406c4, pf_mask 0x01, 2019-04-23, rev 0x0411, size 68608
+microcode bundle 138: /lib/firmware/intel-ucode/06-4c-03
+  138/001: sig 0x000406c3, pf_mask 0x01, 2019-04-23, rev 0x0368, size 69632
+microcode bundle 139: /lib/firmware/intel-ucode/06-4c-02
+  139/001: sig 0x000406c2, pf_mask 0x01, 2015-02-18, rev 0x0221, size 68608
+microcode bundle 140: /lib/firmware/intel-ucode/06-4c-01
+  140/001: sig 0x000406c1, pf_mask 0x01, 2014-08-14, rev 0x010b, size 69632
+microcode bundle 141: /lib/firmware/intel-ucode/06-4a-09
+  141/001: sig 0x000406a9, pf_mask 0x01, 2014-08-12, rev 0x081f, size 38912
+           sig 0x000406a8, pf_mask 0x01, 2014-08-12, rev 0x081f
+           sig 0x000406a9, pf_mask 0x01, 2014-08-12, rev 0x081f
+microcode bundle 142: /lib/firmware/intel-ucode/06-4a-08
+  142/001: sig 0x000406a9, pf_mask 0x01, 2014-08-12, rev 0x081f, size 38912
+           sig 0x000406a8, pf_mask 0x01, 2014-08-12, rev 0x081f
+           sig 0x000406a9, pf_mask 0x01, 2014-08-12, rev 0x081f
+microcode bundle 143: /lib/firmware/intel-ucode/06-47-01
+  143/001: sig 0x00040671, pf_mask 0x22, 2019-11-12, rev 0x0022, size 14336
+microcode bundle 144: /lib/firmware/intel-ucode/06-46-01
+  144/001: sig 0x00040661, pf_mask 0x32, 2019-11-12, rev 0x001c, size 25600
+microcode bundle 145: /lib/firmware/intel-ucode/06-45-01
+  145/001: sig 0x00040651, pf_mask 0x72, 2019-11-12, rev 0x0026, size 22528
+microcode bundle 146: /lib/firmware/intel-ucode/06-3f-04
+  146/001: sig 0x000306f4, pf_mask 0x80, 2021-05-24, rev 0x001a, size 23552
+microcode bundle 147: /lib/firmware/intel-ucode/06-3f-03
+  147/001: sig 0x000306f3, pf_mask 0x80, 2016-02-11, rev 0x000d, size 15360
+microcode bundle 148: /lib/firmware/intel-ucode/06-3f-02
+  148/001: sig 0x000306f2, pf_mask 0x80, 2014-07-07, rev 0x0f07, size 27648
+  148/002: sig 0x000306f2, pf_mask 0x6f, 2021-08-11, rev 0x0049, size 38912
+microcode bundle 149: /lib/firmware/intel-ucode/06-3f-01
+  149/001: sig 0x000306f1, pf_mask 0xef, 2014-01-10, rev 0x0014, size 34816
+microcode bundle 150: /lib/firmware/intel-ucode/06-3e-07
+  150/001: sig 0x000306e7, pf_mask 0xed, 2019-03-14, rev 0x0715, size 17408
+microcode bundle 151: /lib/firmware/intel-ucode/06-3e-06
+  151/001: sig 0x000306e6, pf_mask 0xed, 2013-06-19, rev 0x0600, size 11264
+microcode bundle 152: /lib/firmware/intel-ucode/06-3e-04
+  152/001: sig 0x000306e4, pf_mask 0xed, 2019-03-14, rev 0x042e, size 16384
+microcode bundle 153: /lib/firmware/intel-ucode/06-3e-03
+  153/001: sig 0x000306e3, pf_mask 0xed, 2013-03-21, rev 0x0308, size 11264
+microcode bundle 154: /lib/firmware/intel-ucode/06-3e-02
+  154/001: sig 0x000306e2, pf_mask 0xed, 2013-03-21, rev 0x020d, size 12288
+microcode bundle 155: /lib/firmware/intel-ucode/06-3e-00
+  155/001: sig 0x000306e0, pf_mask 0xed, 2012-07-26, rev 0x0008, size 11264
+microcode bundle 156: /lib/firmware/intel-ucode/06-3d-04
+  156/001: sig 0x000306d4, pf_mask 0xc0, 2019-11-12, rev 0x002f, size 19456
+microcode bundle 157: /lib/firmware/intel-ucode/06-3c-03
+  157/001: sig 0x000306c3, pf_mask 0x32, 2019-11-12, rev 0x0028, size 23552
+microcode bundle 158: /lib/firmware/intel-ucode/06-3a-09
+  158/001: sig 0x000306a9, pf_mask 0x12, 2019-02-13, rev 0x0021, size 14336
+microcode bundle 159: /lib/firmware/intel-ucode/06-3a-08
+  159/001: sig 0x000306a8, pf_mask 0x12, 2012-02-20, rev 0x0010, size 10240
+microcode bundle 160: /lib/firmware/intel-ucode/06-3a-06
+  160/001: sig 0x000306a6, pf_mask 0x12, 2011-11-14, rev 0x0004, size 8192
+microcode bundle 161: /lib/firmware/intel-ucode/06-3a-05
+  161/001: sig 0x000306a5, pf_mask 0x12, 2011-11-10, rev 0x0009, size 10240
+microcode bundle 162: /lib/firmware/intel-ucode/06-3a-04
+  162/001: sig 0x000306a4, pf_mask 0x12, 2011-09-08, rev 0x0007, size 9216
+microcode bundle 163: /lib/firmware/intel-ucode/06-3a-02
+  163/001: sig 0x000306a2, pf_mask 0x12, 2011-07-25, rev 0x000c, size 11264
+microcode bundle 164: /lib/firmware/intel-ucode/06-3a-00
+  164/001: sig 0x000306a0, pf_mask 0x12, 2011-04-07, rev 0x0007, size 6144
+microcode bundle 165: /lib/firmware/intel-ucode/06-37-09
+  165/001: sig 0x00030679, pf_mask 0x0f, 2019-07-10, rev 0x090d, size 52224
+microcode bundle 166: /lib/firmware/intel-ucode/06-37-08
+  166/001: sig 0x00030678, pf_mask 0x0c, 2019-04-22, rev 0x0838, size 52224
+  166/002: sig 0x00030678, pf_mask 0x02, 2019-04-22, rev 0x0838, size 52224
+  166/003: sig 0x00030678, pf_mask 0x01, 2015-02-09, rev 0x0832, size 52224
+microcode bundle 167: /lib/firmware/intel-ucode/06-37-03
+  167/001: sig 0x00030673, pf_mask 0x0c, 2019-09-16, rev 0x0329, size 52224
+  167/002: sig 0x00030673, pf_mask 0x02, 2019-09-16, rev 0x0329, size 52224
+  167/003: sig 0x00030673, pf_mask 0x01, 2019-09-16, rev 0x0329, size 52224
+microcode bundle 168: /lib/firmware/intel-ucode/06-37-02
+  168/001: sig 0x00030672, pf_mask 0x0c, 2013-07-22, rev 0x0218, size 52224
+  168/002: sig 0x00030672, pf_mask 0x02, 2014-04-01, rev 0x022e, size 52224
+  168/003: sig 0x00030672, pf_mask 0x01, 2014-01-14, rev 0x022d, size 52224
+microcode bundle 169: /lib/firmware/intel-ucode/06-37-01
+  169/001: sig 0x00030671, pf_mask 0x02, 2013-04-10, rev 0x0117, size 67584
+microcode bundle 170: /lib/firmware/intel-ucode/06-36-09
+  170/001: sig 0x00030669, pf_mask 0x01, 2013-05-15, rev 0x010d, size 5120
+microcode bundle 171: /lib/firmware/intel-ucode/06-36-01
+  171/001: sig 0x00030661, pf_mask 0x08, 2015-07-21, rev 0x010f, size 5120
+  171/002: sig 0x00030661, pf_mask 0x04, 2015-07-21, rev 0x010f, size 5120
+  171/003: sig 0x00030661, pf_mask 0x02, 2011-12-22, rev 0x010d, size 5120
+  171/004: sig 0x00030661, pf_mask 0x01, 2011-12-22, rev 0x010d, size 5120
+microcode bundle 172: /lib/firmware/intel-ucode/06-36-00
+  172/001: sig 0x00030660, pf_mask 0x08, 2010-11-03, rev 0x0003, size 5120
+  172/002: sig 0x00030660, pf_mask 0x04, 2010-11-03, rev 0x0003, size 5120
+microcode bundle 173: /lib/firmware/intel-ucode/06-35-01
+  173/001: sig 0x00030651, pf_mask 0x08, 2013-05-20, rev 0x010d, size 5120
+  173/002: sig 0x00030651, pf_mask 0x01, 2013-10-14, rev 0x0110, size 5120
+microcode bundle 174: /lib/firmware/intel-ucode/06-35-00
+  174/001: sig 0x00030650, pf_mask 0x08, 2012-01-18, rev 0x0009, size 5120
+microcode bundle 175: /lib/firmware/intel-ucode/06-2f-02
+  175/001: sig 0x000206f2, pf_mask 0x05, 2018-05-16, rev 0x003b, size 14336
+microcode bundle 176: /lib/firmware/intel-ucode/06-2f-01
+  176/001: sig 0x000206f1, pf_mask 0x05, 2010-10-13, rev 0x0008, size 11264
+microcode bundle 177: /lib/firmware/intel-ucode/06-2f-00
+  177/001: sig 0x000206f0, pf_mask 0x05, 2010-07-29, rev 0x0005, size 9216
+microcode bundle 178: /lib/firmware/intel-ucode/06-2e-06
+  178/001: sig 0x000206e6, pf_mask 0x04, 2018-05-15, rev 0x000d, size 9216
+microcode bundle 179: /lib/firmware/intel-ucode/06-2d-07
+  179/001: sig 0x000206d7, pf_mask 0x6d, 2020-03-24, rev 0x071a, size 19456
+microcode bundle 180: /lib/firmware/intel-ucode/06-2d-06
+  180/001: sig 0x000206d6, pf_mask 0x6d, 2020-03-04, rev 0x0621, size 18432
+microcode bundle 181: /lib/firmware/intel-ucode/06-2d-05
+  181/001: sig 0x000206d5, pf_mask 0x6d, 2011-10-13, rev 0x0513, size 18432
+microcode bundle 182: /lib/firmware/intel-ucode/06-2c-02
+  182/001: sig 0x000206c2, pf_mask 0x03, 2018-05-08, rev 0x001f, size 11264
+microcode bundle 183: /lib/firmware/intel-ucode/06-2c-01
+  183/001: sig 0x000206c1, pf_mask 0x03, 2009-12-22, rev 0x0006, size 6144
+microcode bundle 184: /lib/firmware/intel-ucode/06-2a-07
+  184/001: sig 0x000206a7, pf_mask 0x12, 2019-02-17, rev 0x002f, size 12288
+microcode bundle 185: /lib/firmware/intel-ucode/06-2a-06
+  185/001: sig 0x000206a6, pf_mask 0x12, 2010-09-15, rev 0x0028, size 9216
+microcode bundle 186: /lib/firmware/intel-ucode/06-2a-05
+  186/001: sig 0x000206a5, pf_mask 0x12, 2010-07-22, rev 0x0007, size 7168
+microcode bundle 187: /lib/firmware/intel-ucode/06-2a-04
+  187/001: sig 0x000206a4, pf_mask 0x12, 2010-04-14, rev 0x0022, size 8192
+microcode bundle 188: /lib/firmware/intel-ucode/06-2a-03
+  188/001: sig 0x000206a3, pf_mask 0x12, 2010-06-09, rev 0x0009, size 9216
+microcode bundle 189: /lib/firmware/intel-ucode/06-2a-02
+  189/001: sig 0x000206a2, pf_mask 0x12, 2010-05-02, rev 0x0027, size 9216
+microcode bundle 190: /lib/firmware/intel-ucode/06-2a-01
+  190/001: sig 0x000206a1, pf_mask 0x12, 2009-12-23, rev 0x0007, size 8192
+microcode bundle 191: /lib/firmware/intel-ucode/06-2a-00
+  191/001: sig 0x000206a0, pf_mask 0x12, 2009-11-02, rev 0x0029, size 6144
+microcode bundle 192: /lib/firmware/intel-ucode/06-26-01
+  192/001: sig 0x00020661, pf_mask 0x02, 2011-07-18, rev 0x0105, size 5120
+  192/002: sig 0x00020661, pf_mask 0x01, 2009-10-23, rev 0x0104, size 5120
+microcode bundle 193: /lib/firmware/intel-ucode/06-25-05
+  193/001: sig 0x00020655, pf_mask 0x92, 2018-04-23, rev 0x0007, size 4096
+microcode bundle 194: /lib/firmware/intel-ucode/06-25-02
+  194/001: sig 0x00020652, pf_mask 0x80, 2009-09-15, rev 0x0006, size 7168
+  194/002: sig 0x00020652, pf_mask 0x12, 2018-05-08, rev 0x0011, size 9216
+microcode bundle 195: /lib/firmware/intel-ucode/06-1e-05
+  195/001: sig 0x000106e5, pf_mask 0x13, 2018-05-08, rev 0x000a, size 9216
+microcode bundle 196: /lib/firmware/intel-ucode/06-1e-04
+  196/001: sig 0x000106e4, pf_mask 0x09, 2013-07-01, rev 0x0003, size 6144
+microcode bundle 197: /lib/firmware/intel-ucode/06-1d-01
+  197/001: sig 0x000106d1, pf_mask 0x08, 2015-08-03, rev 0x002a, size 4096
+microcode bundle 198: /lib/firmware/intel-ucode/06-1d-00
+  198/001: sig 0x000106d0, pf_mask 0x08, 2007-12-04, rev 0x0005, size 4096
+microcode bundle 199: /lib/firmware/intel-ucode/06-1c-0a
+  199/001: sig 0x000106ca, pf_mask 0x20, 2009-08-25, rev 0x0106, size 5120
+  199/002: sig 0x000106ca, pf_mask 0x10, 2009-08-25, rev 0x0107, size 5120
+  199/003: sig 0x000106ca, pf_mask 0x08, 2009-08-25, rev 0x0107, size 5120
+  199/004: sig 0x000106ca, pf_mask 0x04, 2009-08-25, rev 0x0107, size 5120
+  199/005: sig 0x000106ca, pf_mask 0x01, 2009-08-25, rev 0x0107, size 5120
+microcode bundle 200: /lib/firmware/intel-ucode/06-1c-09
+  200/001: sig 0x000106c9, pf_mask 0x10, 2009-02-13, rev 0x0007, size 5120
+  200/002: sig 0x000106c9, pf_mask 0x08, 2009-02-11, rev 0x0007, size 5120
+  200/003: sig 0x000106c9, pf_mask 0x04, 2009-02-11, rev 0x0007, size 5120
+  200/004: sig 0x000106c9, pf_mask 0x01, 2009-02-11, rev 0x0007, size 5120
+microcode bundle 201: /lib/firmware/intel-ucode/06-1c-02
+  201/001: sig 0x000106c2, pf_mask 0x08, 2009-04-10, rev 0x0219, size 5120
+  201/002: sig 0x000106c2, pf_mask 0x04, 2009-04-10, rev 0x0218, size 5120
+  201/003: sig 0x000106c2, pf_mask 0x01, 2009-04-10, rev 0x0217, size 5120
+microcode bundle 202: /lib/firmware/intel-ucode/06-1c-01
+  202/001: sig 0x000106c1, pf_mask 0x01, 2007-12-03, rev 0x0109, size 5120
+microcode bundle 203: /lib/firmware/intel-ucode/06-1a-05
+  203/001: sig 0x000106a5, pf_mask 0x03, 2018-05-11, rev 0x001d, size 12288
+microcode bundle 204: /lib/firmware/intel-ucode/06-1a-04
+  204/001: sig 0x000106a4, pf_mask 0x03, 2015-06-30, rev 0x0013, size 14336
+microcode bundle 205: /lib/firmware/intel-ucode/06-17-0a
+  205/001: sig 0x0001067a, pf_mask 0xb1, 2015-07-29, rev 0x0a0e, size 8192
+  205/002: sig 0x0001067a, pf_mask 0x44, 2015-07-29, rev 0x0a0e, size 8192
+microcode bundle 206: /lib/firmware/intel-ucode/06-17-07
+  206/001: sig 0x00010677, pf_mask 0x10, 2015-08-02, rev 0x070d, size 4096
+  206/002: sig 0x00010677, pf_mask 0x01, 2007-10-26, rev 0x0701, size 4096
+microcode bundle 207: /lib/firmware/intel-ucode/06-17-06
+  207/001: sig 0x00010676, pf_mask 0x91, 2015-08-02, rev 0x0612, size 4096
+  207/002: sig 0x00010676, pf_mask 0x54, 2008-01-19, rev 0x060c, size 4096
+  207/003: sig 0x00010676, pf_mask 0x44, 2010-09-29, rev 0x060f, size 4096
+  207/004: sig 0x00010676, pf_mask 0x40, 2015-08-02, rev 0x0612, size 4096
+  207/005: sig 0x00010676, pf_mask 0x04, 2015-08-02, rev 0x0612, size 4096
+microcode bundle 208: /lib/firmware/intel-ucode/06-17-04
+  208/001: sig 0x00010674, pf_mask 0x80, 2007-07-20, rev 0x0405, size 4096
+  208/002: sig 0x00010674, pf_mask 0x44, 2007-06-08, rev 0x0404, size 4096
+  208/003: sig 0x00010674, pf_mask 0x10, 2007-06-08, rev 0x0404, size 4096
+  208/004: sig 0x00010674, pf_mask 0x01, 2007-06-08, rev 0x0404, size 4096
+microcode bundle 209: /lib/firmware/intel-ucode/06-17-01
+  209/001: sig 0x00010671, pf_mask 0x80, 2007-03-29, rev 0x0106, size 4096
+  209/002: sig 0x00010671, pf_mask 0x44, 2007-03-29, rev 0x0106, size 4096
+  209/003: sig 0x00010671, pf_mask 0x10, 2007-03-29, rev 0x0106, size 4096
+  209/004: sig 0x00010671, pf_mask 0x01, 2007-03-29, rev 0x0106, size 4096
+microcode bundle 210: /lib/firmware/intel-ucode/06-17-00
+  210/001: sig 0x00010670, pf_mask 0x80, 2007-02-09, rev 0x0005, size 4096
+microcode bundle 211: /lib/firmware/intel-ucode/06-16-01
+  211/001: sig 0x00010661, pf_mask 0x80, 2010-10-04, rev 0x0044, size 4096
+  211/002: sig 0x00010661, pf_mask 0x08, 2007-03-16, rev 0x0035, size 4096
+  211/003: sig 0x00010661, pf_mask 0x04, 2010-10-04, rev 0x0045, size 4096
+  211/004: sig 0x00010661, pf_mask 0x03, 2006-09-11, rev 0x0012, size 4096
+  211/005: sig 0x00010661, pf_mask 0x02, 2010-10-04, rev 0x0042, size 4096
+  211/006: sig 0x00010661, pf_mask 0x01, 2010-10-04, rev 0x0043, size 4096
+microcode bundle 212: /lib/firmware/intel-ucode/06-16-00
+  212/001: sig 0x00010660, pf_mask 0x03, 2006-06-12, rev 0x0004, size 4096
+microcode bundle 213: /lib/firmware/intel-ucode/06-15-00
+  213/001: sig 0x00010650, pf_mask 0x20, 2005-09-18, rev 0x0002, size 2048
+  213/002: sig 0x00010650, pf_mask 0x10, 2005-09-18, rev 0x0002, size 2048
+  213/003: sig 0x00010650, pf_mask 0x02, 2006-05-13, rev 0x0002, size 2048
+  213/004: sig 0x00010650, pf_mask 0x01, 2005-09-18, rev 0x0002, size 2048
+microcode bundle 214: /lib/firmware/intel-ucode/06-03-02
+  214/001: sig 0x00001632, pf_mask 0x00, 1998-06-10, rev 0x0002, size 2048
+microcode bundle 215: /lib/firmware/intel-ucode/0f-06-08
+  215/001: sig 0x00000f68, pf_mask 0x22, 2006-07-14, rev 0x0009, size 2048
+microcode bundle 216: /lib/firmware/intel-ucode/0f-06-06
+  216/001: sig 0x00000f66, pf_mask 0x02, 2006-03-10, rev 0x001b, size 3072
+microcode bundle 217: /lib/firmware/intel-ucode/0f-06-05
+  217/001: sig 0x00000f65, pf_mask 0x04, 2007-05-10, rev 0x000b, size 2048
+  217/002: sig 0x00000f65, pf_mask 0x01, 2006-04-26, rev 0x0008, size 2048
+microcode bundle 218: /lib/firmware/intel-ucode/0f-06-04
+  218/001: sig 0x00000f64, pf_mask 0x34, 2005-12-23, rev 0x0004, size 3072
+  218/002: sig 0x00000f64, pf_mask 0x01, 2005-12-15, rev 0x0002, size 3072
+microcode bundle 219: /lib/firmware/intel-ucode/0f-06-03
+  219/001: sig 0x00000f63, pf_mask 0x01, 2005-10-10, rev 0x0005, size 2048
+microcode bundle 220: /lib/firmware/intel-ucode/0f-06-02
+  220/001: sig 0x00000f62, pf_mask 0x04, 2005-12-15, rev 0x000f, size 3072
+  220/002: sig 0x00000f62, pf_mask 0x01, 2005-07-20, rev 0x0005, size 2048
+microcode bundle 221: /lib/firmware/intel-ucode/0f-06-01
+  221/001: sig 0x00000f61, pf_mask 0x04, 2005-06-10, rev 0x0007, size 2048
+  221/002: sig 0x00000f61, pf_mask 0x01, 2005-06-10, rev 0x0008, size 2048
+microcode bundle 222: /lib/firmware/intel-ucode/0f-06-00
+  222/001: sig 0x00000f60, pf_mask 0x07, 2005-01-24, rev 0x0005, size 2048
+microcode bundle 223: /lib/firmware/intel-ucode/0f-04-0a
+  223/001: sig 0x00000f4a, pf_mask 0x5d, 2005-06-10, rev 0x0002, size 2048
+  223/002: sig 0x00000f4a, pf_mask 0x5c, 2005-12-14, rev 0x0004, size 2048
+microcode bundle 224: /lib/firmware/intel-ucode/0f-04-09
+  224/001: sig 0x00000f49, pf_mask 0xbd, 2005-04-21, rev 0x0003, size 2048
+microcode bundle 225: /lib/firmware/intel-ucode/0f-04-08
+  225/001: sig 0x00000f48, pf_mask 0x5f, 2005-06-30, rev 0x0007, size 3072
+  225/002: sig 0x00000f48, pf_mask 0x02, 2008-01-15, rev 0x000e, size 3072
+  225/003: sig 0x00000f48, pf_mask 0x01, 2006-05-08, rev 0x000c, size 3072
+microcode bundle 226: /lib/firmware/intel-ucode/0f-04-07
+  226/001: sig 0x00000f47, pf_mask 0x9d, 2005-04-21, rev 0x0003, size 3072
+microcode bundle 227: /lib/firmware/intel-ucode/0f-04-06
+  227/001: sig 0x00000f46, pf_mask 0x5d, 2005-04-11, rev 0x0004, size 3072
+microcode bundle 228: /lib/firmware/intel-ucode/0f-04-04
+  228/001: sig 0x00000f44, pf_mask 0x9d, 2005-04-21, rev 0x0006, size 3072
+microcode bundle 229: /lib/firmware/intel-ucode/0f-04-03
+  229/001: sig 0x00000f43, pf_mask 0x9d, 2005-04-21, rev 0x0005, size 2048
+microcode bundle 230: /lib/firmware/intel-ucode/0f-04-02
+  230/001: sig 0x00000f42, pf_mask 0x9d, 2005-04-21, rev 0x0003, size 3072
+microcode bundle 231: /lib/firmware/intel-ucode/0f-04-01
+  231/001: sig 0x00000f41, pf_mask 0xbd, 2005-04-22, rev 0x0017, size 5120
+  231/002: sig 0x00000f41, pf_mask 0x02, 2005-04-21, rev 0x0016, size 5120
+microcode bundle 232: /lib/firmware/intel-ucode/0f-04-00
+  232/001: sig 0x00000f40, pf_mask 0x9d, 2004-03-18, rev 0x0006, size 5120
+microcode bundle 233: /lib/firmware/intel-ucode/0f-03-07
+  233/001: sig 0x00000f37, pf_mask 0x0d, 2003-12-09, rev 0x0002, size 2048
+  233/002: sig 0x00000f37, pf_mask 0x01, 2003-12-18, rev 0x0003, size 4096
+microcode bundle 234: /lib/firmware/intel-ucode/0f-03-06
+  234/001: sig 0x00000f36, pf_mask 0x02, 2004-03-09, rev 0x0007, size 5120
+microcode bundle 235: /lib/firmware/intel-ucode/0f-03-04
+  235/001: sig 0x00000f34, pf_mask 0x9d, 2004-02-10, rev 0x0008, size 5120
+  235/002: sig 0x00000f34, pf_mask 0x1d, 2005-04-21, rev 0x0017, size 7168
+  235/003: sig 0x00000f34, pf_mask 0x02, 2004-06-30, rev 0x0012, size 7168
+microcode bundle 236: /lib/firmware/intel-ucode/0f-03-03
+  236/001: sig 0x00000f33, pf_mask 0x0d, 2005-04-21, rev 0x000c, size 2048
+microcode bundle 237: /lib/firmware/intel-ucode/0f-03-02
+  237/001: sig 0x00000f32, pf_mask 0x0d, 2004-05-11, rev 0x000a, size 2048
+microcode bundle 238: /lib/firmware/intel-ucode/0f-03-01
+  238/001: sig 0x00000f31, pf_mask 0x1d, 2003-07-25, rev 0x0001, size 4096
+  238/002: sig 0x00000f31, pf_mask 0x0d, 2003-10-21, rev 0x000b, size 4096
+microcode bundle 239: /lib/firmware/intel-ucode/0f-03-00
+  239/001: sig 0x00000f30, pf_mask 0x08, 2003-06-24, rev 0x000e, size 3072
+  239/002: sig 0x00000f30, pf_mask 0x04, 2003-08-13, rev 0x0012, size 4096
+  239/003: sig 0x00000f30, pf_mask 0x01, 2003-08-15, rev 0x0013, size 4096
+microcode bundle 240: /lib/firmware/intel-ucode/0f-02-09
+  240/001: sig 0x00000f29, pf_mask 0x08, 2004-08-11, rev 0x002f, size 2048
+  240/002: sig 0x00000f29, pf_mask 0x04, 2004-08-11, rev 0x002e, size 2048
+  240/003: sig 0x00000f29, pf_mask 0x02, 2004-08-11, rev 0x002d, size 2048
+microcode bundle 241: /lib/firmware/intel-ucode/0f-02-07
+  241/001: sig 0x00000f27, pf_mask 0x08, 2003-06-04, rev 0x0039, size 2048
+  241/002: sig 0x00000f27, pf_mask 0x04, 2003-06-04, rev 0x0037, size 2048
+  241/003: sig 0x00000f27, pf_mask 0x02, 2003-06-04, rev 0x0038, size 2048
+microcode bundle 242: /lib/firmware/intel-ucode/0f-02-06
+  242/001: sig 0x00000f26, pf_mask 0x02, 2004-08-05, rev 0x0010, size 2048
+microcode bundle 243: /lib/firmware/intel-ucode/0f-02-05
+  243/001: sig 0x00000f25, pf_mask 0x10, 2004-08-26, rev 0x002c, size 2048
+  243/002: sig 0x00000f25, pf_mask 0x04, 2004-08-11, rev 0x002b, size 2048
+  243/003: sig 0x00000f25, pf_mask 0x02, 2004-08-11, rev 0x002a, size 2048
+  243/004: sig 0x00000f25, pf_mask 0x01, 2004-08-11, rev 0x0029, size 2048
+microcode bundle 244: /lib/firmware/intel-ucode/0f-02-04
+  244/001: sig 0x00000f24, pf_mask 0x10, 2003-06-10, rev 0x0021, size 2048
+  244/002: sig 0x00000f24, pf_mask 0x08, 2003-06-05, rev 0x0020, size 2048
+  244/003: sig 0x00000f24, pf_mask 0x04, 2003-06-05, rev 0x001e, size 2048
+  244/004: sig 0x00000f24, pf_mask 0x02, 2003-06-05, rev 0x001f, size 2048
+microcode bundle 245: /lib/firmware/intel-ucode/0f-02-03
+  245/001: sig 0x00000f23, pf_mask 0x08, 2001-08-17, rev 0x000d, size 2048
+  245/002: sig 0x00000f23, pf_mask 0x04, 2001-07-30, rev 0x0008, size 2048
+  245/003: sig 0x00000f23, pf_mask 0x02, 2001-07-30, rev 0x0009, size 2048
+microcode bundle 246: /lib/firmware/intel-ucode/0f-02-02
+  246/001: sig 0x00000f22, pf_mask 0x02, 2003-07-29, rev 0x0005, size 2048
+microcode bundle 247: /lib/firmware/intel-ucode/0f-02-01
+  247/001: sig 0x00000f21, pf_mask 0x08, 2001-05-29, rev 0x0003, size 2048
+  247/002: sig 0x00000f21, pf_mask 0x04, 2001-05-29, rev 0x0001, size 2048
+  247/003: sig 0x00000f21, pf_mask 0x02, 2001-05-29, rev 0x0002, size 2048
+microcode bundle 248: /lib/firmware/intel-ucode/0f-02-00
+  248/001: sig 0x00000f20, pf_mask 0x04, 2001-04-23, rev 0x0001, size 2048
+microcode bundle 249: /lib/firmware/intel-ucode/0f-01-03
+  249/001: sig 0x00000f13, pf_mask 0x04, 2003-05-08, rev 0x0005, size 2048
+microcode bundle 250: /lib/firmware/intel-ucode/0f-01-02
+  250/001: sig 0x00000f12, pf_mask 0x04, 2003-05-02, rev 0x002e, size 2048
+  250/002: sig 0x00000f12, pf_mask 0x02, 2003-05-02, rev 0x002f, size 2048
+  250/003: sig 0x00000f12, pf_mask 0x01, 2003-05-02, rev 0x002d, size 2048
+microcode bundle 251: /lib/firmware/intel-ucode/0f-01-01
+  251/001: sig 0x00000f11, pf_mask 0x02, 2003-07-29, rev 0x000a, size 2048
+microcode bundle 252: /lib/firmware/intel-ucode/0f-00-0a
+  252/001: sig 0x00000f0a, pf_mask 0x04, 2002-07-16, rev 0x0014, size 2048
+  252/002: sig 0x00000f0a, pf_mask 0x02, 2002-08-21, rev 0x0015, size 2048
+  252/003: sig 0x00000f0a, pf_mask 0x01, 2002-07-16, rev 0x0013, size 2048
+microcode bundle 253: /lib/firmware/intel-ucode/0f-00-09
+  253/001: sig 0x00000f09, pf_mask 0x02, 2001-01-04, rev 0x0008, size 2048
+microcode bundle 254: /lib/firmware/intel-ucode/0f-00-08
+  254/001: sig 0x00000f08, pf_mask 0x02, 2000-11-01, rev 0x0008, size 2048
+microcode bundle 255: /lib/firmware/intel-ucode/0f-00-07
+  255/001: sig 0x00000f07, pf_mask 0x02, 2000-11-15, rev 0x0008, size 2048
+  255/002: sig 0x00000f07, pf_mask 0x01, 2002-07-16, rev 0x0012, size 2048
+microcode bundle 256: /lib/firmware/intel-ucode/0f-00-06
+  256/001: sig 0x00000f06, pf_mask 0x02, 2000-09-11, rev 0x0004, size 2048
+microcode bundle 257: /lib/firmware/intel-ucode/0f-00-05
+  257/001: sig 0x00000f05, pf_mask 0x02, 2000-08-24, rev 0x000c, size 2048
+  257/002: sig 0x00000f05, pf_mask 0x01, 2000-08-24, rev 0x000b, size 2048
+microcode bundle 258: /lib/firmware/intel-ucode/06-0f-0d
+  258/001: sig 0x000006fd, pf_mask 0xa1, 2007-08-13, rev 0x00a3, size 4096
+  258/002: sig 0x000006fd, pf_mask 0x80, 2010-10-02, rev 0x00a4, size 4096
+  258/003: sig 0x000006fd, pf_mask 0x20, 2010-10-02, rev 0x00a4, size 4096
+  258/004: sig 0x000006fd, pf_mask 0x01, 2010-10-02, rev 0x00a4, size 4096
+microcode bundle 259: /lib/firmware/intel-ucode/06-0f-0b
+  259/001: sig 0x000006fb, pf_mask 0x80, 2010-10-03, rev 0x00ba, size 4096
+  259/002: sig 0x000006fb, pf_mask 0x40, 2010-10-03, rev 0x00bc, size 4096
+  259/003: sig 0x000006fb, pf_mask 0x20, 2010-10-03, rev 0x00ba, size 4096
+  259/004: sig 0x000006fb, pf_mask 0x10, 2010-10-03, rev 0x00ba, size 4096
+  259/005: sig 0x000006fb, pf_mask 0x08, 2010-10-03, rev 0x00bb, size 4096
+  259/006: sig 0x000006fb, pf_mask 0x04, 2010-10-03, rev 0x00bc, size 4096
+  259/007: sig 0x000006fb, pf_mask 0x01, 2011-10-04, rev 0x00c1, size 4096
+microcode bundle 260: /lib/firmware/intel-ucode/06-0f-0a
+  260/001: sig 0x000006fa, pf_mask 0x80, 2010-10-02, rev 0x0095, size 4096
+  260/002: sig 0x000006fa, pf_mask 0x08, 2007-03-13, rev 0x0092, size 4096
+  260/003: sig 0x000006fa, pf_mask 0x01, 2007-03-13, rev 0x0092, size 4096
+microcode bundle 261: /lib/firmware/intel-ucode/06-0f-09
+  261/001: sig 0x000006f9, pf_mask 0x80, 2006-09-28, rev 0x0083, size 4096
+  261/002: sig 0x000006f9, pf_mask 0x40, 2006-10-12, rev 0x0084, size 4096
+  261/003: sig 0x000006f9, pf_mask 0x10, 2006-09-03, rev 0x0082, size 4096
+  261/004: sig 0x000006f9, pf_mask 0x08, 2006-10-12, rev 0x0084, size 4096
+  261/005: sig 0x000006f9, pf_mask 0x04, 2006-09-03, rev 0x0082, size 4096
+  261/006: sig 0x000006f9, pf_mask 0x01, 2006-09-03, rev 0x0082, size 4096
+microcode bundle 262: /lib/firmware/intel-ucode/06-0f-07
+  262/001: sig 0x000006f7, pf_mask 0x40, 2010-10-02, rev 0x006b, size 4096
+  262/002: sig 0x000006f7, pf_mask 0x10, 2010-10-02, rev 0x006a, size 4096
+microcode bundle 263: /lib/firmware/intel-ucode/06-0f-06
+  263/001: sig 0x000006f6, pf_mask 0x20, 2010-10-01, rev 0x00d1, size 4096
+  263/002: sig 0x000006f6, pf_mask 0x10, 2006-06-27, rev 0x004a, size 4096
+  263/003: sig 0x000006f6, pf_mask 0x04, 2010-10-01, rev 0x00d2, size 4096
+  263/004: sig 0x000006f6, pf_mask 0x01, 2010-09-30, rev 0x00d0, size 4096
+microcode bundle 264: /lib/firmware/intel-ucode/06-0f-05
+  264/001: sig 0x000006f5, pf_mask 0x80, 2006-07-25, rev 0x0038, size 4096
+  264/002: sig 0x000006f5, pf_mask 0x50, 2006-05-01, rev 0x0033, size 4096
+  264/003: sig 0x000006f5, pf_mask 0x20, 2006-05-23, rev 0x0036, size 4096
+  264/004: sig 0x000006f5, pf_mask 0x08, 2006-07-27, rev 0x0039, size 4096
+  264/005: sig 0x000006f5, pf_mask 0x04, 2006-05-01, rev 0x0033, size 4096
+  264/006: sig 0x000006f5, pf_mask 0x01, 2006-05-01, rev 0x0033, size 4096
+microcode bundle 265: /lib/firmware/intel-ucode/06-0f-04
+  265/001: sig 0x000006f4, pf_mask 0xf5, 2006-04-17, rev 0x0028, size 4096
+microcode bundle 266: /lib/firmware/intel-ucode/06-0f-02
+  266/001: sig 0x000006f2, pf_mask 0x20, 2010-10-02, rev 0x005c, size 4096
+  266/002: sig 0x000006f2, pf_mask 0x01, 2010-10-02, rev 0x005d, size 4096
+microcode bundle 267: /lib/firmware/intel-ucode/06-0f-01
+  267/001: sig 0x000006f1, pf_mask 0x27, 2005-11-29, rev 0x0012, size 4096
+microcode bundle 268: /lib/firmware/intel-ucode/06-0f-00
+  268/001: sig 0x000006f0, pf_mask 0x20, 2005-08-18, rev 0x0005, size 4096
+  268/002: sig 0x000006f0, pf_mask 0x04, 2005-08-18, rev 0x0005, size 4096
+  268/003: sig 0x000006f0, pf_mask 0x02, 2005-08-18, rev 0x0005, size 4096
+  268/004: sig 0x000006f0, pf_mask 0x01, 2005-08-18, rev 0x0005, size 4096
+microcode bundle 269: /lib/firmware/intel-ucode/06-0e-0c
+  269/001: sig 0x000006ec, pf_mask 0x80, 2007-02-08, rev 0x005b, size 4096
+  269/002: sig 0x000006ec, pf_mask 0x40, 2006-06-22, rev 0x0056, size 4096
+  269/003: sig 0x000006ec, pf_mask 0x20, 2006-05-01, rev 0x0054, size 4096
+  269/004: sig 0x000006ec, pf_mask 0x10, 2006-05-01, rev 0x0055, size 4096
+microcode bundle 270: /lib/firmware/intel-ucode/06-0e-08
+  270/001: sig 0x000006e8, pf_mask 0x40, 2006-11-13, rev 0x003f, size 4096
+  270/002: sig 0x000006e8, pf_mask 0x20, 2005-11-15, rev 0x0039, size 4096
+  270/003: sig 0x000006e8, pf_mask 0x10, 2006-02-08, rev 0x003c, size 4096
+  270/004: sig 0x000006e8, pf_mask 0x02, 2005-09-25, rev 0x0033, size 4096
+microcode bundle 271: /lib/firmware/intel-ucode/06-0e-04
+  271/001: sig 0x000006e4, pf_mask 0x20, 2005-08-16, rev 0x0026, size 4096
+  271/002: sig 0x000006e4, pf_mask 0x10, 2005-08-16, rev 0x0026, size 4096
+microcode bundle 272: /lib/firmware/intel-ucode/06-0e-01
+  272/001: sig 0x000006e1, pf_mask 0x20, 2005-04-13, rev 0x000c, size 5120
+  272/002: sig 0x000006e1, pf_mask 0x10, 2005-04-13, rev 0x000c, size 5120
+microcode bundle 273: /lib/firmware/intel-ucode/06-0e-00
+  273/001: sig 0x000006e0, pf_mask 0x20, 2005-02-15, rev 0x0008, size 5120
+  273/002: sig 0x000006e0, pf_mask 0x10, 2005-02-15, rev 0x0008, size 5120
+microcode bundle 274: /lib/firmware/intel-ucode/06-0d-08
+  274/001: sig 0x000006d8, pf_mask 0x20, 2004-07-22, rev 0x0020, size 2048
+  274/002: sig 0x000006d8, pf_mask 0x08, 2006-08-31, rev 0x0021, size 2048
+microcode bundle 275: /lib/firmware/intel-ucode/06-0d-06
+  275/001: sig 0x000006d6, pf_mask 0x20, 2004-10-17, rev 0x0018, size 2048
+microcode bundle 276: /lib/firmware/intel-ucode/06-0d-02
+  276/001: sig 0x000006d2, pf_mask 0x20, 2003-08-14, rev 0x0010, size 2048
+microcode bundle 277: /lib/firmware/intel-ucode/06-0d-01
+  277/001: sig 0x000006d1, pf_mask 0x20, 2003-07-09, rev 0x0009, size 2048
+microcode bundle 278: /lib/firmware/intel-ucode/06-0d-00
+  278/001: sig 0x000006d0, pf_mask 0x20, 2003-05-22, rev 0x0006, size 2048
+microcode bundle 279: /lib/firmware/intel-ucode/06-0b-04
+  279/001: sig 0x000006b4, pf_mask 0x20, 2002-01-11, rev 0x0002, size 2048
+  279/002: sig 0x000006b4, pf_mask 0x10, 2002-01-10, rev 0x0001, size 2048
+microcode bundle 280: /lib/firmware/intel-ucode/06-0b-01
+  280/001: sig 0x000006b1, pf_mask 0x20, 2001-02-20, rev 0x001d, size 2048
+  280/002: sig 0x000006b1, pf_mask 0x10, 2001-02-15, rev 0x001c, size 2048
+microcode bundle 281: /lib/firmware/intel-ucode/06-0b-00
+  281/001: sig 0x000006b0, pf_mask 0x20, 2001-01-29, rev 0x0019, size 2048
+  281/002: sig 0x000006b0, pf_mask 0x10, 2000-11-15, rev 0x0004, size 2048
+  281/003: sig 0x000006b0, pf_mask 0x08, 2001-01-29, rev 0x001a, size 2048
+microcode bundle 282: /lib/firmware/intel-ucode/06-0a-04
+  282/001: sig 0x000006a4, pf_mask 0x04, 2000-06-16, rev 0x0001, size 2048
+microcode bundle 283: /lib/firmware/intel-ucode/06-0a-01
+  283/001: sig 0x000006a1, pf_mask 0x04, 2000-03-06, rev 0x0001, size 2048
+microcode bundle 284: /lib/firmware/intel-ucode/06-0a-00
+  284/001: sig 0x000006a0, pf_mask 0x04, 2000-01-10, rev 0x0003, size 2048
+microcode bundle 285: /lib/firmware/intel-ucode/06-09-06
+  285/001: sig 0x00000696, pf_mask 0x10, 2000-07-07, rev 0x0001, size 2048
+microcode bundle 286: /lib/firmware/intel-ucode/06-09-05
+  286/001: sig 0x00000695, pf_mask 0x80, 2004-11-09, rev 0x0047, size 2048
+  286/002: sig 0x00000695, pf_mask 0x30, 2004-11-09, rev 0x0007, size 2048
+microcode bundle 287: /lib/firmware/intel-ucode/06-09-04
+  287/001: sig 0x00000694, pf_mask 0x20, 2002-09-26, rev 0x0002, size 2048
+microcode bundle 288: /lib/firmware/intel-ucode/06-09-02
+  288/001: sig 0x00000692, pf_mask 0x20, 2002-06-20, rev 0x0001, size 2048
+  288/002: sig 0x00000692, pf_mask 0x10, 2000-03-22, rev 0x0003, size 2048
+microcode bundle 289: /lib/firmware/intel-ucode/06-09-01
+  289/001: sig 0x00000691, pf_mask 0x20, 2002-05-27, rev 0x0001, size 2048
+  289/002: sig 0x00000691, pf_mask 0x01, 2000-02-07, rev 0x0002, size 2048
+microcode bundle 290: /lib/firmware/intel-ucode/06-09-00
+  290/001: sig 0x00000690, pf_mask 0x01, 2000-02-06, rev 0x0004, size 2048
+microcode bundle 291: /lib/firmware/intel-ucode/06-08-0a
+  291/001: sig 0x0000068a, pf_mask 0x80, 2000-12-07, rev 0x0005, size 2048
+  291/002: sig 0x0000068a, pf_mask 0x20, 2000-12-07, rev 0x0004, size 2048
+  291/003: sig 0x0000068a, pf_mask 0x10, 2000-11-02, rev 0x0001, size 2048
+microcode bundle 292: /lib/firmware/intel-ucode/06-08-06
+  292/001: sig 0x00000686, pf_mask 0x80, 2000-05-04, rev 0x000c, size 2048
+  292/002: sig 0x00000686, pf_mask 0x20, 2000-05-04, rev 0x000b, size 2048
+  292/003: sig 0x00000686, pf_mask 0x10, 2000-05-05, rev 0x0008, size 2048
+  292/004: sig 0x00000686, pf_mask 0x08, 2000-05-04, rev 0x0009, size 2048
+  292/005: sig 0x00000686, pf_mask 0x04, 2000-05-04, rev 0x0002, size 2048
+  292/006: sig 0x00000686, pf_mask 0x02, 2000-05-04, rev 0x000a, size 2048
+  292/007: sig 0x00000686, pf_mask 0x01, 2000-05-05, rev 0x0007, size 2048
+microcode bundle 293: /lib/firmware/intel-ucode/06-08-03
+  293/001: sig 0x00000683, pf_mask 0x20, 1999-10-15, rev 0x0007, size 2048
+  293/002: sig 0x00000683, pf_mask 0x10, 2001-02-06, rev 0x0014, size 2048
+  293/003: sig 0x00000683, pf_mask 0x08, 1999-10-15, rev 0x0008, size 2048
+  293/004: sig 0x00000683, pf_mask 0x04, 2001-02-06, rev 0x0010, size 2048
+  293/005: sig 0x00000683, pf_mask 0x01, 2001-02-06, rev 0x0013, size 2048
+microcode bundle 294: /lib/firmware/intel-ucode/06-08-01
+  294/001: sig 0x00000681, pf_mask 0x20, 1999-09-21, rev 0x000e, size 2048
+  294/002: sig 0x00000681, pf_mask 0x10, 1999-12-09, rev 0x0014, size 2048
+  294/003: sig 0x00000681, pf_mask 0x08, 1999-09-21, rev 0x000f, size 2048
+  294/004: sig 0x00000681, pf_mask 0x04, 1999-09-21, rev 0x0010, size 2048
+  294/005: sig 0x00000681, pf_mask 0x01, 1999-09-21, rev 0x000d, size 2048
+microcode bundle 295: /lib/firmware/intel-ucode/06-08-00
+  295/001: sig 0x00000680, pf_mask 0x20, 1999-06-10, rev 0x0015, size 2048
+  295/002: sig 0x00000680, pf_mask 0x08, 1999-06-10, rev 0x0016, size 2048
+  295/003: sig 0x00000680, pf_mask 0x04, 1999-06-10, rev 0x0017, size 2048
+  295/004: sig 0x00000680, pf_mask 0x01, 1999-06-10, rev 0x0014, size 2048
+microcode bundle 296: /lib/firmware/intel-ucode/06-07-03
+  296/001: sig 0x00000673, pf_mask 0x04, 1999-09-10, rev 0x002e, size 2048
+  296/002: sig 0x00000673, pf_mask 0x01, 1999-09-10, rev 0x000e, size 2048
+microcode bundle 297: /lib/firmware/intel-ucode/06-07-02
+  297/001: sig 0x00000672, pf_mask 0x04, 1999-09-22, rev 0x0038, size 2048
+  297/002: sig 0x00000672, pf_mask 0x01, 1999-09-22, rev 0x0010, size 2048
+microcode bundle 298: /lib/firmware/intel-ucode/06-07-01
+  298/001: sig 0x00000671, pf_mask 0x04, 1998-08-11, rev 0x0014, size 2048
+  298/002: sig 0x00000671, pf_mask 0x01, 1998-08-11, rev 0x0003, size 2048
+microcode bundle 299: /lib/firmware/intel-ucode/06-07-00
+  299/001: sig 0x00000670, pf_mask 0x02, 1998-06-02, rev 0x0007, size 2048
+  299/002: sig 0x00000670, pf_mask 0x01, 1998-05-28, rev 0x0006, size 2048
+microcode bundle 300: /lib/firmware/intel-ucode/06-06-0d
+  300/001: sig 0x0000066d, pf_mask 0x20, 1999-05-05, rev 0x0007, size 2048
+  300/002: sig 0x0000066d, pf_mask 0x08, 1999-03-12, rev 0x0006, size 2048
+  300/003: sig 0x0000066d, pf_mask 0x02, 1999-03-12, rev 0x0005, size 2048
+microcode bundle 301: /lib/firmware/intel-ucode/06-06-0a
+  301/001: sig 0x0000066a, pf_mask 0x20, 1999-05-05, rev 0x000b, size 2048
+  301/002: sig 0x0000066a, pf_mask 0x08, 1999-05-05, rev 0x000d, size 2048
+  301/003: sig 0x0000066a, pf_mask 0x02, 1999-05-05, rev 0x000c, size 2048
+microcode bundle 302: /lib/firmware/intel-ucode/06-06-05
+  302/001: sig 0x00000665, pf_mask 0x10, 1999-05-05, rev 0x0003, size 2048
+microcode bundle 303: /lib/firmware/intel-ucode/06-06-00
+  303/001: sig 0x00000660, pf_mask 0x01, 1999-05-05, rev 0x000a, size 2048
+microcode bundle 304: /lib/firmware/intel-ucode/06-05-03
+  304/001: sig 0x00000653, pf_mask 0x08, 1999-05-18, rev 0x000d, size 2048
+  304/002: sig 0x00000653, pf_mask 0x04, 1999-05-20, rev 0x000b, size 2048
+  304/003: sig 0x00000653, pf_mask 0x02, 1999-05-18, rev 0x000c, size 2048
+  304/004: sig 0x00000653, pf_mask 0x01, 1999-06-28, rev 0x0010, size 2048
+microcode bundle 305: /lib/firmware/intel-ucode/06-05-02
+  305/001: sig 0x00000652, pf_mask 0x08, 1999-05-18, rev 0x002d, size 2048
+  305/002: sig 0x00000652, pf_mask 0x04, 1999-05-12, rev 0x002b, size 2048
+  305/003: sig 0x00000652, pf_mask 0x02, 1999-05-17, rev 0x002c, size 2048
+  305/004: sig 0x00000652, pf_mask 0x01, 1999-05-12, rev 0x002a, size 2048
+microcode bundle 306: /lib/firmware/intel-ucode/06-05-01
+  306/001: sig 0x00000651, pf_mask 0x08, 1999-05-25, rev 0x0042, size 2048
+  306/002: sig 0x00000651, pf_mask 0x02, 1999-05-25, rev 0x0041, size 2048
+  306/003: sig 0x00000651, pf_mask 0x01, 1999-05-25, rev 0x0040, size 2048
+microcode bundle 307: /lib/firmware/intel-ucode/06-05-00
+  307/001: sig 0x00000650, pf_mask 0x80, 1998-02-11, rev 0x002f, size 2048
+  307/002: sig 0x00000650, pf_mask 0x20, 1998-02-11, rev 0x002e, size 2048
+  307/003: sig 0x00000650, pf_mask 0x08, 1999-05-25, rev 0x0045, size 2048
+  307/004: sig 0x00000650, pf_mask 0x04, 1997-12-12, rev 0x0019, size 2048
+  307/005: sig 0x00000650, pf_mask 0x03, 1998-01-16, rev 0x0024, size 2048
+  307/006: sig 0x00000650, pf_mask 0x02, 1999-05-25, rev 0x0044, size 2048
+  307/007: sig 0x00000650, pf_mask 0x01, 1999-05-25, rev 0x0040, size 2048
+microcode bundle 308: /lib/firmware/intel-ucode/06-03-04
+  308/001: sig 0x00000634, pf_mask 0x00, 1998-09-23, rev 0x0037, size 2048
+microcode bundle 309: /lib/firmware/intel-ucode/06-03-03
+  309/001: sig 0x00000633, pf_mask 0x00, 1998-09-23, rev 0x0036, size 2048
+microcode bundle 310: /lib/firmware/intel-ucode/06-03-00
+  310/001: sig 0x00000630, pf_mask 0x00, 1996-08-27, rev 0x0013, size 2048
+microcode bundle 311: /lib/firmware/intel-ucode/06-01-09
+  311/001: sig 0x00000619, pf_mask 0x00, 1998-02-18, rev 0x00d2, size 2048
+microcode bundle 312: /lib/firmware/intel-ucode/06-01-07
+  312/001: sig 0x00000617, pf_mask 0x00, 1996-12-10, rev 0x00c6, size 2048
+microcode bundle 313: /lib/firmware/intel-ucode/06-01-06
+  313/001: sig 0x00000616, pf_mask 0x00, 1996-12-10, rev 0x00c6, size 2048
+microcode bundle 314: /lib/firmware/intel-ucode/06-01-02
+  314/001: sig 0x00000612, pf_mask 0x00, 1996-12-10, rev 0x00c6, size 2048
+microcode bundle 315: /lib/firmware/intel-ucode/06-01-01
+  315/001: sig 0x00000611, pf_mask 0x00, 1996-12-18, rev 0x0b27, size 2048
+selected microcodes:
+  315/001: sig 0x00000611, pf_mask 0x00, 1996-12-18, rev 0x0b27, size 2048
+  314/001: sig 0x00000612, pf_mask 0x00, 1996-12-10, rev 0x00c6, size 2048
+  313/001: sig 0x00000616, pf_mask 0x00, 1996-12-10, rev 0x00c6, size 2048
+  312/001: sig 0x00000617, pf_mask 0x00, 1996-12-10, rev 0x00c6, size 2048
+  311/001: sig 0x00000619, pf_mask 0x00, 1998-02-18, rev 0x00d2, size 2048
+  310/001: sig 0x00000630, pf_mask 0x00, 1996-08-27, rev 0x0013, size 2048
+  309/001: sig 0x00000633, pf_mask 0x00, 1998-09-23, rev 0x0036, size 2048
+  308/001: sig 0x00000634, pf_mask 0x00, 1998-09-23, rev 0x0037, size 2048
+  307/001: sig 0x00000650, pf_mask 0x80, 1998-02-11, rev 0x002f, size 2048
+  307/002: sig 0x00000650, pf_mask 0x20, 1998-02-11, rev 0x002e, size 2048
+  307/003: sig 0x00000650, pf_mask 0x08, 1999-05-25, rev 0x0045, size 2048
+  307/004: sig 0x00000650, pf_mask 0x04, 1997-12-12, rev 0x0019, size 2048
+  307/005: sig 0x00000650, pf_mask 0x03, 1998-01-16, rev 0x0024, size 2048
+  307/006: sig 0x00000650, pf_mask 0x02, 1999-05-25, rev 0x0044, size 2048
+  307/007: sig 0x00000650, pf_mask 0x01, 1999-05-25, rev 0x0040, size 2048
+  306/001: sig 0x00000651, pf_mask 0x08, 1999-05-25, rev 0x0042, size 2048
+  306/002: sig 0x00000651, pf_mask 0x02, 1999-05-25, rev 0x0041, size 2048
+  306/003: sig 0x00000651, pf_mask 0x01, 1999-05-25, rev 0x0040, size 2048
+  305/001: sig 0x00000652, pf_mask 0x08, 1999-05-18, rev 0x002d, size 2048
+  305/002: sig 0x00000652, pf_mask 0x04, 1999-05-12, rev 0x002b, size 2048
+  305/003: sig 0x00000652, pf_mask 0x02, 1999-05-17, rev 0x002c, size 2048
+  305/004: sig 0x00000652, pf_mask 0x01, 1999-05-12, rev 0x002a, size 2048
+  304/001: sig 0x00000653, pf_mask 0x08, 1999-05-18, rev 0x000d, size 2048
+  304/002: sig 0x00000653, pf_mask 0x04, 1999-05-20, rev 0x000b, size 2048
+  304/003: sig 0x00000653, pf_mask 0x02, 1999-05-18, rev 0x000c, size 2048
+  304/004: sig 0x00000653, pf_mask 0x01, 1999-06-28, rev 0x0010, size 2048
+  303/001: sig 0x00000660, pf_mask 0x01, 1999-05-05, rev 0x000a, size 2048
+  302/001: sig 0x00000665, pf_mask 0x10, 1999-05-05, rev 0x0003, size 2048
+  301/001: sig 0x0000066a, pf_mask 0x20, 1999-05-05, rev 0x000b, size 2048
+  301/002: sig 0x0000066a, pf_mask 0x08, 1999-05-05, rev 0x000d, size 2048
+  301/003: sig 0x0000066a, pf_mask 0x02, 1999-05-05, rev 0x000c, size 2048
+  300/001: sig 0x0000066d, pf_mask 0x20, 1999-05-05, rev 0x0007, size 2048
+  300/002: sig 0x0000066d, pf_mask 0x08, 1999-03-12, rev 0x0006, size 2048
+  300/003: sig 0x0000066d, pf_mask 0x02, 1999-03-12, rev 0x0005, size 2048
+  299/001: sig 0x00000670, pf_mask 0x02, 1998-06-02, rev 0x0007, size 2048
+  299/002: sig 0x00000670, pf_mask 0x01, 1998-05-28, rev 0x0006, size 2048
+  298/001: sig 0x00000671, pf_mask 0x04, 1998-08-11, rev 0x0014, size 2048
+  298/002: sig 0x00000671, pf_mask 0x01, 1998-08-11, rev 0x0003, size 2048
+  297/001: sig 0x00000672, pf_mask 0x04, 1999-09-22, rev 0x0038, size 2048
+  297/002: sig 0x00000672, pf_mask 0x01, 1999-09-22, rev 0x0010, size 2048
+  296/001: sig 0x00000673, pf_mask 0x04, 1999-09-10, rev 0x002e, size 2048
+  296/002: sig 0x00000673, pf_mask 0x01, 1999-09-10, rev 0x000e, size 2048
+  295/001: sig 0x00000680, pf_mask 0x20, 1999-06-10, rev 0x0015, size 2048
+  295/002: sig 0x00000680, pf_mask 0x08, 1999-06-10, rev 0x0016, size 2048
+  295/003: sig 0x00000680, pf_mask 0x04, 1999-06-10, rev 0x0017, size 2048
+  295/004: sig 0x00000680, pf_mask 0x01, 1999-06-10, rev 0x0014, size 2048
+  294/001: sig 0x00000681, pf_mask 0x20, 1999-09-21, rev 0x000e, size 2048
+  294/002: sig 0x00000681, pf_mask 0x10, 1999-12-09, rev 0x0014, size 2048
+  294/003: sig 0x00000681, pf_mask 0x08, 1999-09-21, rev 0x000f, size 2048
+  294/004: sig 0x00000681, pf_mask 0x04, 1999-09-21, rev 0x0010, size 2048
+  294/005: sig 0x00000681, pf_mask 0x01, 1999-09-21, rev 0x000d, size 2048
+  293/001: sig 0x00000683, pf_mask 0x20, 1999-10-15, rev 0x0007, size 2048
+  293/002: sig 0x00000683, pf_mask 0x10, 2001-02-06, rev 0x0014, size 2048
+  293/003: sig 0x00000683, pf_mask 0x08, 1999-10-15, rev 0x0008, size 2048
+  293/004: sig 0x00000683, pf_mask 0x04, 2001-02-06, rev 0x0010, size 2048
+  293/005: sig 0x00000683, pf_mask 0x01, 2001-02-06, rev 0x0013, size 2048
+  292/001: sig 0x00000686, pf_mask 0x80, 2000-05-04, rev 0x000c, size 2048
+  292/002: sig 0x00000686, pf_mask 0x20, 2000-05-04, rev 0x000b, size 2048
+  292/003: sig 0x00000686, pf_mask 0x10, 2000-05-05, rev 0x0008, size 2048
+  292/004: sig 0x00000686, pf_mask 0x08, 2000-05-04, rev 0x0009, size 2048
+  292/005: sig 0x00000686, pf_mask 0x04, 2000-05-04, rev 0x0002, size 2048
+  292/006: sig 0x00000686, pf_mask 0x02, 2000-05-04, rev 0x000a, size 2048
+  292/007: sig 0x00000686, pf_mask 0x01, 2000-05-05, rev 0x0007, size 2048
+  291/001: sig 0x0000068a, pf_mask 0x80, 2000-12-07, rev 0x0005, size 2048
+  291/002: sig 0x0000068a, pf_mask 0x20, 2000-12-07, rev 0x0004, size 2048
+  291/003: sig 0x0000068a, pf_mask 0x10, 2000-11-02, rev 0x0001, size 2048
+  290/001: sig 0x00000690, pf_mask 0x01, 2000-02-06, rev 0x0004, size 2048
+  289/001: sig 0x00000691, pf_mask 0x20, 2002-05-27, rev 0x0001, size 2048
+  289/002: sig 0x00000691, pf_mask 0x01, 2000-02-07, rev 0x0002, size 2048
+  288/001: sig 0x00000692, pf_mask 0x20, 2002-06-20, rev 0x0001, size 2048
+  288/002: sig 0x00000692, pf_mask 0x10, 2000-03-22, rev 0x0003, size 2048
+  287/001: sig 0x00000694, pf_mask 0x20, 2002-09-26, rev 0x0002, size 2048
+  286/001: sig 0x00000695, pf_mask 0x80, 2004-11-09, rev 0x0047, size 2048
+  286/002: sig 0x00000695, pf_mask 0x30, 2004-11-09, rev 0x0007, size 2048
+  285/001: sig 0x00000696, pf_mask 0x10, 2000-07-07, rev 0x0001, size 2048
+  284/001: sig 0x000006a0, pf_mask 0x04, 2000-01-10, rev 0x0003, size 2048
+  283/001: sig 0x000006a1, pf_mask 0x04, 2000-03-06, rev 0x0001, size 2048
+  282/001: sig 0x000006a4, pf_mask 0x04, 2000-06-16, rev 0x0001, size 2048
+  281/001: sig 0x000006b0, pf_mask 0x20, 2001-01-29, rev 0x0019, size 2048
+  281/002: sig 0x000006b0, pf_mask 0x10, 2000-11-15, rev 0x0004, size 2048
+  281/003: sig 0x000006b0, pf_mask 0x08, 2001-01-29, rev 0x001a, size 2048
+  280/001: sig 0x000006b1, pf_mask 0x20, 2001-02-20, rev 0x001d, size 2048
+  280/002: sig 0x000006b1, pf_mask 0x10, 2001-02-15, rev 0x001c, size 2048
+  279/001: sig 0x000006b4, pf_mask 0x20, 2002-01-11, rev 0x0002, size 2048
+  279/002: sig 0x000006b4, pf_mask 0x10, 2002-01-10, rev 0x0001, size 2048
+  278/001: sig 0x000006d0, pf_mask 0x20, 2003-05-22, rev 0x0006, size 2048
+  277/001: sig 0x000006d1, pf_mask 0x20, 2003-07-09, rev 0x0009, size 2048
+  276/001: sig 0x000006d2, pf_mask 0x20, 2003-08-14, rev 0x0010, size 2048
+  275/001: sig 0x000006d6, pf_mask 0x20, 2004-10-17, rev 0x0018, size 2048
+  274/001: sig 0x000006d8, pf_mask 0x20, 2004-07-22, rev 0x0020, size 2048
+  274/002: sig 0x000006d8, pf_mask 0x08, 2006-08-31, rev 0x0021, size 2048
+  273/001: sig 0x000006e0, pf_mask 0x20, 2005-02-15, rev 0x0008, size 5120
+  273/002: sig 0x000006e0, pf_mask 0x10, 2005-02-15, rev 0x0008, size 5120
+  272/001: sig 0x000006e1, pf_mask 0x20, 2005-04-13, rev 0x000c, size 5120
+  272/002: sig 0x000006e1, pf_mask 0x10, 2005-04-13, rev 0x000c, size 5120
+  271/001: sig 0x000006e4, pf_mask 0x20, 2005-08-16, rev 0x0026, size 4096
+  271/002: sig 0x000006e4, pf_mask 0x10, 2005-08-16, rev 0x0026, size 4096
+  270/001: sig 0x000006e8, pf_mask 0x40, 2006-11-13, rev 0x003f, size 4096
+  270/002: sig 0x000006e8, pf_mask 0x20, 2005-11-15, rev 0x0039, size 4096
+  270/003: sig 0x000006e8, pf_mask 0x10, 2006-02-08, rev 0x003c, size 4096
+  270/004: sig 0x000006e8, pf_mask 0x02, 2005-09-25, rev 0x0033, size 4096
+  269/001: sig 0x000006ec, pf_mask 0x80, 2007-02-08, rev 0x005b, size 4096
+  269/002: sig 0x000006ec, pf_mask 0x40, 2006-06-22, rev 0x0056, size 4096
+  269/003: sig 0x000006ec, pf_mask 0x20, 2006-05-01, rev 0x0054, size 4096
+  269/004: sig 0x000006ec, pf_mask 0x10, 2006-05-01, rev 0x0055, size 4096
+  268/001: sig 0x000006f0, pf_mask 0x20, 2005-08-18, rev 0x0005, size 4096
+  268/002: sig 0x000006f0, pf_mask 0x04, 2005-08-18, rev 0x0005, size 4096
+  268/003: sig 0x000006f0, pf_mask 0x02, 2005-08-18, rev 0x0005, size 4096
+  268/004: sig 0x000006f0, pf_mask 0x01, 2005-08-18, rev 0x0005, size 4096
+  267/001: sig 0x000006f1, pf_mask 0x27, 2005-11-29, rev 0x0012, size 4096
+  266/001: sig 0x000006f2, pf_mask 0x20, 2010-10-02, rev 0x005c, size 4096
+  266/002: sig 0x000006f2, pf_mask 0x01, 2010-10-02, rev 0x005d, size 4096
+  265/001: sig 0x000006f4, pf_mask 0xf5, 2006-04-17, rev 0x0028, size 4096
+  264/001: sig 0x000006f5, pf_mask 0x80, 2006-07-25, rev 0x0038, size 4096
+  264/002: sig 0x000006f5, pf_mask 0x50, 2006-05-01, rev 0x0033, size 4096
+  264/003: sig 0x000006f5, pf_mask 0x20, 2006-05-23, rev 0x0036, size 4096
+  264/004: sig 0x000006f5, pf_mask 0x08, 2006-07-27, rev 0x0039, size 4096
+  264/005: sig 0x000006f5, pf_mask 0x04, 2006-05-01, rev 0x0033, size 4096
+  264/006: sig 0x000006f5, pf_mask 0x01, 2006-05-01, rev 0x0033, size 4096
+  263/001: sig 0x000006f6, pf_mask 0x20, 2010-10-01, rev 0x00d1, size 4096
+  263/002: sig 0x000006f6, pf_mask 0x10, 2006-06-27, rev 0x004a, size 4096
+  263/003: sig 0x000006f6, pf_mask 0x04, 2010-10-01, rev 0x00d2, size 4096
+  263/004: sig 0x000006f6, pf_mask 0x01, 2010-09-30, rev 0x00d0, size 4096
+  262/001: sig 0x000006f7, pf_mask 0x40, 2010-10-02, rev 0x006b, size 4096
+  262/002: sig 0x000006f7, pf_mask 0x10, 2010-10-02, rev 0x006a, size 4096
+  261/001: sig 0x000006f9, pf_mask 0x80, 2006-09-28, rev 0x0083, size 4096
+  261/002: sig 0x000006f9, pf_mask 0x40, 2006-10-12, rev 0x0084, size 4096
+  261/003: sig 0x000006f9, pf_mask 0x10, 2006-09-03, rev 0x0082, size 4096
+  261/004: sig 0x000006f9, pf_mask 0x08, 2006-10-12, rev 0x0084, size 4096
+  261/005: sig 0x000006f9, pf_mask 0x04, 2006-09-03, rev 0x0082, size 4096
+  261/006: sig 0x000006f9, pf_mask 0x01, 2006-09-03, rev 0x0082, size 4096
+  260/001: sig 0x000006fa, pf_mask 0x80, 2010-10-02, rev 0x0095, size 4096
+  260/002: sig 0x000006fa, pf_mask 0x08, 2007-03-13, rev 0x0092, size 4096
+  260/003: sig 0x000006fa, pf_mask 0x01, 2007-03-13, rev 0x0092, size 4096
+  259/001: sig 0x000006fb, pf_mask 0x80, 2010-10-03, rev 0x00ba, size 4096
+  259/002: sig 0x000006fb, pf_mask 0x40, 2010-10-03, rev 0x00bc, size 4096
+  259/003: sig 0x000006fb, pf_mask 0x20, 2010-10-03, rev 0x00ba, size 4096
+  259/004: sig 0x000006fb, pf_mask 0x10, 2010-10-03, rev 0x00ba, size 4096
+  259/005: sig 0x000006fb, pf_mask 0x08, 2010-10-03, rev 0x00bb, size 4096
+  259/006: sig 0x000006fb, pf_mask 0x04, 2010-10-03, rev 0x00bc, size 4096
+  259/007: sig 0x000006fb, pf_mask 0x01, 2011-10-04, rev 0x00c1, size 4096
+  258/001: sig 0x000006fd, pf_mask 0xa1, 2007-08-13, rev 0x00a3, size 4096
+  258/002: sig 0x000006fd, pf_mask 0x80, 2010-10-02, rev 0x00a4, size 4096
+  258/003: sig 0x000006fd, pf_mask 0x20, 2010-10-02, rev 0x00a4, size 4096
+  258/004: sig 0x000006fd, pf_mask 0x01, 2010-10-02, rev 0x00a4, size 4096
+  257/001: sig 0x00000f05, pf_mask 0x02, 2000-08-24, rev 0x000c, size 2048
+  257/002: sig 0x00000f05, pf_mask 0x01, 2000-08-24, rev 0x000b, size 2048
+  256/001: sig 0x00000f06, pf_mask 0x02, 2000-09-11, rev 0x0004, size 2048
+  255/001: sig 0x00000f07, pf_mask 0x02, 2000-11-15, rev 0x0008, size 2048
+  255/002: sig 0x00000f07, pf_mask 0x01, 2002-07-16, rev 0x0012, size 2048
+  254/001: sig 0x00000f08, pf_mask 0x02, 2000-11-01, rev 0x0008, size 2048
+  253/001: sig 0x00000f09, pf_mask 0x02, 2001-01-04, rev 0x0008, size 2048
+  252/001: sig 0x00000f0a, pf_mask 0x04, 2002-07-16, rev 0x0014, size 2048
+  252/002: sig 0x00000f0a, pf_mask 0x02, 2002-08-21, rev 0x0015, size 2048
+  252/003: sig 0x00000f0a, pf_mask 0x01, 2002-07-16, rev 0x0013, size 2048
+  251/001: sig 0x00000f11, pf_mask 0x02, 2003-07-29, rev 0x000a, size 2048
+  250/001: sig 0x00000f12, pf_mask 0x04, 2003-05-02, rev 0x002e, size 2048
+  250/002: sig 0x00000f12, pf_mask 0x02, 2003-05-02, rev 0x002f, size 2048
+  250/003: sig 0x00000f12, pf_mask 0x01, 2003-05-02, rev 0x002d, size 2048
+  249/001: sig 0x00000f13, pf_mask 0x04, 2003-05-08, rev 0x0005, size 2048
+  248/001: sig 0x00000f20, pf_mask 0x04, 2001-04-23, rev 0x0001, size 2048
+  247/001: sig 0x00000f21, pf_mask 0x08, 2001-05-29, rev 0x0003, size 2048
+  247/002: sig 0x00000f21, pf_mask 0x04, 2001-05-29, rev 0x0001, size 2048
+  247/003: sig 0x00000f21, pf_mask 0x02, 2001-05-29, rev 0x0002, size 2048
+  246/001: sig 0x00000f22, pf_mask 0x02, 2003-07-29, rev 0x0005, size 2048
+  245/001: sig 0x00000f23, pf_mask 0x08, 2001-08-17, rev 0x000d, size 2048
+  245/002: sig 0x00000f23, pf_mask 0x04, 2001-07-30, rev 0x0008, size 2048
+  245/003: sig 0x00000f23, pf_mask 0x02, 2001-07-30, rev 0x0009, size 2048
+  244/001: sig 0x00000f24, pf_mask 0x10, 2003-06-10, rev 0x0021, size 2048
+  244/002: sig 0x00000f24, pf_mask 0x08, 2003-06-05, rev 0x0020, size 2048
+  244/003: sig 0x00000f24, pf_mask 0x04, 2003-06-05, rev 0x001e, size 2048
+  244/004: sig 0x00000f24, pf_mask 0x02, 2003-06-05, rev 0x001f, size 2048
+  243/001: sig 0x00000f25, pf_mask 0x10, 2004-08-26, rev 0x002c, size 2048
+  243/002: sig 0x00000f25, pf_mask 0x04, 2004-08-11, rev 0x002b, size 2048
+  243/003: sig 0x00000f25, pf_mask 0x02, 2004-08-11, rev 0x002a, size 2048
+  243/004: sig 0x00000f25, pf_mask 0x01, 2004-08-11, rev 0x0029, size 2048
+  242/001: sig 0x00000f26, pf_mask 0x02, 2004-08-05, rev 0x0010, size 2048
+  241/001: sig 0x00000f27, pf_mask 0x08, 2003-06-04, rev 0x0039, size 2048
+  241/002: sig 0x00000f27, pf_mask 0x04, 2003-06-04, rev 0x0037, size 2048
+  241/003: sig 0x00000f27, pf_mask 0x02, 2003-06-04, rev 0x0038, size 2048
+  240/001: sig 0x00000f29, pf_mask 0x08, 2004-08-11, rev 0x002f, size 2048
+  240/002: sig 0x00000f29, pf_mask 0x04, 2004-08-11, rev 0x002e, size 2048
+  240/003: sig 0x00000f29, pf_mask 0x02, 2004-08-11, rev 0x002d, size 2048
+  239/001: sig 0x00000f30, pf_mask 0x08, 2003-06-24, rev 0x000e, size 3072
+  239/002: sig 0x00000f30, pf_mask 0x04, 2003-08-13, rev 0x0012, size 4096
+  239/003: sig 0x00000f30, pf_mask 0x01, 2003-08-15, rev 0x0013, size 4096
+  238/001: sig 0x00000f31, pf_mask 0x1d, 2003-07-25, rev 0x0001, size 4096
+  238/002: sig 0x00000f31, pf_mask 0x0d, 2003-10-21, rev 0x000b, size 4096
+  237/001: sig 0x00000f32, pf_mask 0x0d, 2004-05-11, rev 0x000a, size 2048
+  236/001: sig 0x00000f33, pf_mask 0x0d, 2005-04-21, rev 0x000c, size 2048
+  235/001: sig 0x00000f34, pf_mask 0x9d, 2004-02-10, rev 0x0008, size 5120
+  235/002: sig 0x00000f34, pf_mask 0x1d, 2005-04-21, rev 0x0017, size 7168
+  235/003: sig 0x00000f34, pf_mask 0x02, 2004-06-30, rev 0x0012, size 7168
+  234/001: sig 0x00000f36, pf_mask 0x02, 2004-03-09, rev 0x0007, size 5120
+  233/001: sig 0x00000f37, pf_mask 0x0d, 2003-12-09, rev 0x0002, size 2048
+  233/002: sig 0x00000f37, pf_mask 0x01, 2003-12-18, rev 0x0003, size 4096
+  232/001: sig 0x00000f40, pf_mask 0x9d, 2004-03-18, rev 0x0006, size 5120
+  231/001: sig 0x00000f41, pf_mask 0xbd, 2005-04-22, rev 0x0017, size 5120
+  231/002: sig 0x00000f41, pf_mask 0x02, 2005-04-21, rev 0x0016, size 5120
+  230/001: sig 0x00000f42, pf_mask 0x9d, 2005-04-21, rev 0x0003, size 3072
+  229/001: sig 0x00000f43, pf_mask 0x9d, 2005-04-21, rev 0x0005, size 2048
+  228/001: sig 0x00000f44, pf_mask 0x9d, 2005-04-21, rev 0x0006, size 3072
+  227/001: sig 0x00000f46, pf_mask 0x5d, 2005-04-11, rev 0x0004, size 3072
+  226/001: sig 0x00000f47, pf_mask 0x9d, 2005-04-21, rev 0x0003, size 3072
+  225/001: sig 0x00000f48, pf_mask 0x5f, 2005-06-30, rev 0x0007, size 3072
+  225/002: sig 0x00000f48, pf_mask 0x02, 2008-01-15, rev 0x000e, size 3072
+  225/003: sig 0x00000f48, pf_mask 0x01, 2006-05-08, rev 0x000c, size 3072
+  224/001: sig 0x00000f49, pf_mask 0xbd, 2005-04-21, rev 0x0003, size 2048
+  223/001: sig 0x00000f4a, pf_mask 0x5d, 2005-06-10, rev 0x0002, size 2048
+  223/002: sig 0x00000f4a, pf_mask 0x5c, 2005-12-14, rev 0x0004, size 2048
+  222/001: sig 0x00000f60, pf_mask 0x07, 2005-01-24, rev 0x0005, size 2048
+  221/001: sig 0x00000f61, pf_mask 0x04, 2005-06-10, rev 0x0007, size 2048
+  221/002: sig 0x00000f61, pf_mask 0x01, 2005-06-10, rev 0x0008, size 2048
+  220/001: sig 0x00000f62, pf_mask 0x04, 2005-12-15, rev 0x000f, size 3072
+  220/002: sig 0x00000f62, pf_mask 0x01, 2005-07-20, rev 0x0005, size 2048
+  219/001: sig 0x00000f63, pf_mask 0x01, 2005-10-10, rev 0x0005, size 2048
+  218/001: sig 0x00000f64, pf_mask 0x34, 2005-12-23, rev 0x0004, size 3072
+  218/002: sig 0x00000f64, pf_mask 0x01, 2005-12-15, rev 0x0002, size 3072
+  217/001: sig 0x00000f65, pf_mask 0x04, 2007-05-10, rev 0x000b, size 2048
+  217/002: sig 0x00000f65, pf_mask 0x01, 2006-04-26, rev 0x0008, size 2048
+  216/001: sig 0x00000f66, pf_mask 0x02, 2006-03-10, rev 0x001b, size 3072
+  215/001: sig 0x00000f68, pf_mask 0x22, 2006-07-14, rev 0x0009, size 2048
+  214/001: sig 0x00001632, pf_mask 0x00, 1998-06-10, rev 0x0002, size 2048
+  213/001: sig 0x00010650, pf_mask 0x20, 2005-09-18, rev 0x0002, size 2048
+  213/002: sig 0x00010650, pf_mask 0x10, 2005-09-18, rev 0x0002, size 2048
+  213/003: sig 0x00010650, pf_mask 0x02, 2006-05-13, rev 0x0002, size 2048
+  213/004: sig 0x00010650, pf_mask 0x01, 2005-09-18, rev 0x0002, size 2048
+  212/001: sig 0x00010660, pf_mask 0x03, 2006-06-12, rev 0x0004, size 4096
+  211/001: sig 0x00010661, pf_mask 0x80, 2010-10-04, rev 0x0044, size 4096
+  211/002: sig 0x00010661, pf_mask 0x08, 2007-03-16, rev 0x0035, size 4096
+  211/003: sig 0x00010661, pf_mask 0x04, 2010-10-04, rev 0x0045, size 4096
+  211/004: sig 0x00010661, pf_mask 0x03, 2006-09-11, rev 0x0012, size 4096
+  211/005: sig 0x00010661, pf_mask 0x02, 2010-10-04, rev 0x0042, size 4096
+  211/006: sig 0x00010661, pf_mask 0x01, 2010-10-04, rev 0x0043, size 4096
+  210/001: sig 0x00010670, pf_mask 0x80, 2007-02-09, rev 0x0005, size 4096
+  209/001: sig 0x00010671, pf_mask 0x80, 2007-03-29, rev 0x0106, size 4096
+  209/002: sig 0x00010671, pf_mask 0x44, 2007-03-29, rev 0x0106, size 4096
+  209/003: sig 0x00010671, pf_mask 0x10, 2007-03-29, rev 0x0106, size 4096
+  209/004: sig 0x00010671, pf_mask 0x01, 2007-03-29, rev 0x0106, size 4096
+  208/001: sig 0x00010674, pf_mask 0x80, 2007-07-20, rev 0x0405, size 4096
+  208/002: sig 0x00010674, pf_mask 0x44, 2007-06-08, rev 0x0404, size 4096
+  208/003: sig 0x00010674, pf_mask 0x10, 2007-06-08, rev 0x0404, size 4096
+  208/004: sig 0x00010674, pf_mask 0x01, 2007-06-08, rev 0x0404, size 4096
+  207/001: sig 0x00010676, pf_mask 0x91, 2015-08-02, rev 0x0612, size 4096
+  207/002: sig 0x00010676, pf_mask 0x54, 2008-01-19, rev 0x060c, size 4096
+  207/003: sig 0x00010676, pf_mask 0x44, 2010-09-29, rev 0x060f, size 4096
+  207/004: sig 0x00010676, pf_mask 0x40, 2015-08-02, rev 0x0612, size 4096
+  207/005: sig 0x00010676, pf_mask 0x04, 2015-08-02, rev 0x0612, size 4096
+  206/001: sig 0x00010677, pf_mask 0x10, 2015-08-02, rev 0x070d, size 4096
+  206/002: sig 0x00010677, pf_mask 0x01, 2007-10-26, rev 0x0701, size 4096
+  205/001: sig 0x0001067a, pf_mask 0xb1, 2015-07-29, rev 0x0a0e, size 8192
+  205/002: sig 0x0001067a, pf_mask 0x44, 2015-07-29, rev 0x0a0e, size 8192
+  204/001: sig 0x000106a4, pf_mask 0x03, 2015-06-30, rev 0x0013, size 14336
+  203/001: sig 0x000106a5, pf_mask 0x03, 2018-05-11, rev 0x001d, size 12288
+  202/001: sig 0x000106c1, pf_mask 0x01, 2007-12-03, rev 0x0109, size 5120
+  201/001: sig 0x000106c2, pf_mask 0x08, 2009-04-10, rev 0x0219, size 5120
+  201/002: sig 0x000106c2, pf_mask 0x04, 2009-04-10, rev 0x0218, size 5120
+  201/003: sig 0x000106c2, pf_mask 0x01, 2009-04-10, rev 0x0217, size 5120
+  200/001: sig 0x000106c9, pf_mask 0x10, 2009-02-13, rev 0x0007, size 5120
+  200/002: sig 0x000106c9, pf_mask 0x08, 2009-02-11, rev 0x0007, size 5120
+  200/003: sig 0x000106c9, pf_mask 0x04, 2009-02-11, rev 0x0007, size 5120
+  200/004: sig 0x000106c9, pf_mask 0x01, 2009-02-11, rev 0x0007, size 5120
+  199/001: sig 0x000106ca, pf_mask 0x20, 2009-08-25, rev 0x0106, size 5120
+  199/002: sig 0x000106ca, pf_mask 0x10, 2009-08-25, rev 0x0107, size 5120
+  199/003: sig 0x000106ca, pf_mask 0x08, 2009-08-25, rev 0x0107, size 5120
+  199/004: sig 0x000106ca, pf_mask 0x04, 2009-08-25, rev 0x0107, size 5120
+  199/005: sig 0x000106ca, pf_mask 0x01, 2009-08-25, rev 0x0107, size 5120
+  198/001: sig 0x000106d0, pf_mask 0x08, 2007-12-04, rev 0x0005, size 4096
+  197/001: sig 0x000106d1, pf_mask 0x08, 2015-08-03, rev 0x002a, size 4096
+  196/001: sig 0x000106e4, pf_mask 0x09, 2013-07-01, rev 0x0003, size 6144
+  195/001: sig 0x000106e5, pf_mask 0x13, 2018-05-08, rev 0x000a, size 9216
+  194/001: sig 0x00020652, pf_mask 0x80, 2009-09-15, rev 0x0006, size 7168
+  194/002: sig 0x00020652, pf_mask 0x12, 2018-05-08, rev 0x0011, size 9216
+  193/001: sig 0x00020655, pf_mask 0x92, 2018-04-23, rev 0x0007, size 4096
+  192/001: sig 0x00020661, pf_mask 0x02, 2011-07-18, rev 0x0105, size 5120
+  192/002: sig 0x00020661, pf_mask 0x01, 2009-10-23, rev 0x0104, size 5120
+  191/001: sig 0x000206a0, pf_mask 0x12, 2009-11-02, rev 0x0029, size 6144
+  190/001: sig 0x000206a1, pf_mask 0x12, 2009-12-23, rev 0x0007, size 8192
+  189/001: sig 0x000206a2, pf_mask 0x12, 2010-05-02, rev 0x0027, size 9216
+  188/001: sig 0x000206a3, pf_mask 0x12, 2010-06-09, rev 0x0009, size 9216
+  187/001: sig 0x000206a4, pf_mask 0x12, 2010-04-14, rev 0x0022, size 8192
+  186/001: sig 0x000206a5, pf_mask 0x12, 2010-07-22, rev 0x0007, size 7168
+  185/001: sig 0x000206a6, pf_mask 0x12, 2010-09-15, rev 0x0028, size 9216
+  184/001: sig 0x000206a7, pf_mask 0x12, 2019-02-17, rev 0x002f, size 12288
+  183/001: sig 0x000206c1, pf_mask 0x03, 2009-12-22, rev 0x0006, size 6144
+  182/001: sig 0x000206c2, pf_mask 0x03, 2018-05-08, rev 0x001f, size 11264
+  181/001: sig 0x000206d5, pf_mask 0x6d, 2011-10-13, rev 0x0513, size 18432
+  180/001: sig 0x000206d6, pf_mask 0x6d, 2020-03-04, rev 0x0621, size 18432
+  179/001: sig 0x000206d7, pf_mask 0x6d, 2020-03-24, rev 0x071a, size 19456
+  178/001: sig 0x000206e6, pf_mask 0x04, 2018-05-15, rev 0x000d, size 9216
+  177/001: sig 0x000206f0, pf_mask 0x05, 2010-07-29, rev 0x0005, size 9216
+  176/001: sig 0x000206f1, pf_mask 0x05, 2010-10-13, rev 0x0008, size 11264
+  175/001: sig 0x000206f2, pf_mask 0x05, 2018-05-16, rev 0x003b, size 14336
+  174/001: sig 0x00030650, pf_mask 0x08, 2012-01-18, rev 0x0009, size 5120
+  173/001: sig 0x00030651, pf_mask 0x08, 2013-05-20, rev 0x010d, size 5120
+  173/002: sig 0x00030651, pf_mask 0x01, 2013-10-14, rev 0x0110, size 5120
+  172/001: sig 0x00030660, pf_mask 0x08, 2010-11-03, rev 0x0003, size 5120
+  172/002: sig 0x00030660, pf_mask 0x04, 2010-11-03, rev 0x0003, size 5120
+  171/001: sig 0x00030661, pf_mask 0x08, 2015-07-21, rev 0x010f, size 5120
+  171/002: sig 0x00030661, pf_mask 0x04, 2015-07-21, rev 0x010f, size 5120
+  171/003: sig 0x00030661, pf_mask 0x02, 2011-12-22, rev 0x010d, size 5120
+  171/004: sig 0x00030661, pf_mask 0x01, 2011-12-22, rev 0x010d, size 5120
+  170/001: sig 0x00030669, pf_mask 0x01, 2013-05-15, rev 0x010d, size 5120
+  169/001: sig 0x00030671, pf_mask 0x02, 2013-04-10, rev 0x0117, size 67584
+  168/001: sig 0x00030672, pf_mask 0x0c, 2013-07-22, rev 0x0218, size 52224
+  168/002: sig 0x00030672, pf_mask 0x02, 2014-04-01, rev 0x022e, size 52224
+  168/003: sig 0x00030672, pf_mask 0x01, 2014-01-14, rev 0x022d, size 52224
+  167/001: sig 0x00030673, pf_mask 0x0c, 2019-09-16, rev 0x0329, size 52224
+  167/002: sig 0x00030673, pf_mask 0x02, 2019-09-16, rev 0x0329, size 52224
+  167/003: sig 0x00030673, pf_mask 0x01, 2019-09-16, rev 0x0329, size 52224
+  166/001: sig 0x00030678, pf_mask 0x0c, 2019-04-22, rev 0x0838, size 52224
+  166/002: sig 0x00030678, pf_mask 0x02, 2019-04-22, rev 0x0838, size 52224
+  166/003: sig 0x00030678, pf_mask 0x01, 2015-02-09, rev 0x0832, size 52224
+  165/001: sig 0x00030679, pf_mask 0x0f, 2019-07-10, rev 0x090d, size 52224
+  164/001: sig 0x000306a0, pf_mask 0x12, 2011-04-07, rev 0x0007, size 6144
+  163/001: sig 0x000306a2, pf_mask 0x12, 2011-07-25, rev 0x000c, size 11264
+  162/001: sig 0x000306a4, pf_mask 0x12, 2011-09-08, rev 0x0007, size 9216
+  161/001: sig 0x000306a5, pf_mask 0x12, 2011-11-10, rev 0x0009, size 10240
+  160/001: sig 0x000306a6, pf_mask 0x12, 2011-11-14, rev 0x0004, size 8192
+  159/001: sig 0x000306a8, pf_mask 0x12, 2012-02-20, rev 0x0010, size 10240
+  158/001: sig 0x000306a9, pf_mask 0x12, 2019-02-13, rev 0x0021, size 14336
+  157/001: sig 0x000306c3, pf_mask 0x32, 2019-11-12, rev 0x0028, size 23552
+  156/001: sig 0x000306d4, pf_mask 0xc0, 2019-11-12, rev 0x002f, size 19456
+  155/001: sig 0x000306e0, pf_mask 0xed, 2012-07-26, rev 0x0008, size 11264
+  154/001: sig 0x000306e2, pf_mask 0xed, 2013-03-21, rev 0x020d, size 12288
+  153/001: sig 0x000306e3, pf_mask 0xed, 2013-03-21, rev 0x0308, size 11264
+  152/001: sig 0x000306e4, pf_mask 0xed, 2019-03-14, rev 0x042e, size 16384
+  151/001: sig 0x000306e6, pf_mask 0xed, 2013-06-19, rev 0x0600, size 11264
+  150/001: sig 0x000306e7, pf_mask 0xed, 2019-03-14, rev 0x0715, size 17408
+  149/001: sig 0x000306f1, pf_mask 0xef, 2014-01-10, rev 0x0014, size 34816
+  148/001: sig 0x000306f2, pf_mask 0x80, 2014-07-07, rev 0x0f07, size 27648
+  148/002: sig 0x000306f2, pf_mask 0x6f, 2021-08-11, rev 0x0049, size 38912
+  147/001: sig 0x000306f3, pf_mask 0x80, 2016-02-11, rev 0x000d, size 15360
+  146/001: sig 0x000306f4, pf_mask 0x80, 2021-05-24, rev 0x001a, size 23552
+  145/001: sig 0x00040651, pf_mask 0x72, 2019-11-12, rev 0x0026, size 22528
+  144/001: sig 0x00040661, pf_mask 0x32, 2019-11-12, rev 0x001c, size 25600
+  143/001: sig 0x00040671, pf_mask 0x22, 2019-11-12, rev 0x0022, size 14336
+  141/001: sig 0x000406a8, pf_mask 0x01, 2014-08-12, rev 0x081f, size 38912
+  141/001: sig 0x000406a9, pf_mask 0x01, 2014-08-12, rev 0x081f, size 38912
+  140/001: sig 0x000406c1, pf_mask 0x01, 2014-08-14, rev 0x010b, size 69632
+  139/001: sig 0x000406c2, pf_mask 0x01, 2015-02-18, rev 0x0221, size 68608
+  138/001: sig 0x000406c3, pf_mask 0x01, 2019-04-23, rev 0x0368, size 69632
+  137/001: sig 0x000406c4, pf_mask 0x01, 2019-04-23, rev 0x0411, size 68608
+  136/001: sig 0x000406d0, pf_mask 0x01, 2013-06-12, rev 0x000e, size 82944
+  135/001: sig 0x000406d8, pf_mask 0x01, 2019-09-16, rev 0x012d, size 84992
+  134/001: sig 0x000406e1, pf_mask 0xf2, 2014-08-06, rev 0x0016, size 80896
+  134/002: sig 0x000406e1, pf_mask 0x80, 2014-11-11, rev 0x0020, size 81920
+  133/001: sig 0x000406e2, pf_mask 0xf2, 2014-11-05, rev 0x000a, size 79872
+  133/002: sig 0x000406e2, pf_mask 0xc0, 2015-05-21, rev 0x002c, size 86016
+  132/001: sig 0x000406e3, pf_mask 0xc0, 2021-11-12, rev 0x00f0, size 106496
+  131/001: sig 0x000406e8, pf_mask 0x80, 2016-04-14, rev 0x0026, size 94208
+  130/001: sig 0x000406f0, pf_mask 0xef, 2015-07-02, rev 0x0014, size 31744
+  129/001: sig 0x00050653, pf_mask 0x97, 2023-07-28, rev 0x1000191, size 36864
+  128/001: sig 0x00050654, pf_mask 0xb7, 2024-04-15, rev 0x2007206, size 44032
+  127/001: sig 0x00050655, pf_mask 0xb7, 2019-04-12, rev 0x3000012, size 47104
+  126/001: sig 0x00050656, pf_mask 0xbf, 2024-12-12, rev 0x4003901, size 40960
+  125/001: sig 0x00050657, pf_mask 0xbf, 2024-12-12, rev 0x5003901, size 39936
+  124/001: sig 0x0005065b, pf_mask 0xbf, 2024-12-12, rev 0x7002b01, size 30720
+  123/001: sig 0x00050662, pf_mask 0x10, 2019-06-17, rev 0x001c, size 32768
+  122/001: sig 0x00050663, pf_mask 0x10, 2021-06-12, rev 0x700001c, size 28672
+  121/001: sig 0x00050664, pf_mask 0x10, 2021-06-12, rev 0xf00001a, size 27648
+  120/001: sig 0x00050665, pf_mask 0x10, 2023-08-03, rev 0xe000015, size 23552
+  119/001: sig 0x00050671, pf_mask 0x78, 2018-01-08, rev 0x01b6, size 28672
+  118/001: sig 0x000506a0, pf_mask 0x01, 2015-01-12, rev 0x0038, size 54272
+  117/001: sig 0x000506c2, pf_mask 0x01, 2018-05-11, rev 0x0014, size 15360
+  116/001: sig 0x000506c8, pf_mask 0x01, 2016-03-04, rev 0x0010, size 16384
+  115/001: sig 0x000506c9, pf_mask 0x03, 2021-11-16, rev 0x0048, size 17408
+  114/001: sig 0x000506ca, pf_mask 0x03, 2021-11-16, rev 0x0028, size 16384
+  113/001: sig 0x000506d1, pf_mask 0x04, 2015-06-05, rev 0x0102, size 7168
+  113/002: sig 0x000506d1, pf_mask 0x02, 2014-11-20, rev 0x0101, size 7168
+  112/001: sig 0x000506e0, pf_mask 0x22, 2014-11-19, rev 0x0018, size 81920
+  111/001: sig 0x000506e1, pf_mask 0x22, 2015-06-02, rev 0x002a, size 76800
+  110/001: sig 0x000506e2, pf_mask 0x14, 2015-08-15, rev 0x002e, size 76800
+  109/001: sig 0x000506e3, pf_mask 0x36, 2023-01-02, rev 0x00f2, size 109568
+  108/001: sig 0x000506e8, pf_mask 0x22, 2016-07-10, rev 0x0034, size 96256
+  107/001: sig 0x000506f0, pf_mask 0x01, 2016-06-07, rev 0x0010, size 11264
+  106/001: sig 0x000506f1, pf_mask 0x01, 2023-10-05, rev 0x003e, size 11264
+  105/001: sig 0x00060660, pf_mask 0x80, 2016-08-21, rev 0x000c, size 77824
+  104/001: sig 0x00060661, pf_mask 0x80, 2017-01-28, rev 0x000e, size 81920
+  103/001: sig 0x00060662, pf_mask 0x80, 2017-11-29, rev 0x0022, size 81920
+  102/001: sig 0x00060663, pf_mask 0x80, 2018-04-17, rev 0x002a, size 87040
+  101/001: sig 0x000606a0, pf_mask 0x97, 2019-07-22, rev 0x001f, size 261120
+  100/001: sig 0x000606a4, pf_mask 0x87, 2020-08-17, rev 0xb000280, size 272384
+  099/001: sig 0x000606a5, pf_mask 0x87, 2021-03-08, rev 0xc0002f0, size 283648
+  098/001: sig 0x000606a6, pf_mask 0x87, 2025-08-19, rev 0xd000421, size 309248
+  097/001: sig 0x000606c1, pf_mask 0x10, 2025-08-19, rev 0x10002f1, size 301056
+  096/001: sig 0x000606e0, pf_mask 0x01, 2016-11-04, rev 0x000b, size 117760
+  095/001: sig 0x000606e1, pf_mask 0x01, 2019-04-23, rev 0x0108, size 117760
+  094/001: sig 0x000706a0, pf_mask 0x01, 2017-07-12, rev 0x0026, size 78848
+  093/001: sig 0x000706a1, pf_mask 0x01, 2024-04-19, rev 0x0042, size 76800
+  092/001: sig 0x000706a8, pf_mask 0x01, 2024-12-05, rev 0x0026, size 76800
+  091/001: sig 0x000706e0, pf_mask 0xc0, 2018-06-14, rev 0x002c, size 95232
+  089/001: sig 0x000706e1, pf_mask 0x80, 2019-04-20, rev 0x0042, size 98304
+  089/001: sig 0x000706e2, pf_mask 0x80, 2019-04-20, rev 0x0042, size 98304
+  088/001: sig 0x000706e4, pf_mask 0x80, 2019-09-05, rev 0x0046, size 102400
+  087/001: sig 0x000706e5, pf_mask 0x80, 2025-07-24, rev 0x00cc, size 115712
+  086/001: sig 0x00080650, pf_mask 0x08, 2018-01-08, rev 0x0018, size 28672
+  085/001: sig 0x00080664, pf_mask 0x01, 2023-09-26, rev 0x4c000025, size 148480
+  083/001: sig 0x00080665, pf_mask 0x01, 2024-02-28, rev 0x4c000026, size 148480
+  083/001: sig 0x00080667, pf_mask 0x01, 2024-02-28, rev 0x4c000026, size 148480
+  082/001: sig 0x000806a0, pf_mask 0x01, 2019-05-07, rev 0x0010, size 21504
+  081/001: sig 0x000806a1, pf_mask 0x10, 2023-01-13, rev 0x0033, size 34816
+  080/001: sig 0x000806c0, pf_mask 0x80, 2020-04-02, rev 0x0068, size 113664
+  079/001: sig 0x000806c1, pf_mask 0x80, 2025-07-24, rev 0x00be, size 112640
+  078/001: sig 0x000806c2, pf_mask 0xc2, 2025-07-24, rev 0x003e, size 99328
+  077/001: sig 0x000806d0, pf_mask 0xc2, 2021-05-07, rev 0x0054, size 113664
+  076/001: sig 0x000806d1, pf_mask 0xc2, 2025-07-24, rev 0x0058, size 105472
+  075/001: sig 0x000806e9, pf_mask 0xc0, 2024-02-01, rev 0x00f6, size 106496
+  075/002: sig 0x000806e9, pf_mask 0x10, 2024-02-01, rev 0x00f6, size 106496
+  074/001: sig 0x000806ea, pf_mask 0xc0, 2024-02-01, rev 0x00f6, size 105472
+  073/001: sig 0x000806eb, pf_mask 0xd0, 2024-02-01, rev 0x00f6, size 106496
+  072/001: sig 0x000806ec, pf_mask 0x94, 2024-11-17, rev 0x0100, size 106496
+  071/001: sig 0x000806f3, pf_mask 0x87, 2022-04-19, rev 0xd0004b1, size 540672
+  066/001: sig 0x000806f4, pf_mask 0x87, 2025-12-17, rev 0x2b000670, size 595968
+  066/002: sig 0x000806f4, pf_mask 0x10, 2025-08-25, rev 0x2c000421, size 626688
+  066/001: sig 0x000806f5, pf_mask 0x87, 2025-12-17, rev 0x2b000670, size 595968
+  066/002: sig 0x000806f5, pf_mask 0x10, 2025-08-25, rev 0x2c000421, size 626688
+  066/001: sig 0x000806f6, pf_mask 0x87, 2025-12-17, rev 0x2b000670, size 595968
+  066/002: sig 0x000806f6, pf_mask 0x10, 2025-08-25, rev 0x2c000421, size 626688
+  066/001: sig 0x000806f7, pf_mask 0x87, 2025-12-17, rev 0x2b000670, size 595968
+  066/001: sig 0x000806f8, pf_mask 0x87, 2025-12-17, rev 0x2b000670, size 595968
+  066/002: sig 0x000806f8, pf_mask 0x10, 2025-08-25, rev 0x2c000421, size 626688
+  065/001: sig 0x00090660, pf_mask 0x01, 2020-06-17, rev 0x0009, size 16384
+  064/001: sig 0x00090661, pf_mask 0x01, 2024-04-05, rev 0x001a, size 20480
+  063/001: sig 0x00090670, pf_mask 0x02, 2020-11-11, rev 0x0019, size 165888
+  058/001: sig 0x00090671, pf_mask 0x82, 2021-06-14, rev 0x001c, size 188416
+  014/001: sig 0x00090672, pf_mask 0x07, 2025-10-12, rev 0x003e, size 227328
+  060/001: sig 0x00090674, pf_mask 0x01, 2021-04-25, rev 0x0219, size 168960
+  014/001: sig 0x00090675, pf_mask 0x07, 2025-10-12, rev 0x003e, size 227328
+  058/001: sig 0x000906a0, pf_mask 0x82, 2021-06-14, rev 0x001c, size 188416
+  057/001: sig 0x000906a1, pf_mask 0x82, 2021-11-04, rev 0x011f, size 184320
+  056/001: sig 0x000906a2, pf_mask 0x80, 2022-01-02, rev 0x0315, size 206848
+  054/002: sig 0x000906a3, pf_mask 0x80, 2025-10-12, rev 0x043b, size 225280
+  054/001: sig 0x000906a4, pf_mask 0xc3, 2022-05-09, rev 0x0002, size 112640
+  054/002: sig 0x000906a4, pf_mask 0x80, 2025-10-12, rev 0x043b, size 225280
+  054/003: sig 0x000906a4, pf_mask 0x40, 2025-07-10, rev 0x000c, size 119808
+  053/001: sig 0x000906c0, pf_mask 0x01, 2023-09-26, rev 0x24000026, size 20480
+  052/001: sig 0x000906e9, pf_mask 0x2a, 2024-03-07, rev 0x00fa, size 106496
+  051/001: sig 0x000906ea, pf_mask 0x22, 2024-07-28, rev 0x00fa, size 105472
+  050/001: sig 0x000906eb, pf_mask 0x02, 2024-02-01, rev 0x00f6, size 106496
+  049/001: sig 0x000906ec, pf_mask 0x22, 2024-02-01, rev 0x00f8, size 106496
+  048/001: sig 0x000906ed, pf_mask 0x22, 2024-11-14, rev 0x0104, size 106496
+  047/001: sig 0x000a0650, pf_mask 0x22, 2019-10-10, rev 0x00be, size 91136
+  046/001: sig 0x000a0651, pf_mask 0x22, 2019-11-13, rev 0x00c2, size 91136
+  045/001: sig 0x000a0652, pf_mask 0x20, 2024-11-14, rev 0x0100, size 97280
+  044/001: sig 0x000a0653, pf_mask 0x22, 2024-11-14, rev 0x0100, size 98304
+  043/001: sig 0x000a0654, pf_mask 0x22, 2020-01-23, rev 0x00c6, size 92160
+  042/001: sig 0x000a0655, pf_mask 0x22, 2024-11-14, rev 0x0100, size 97280
+  041/001: sig 0x000a0660, pf_mask 0x80, 2024-11-14, rev 0x0102, size 98304
+  040/001: sig 0x000a0661, pf_mask 0x80, 2024-11-14, rev 0x0100, size 97280
+  039/001: sig 0x000a0670, pf_mask 0x02, 2020-11-24, rev 0x002c, size 94208
+  038/001: sig 0x000a0671, pf_mask 0x02, 2025-07-24, rev 0x0065, size 108544
+  037/001: sig 0x000a06a1, pf_mask 0xc6, 2023-05-18, rev 0x0017, size 137216
+  036/001: sig 0x000a06a2, pf_mask 0xc6, 2023-06-27, rev 0x0011, size 136192
+  035/001: sig 0x000a06a4, pf_mask 0xe6, 2025-09-24, rev 0x0028, size 141312
+  034/001: sig 0x000a06c0, pf_mask 0xc6, 2023-09-01, rev 0x0013, size 137216
+  033/001: sig 0x000a06c1, pf_mask 0xc6, 2023-12-01, rev 0x0005, size 135168
+  032/001: sig 0x000a06d0, pf_mask 0x95, 2024-08-18, rev 0x10000680, size 1580032
+  031/001: sig 0x000a06d1, pf_mask 0x95, 2026-01-29, rev 0x1000423, size 1671168
+  031/002: sig 0x000a06d1, pf_mask 0x20, 2026-01-29, rev 0xa000142, size 1642496
+  031/003: sig 0x000a06d1, pf_mask 0x02, 2025-10-02, rev 0x10001d0, size 1640448
+  030/001: sig 0x000a06e1, pf_mask 0x97, 2026-02-26, rev 0x1000307, size 1646592
+  029/001: sig 0x000a06f3, pf_mask 0x01, 2026-01-30, rev 0x30003a3, size 1533952
+  028/001: sig 0x000b0650, pf_mask 0x80, 2025-09-25, rev 0x000d, size 137216
+  027/001: sig 0x000b0664, pf_mask 0x01, 2025-05-29, rev 0x0030, size 840704
+  026/001: sig 0x000b0670, pf_mask 0x02, 2022-02-20, rev 0x000e, size 198656
+  024/001: sig 0x000b0671, pf_mask 0x32, 2025-11-20, rev 0x0136, size 219136
+  024/001: sig 0x000b0674, pf_mask 0x32, 2025-11-20, rev 0x0136, size 219136
+  021/001: sig 0x000b06a2, pf_mask 0xe0, 2025-10-08, rev 0x6134, size 224256
+  021/001: sig 0x000b06a3, pf_mask 0xe0, 2025-10-08, rev 0x6134, size 224256
+  021/001: sig 0x000b06a8, pf_mask 0xe0, 2025-10-08, rev 0x6134, size 224256
+  020/001: sig 0x000b06d0, pf_mask 0x80, 2024-06-10, rev 0x001a, size 99328
+  019/001: sig 0x000b06d1, pf_mask 0x80, 2025-12-10, rev 0x0126, size 80896
+  018/001: sig 0x000b06e0, pf_mask 0x19, 2025-09-12, rev 0x0021, size 142336
+  014/001: sig 0x000b06f2, pf_mask 0x07, 2025-10-12, rev 0x003e, size 227328
+  014/001: sig 0x000b06f5, pf_mask 0x07, 2025-10-12, rev 0x003e, size 227328
+  014/001: sig 0x000b06f6, pf_mask 0x07, 2025-10-12, rev 0x003e, size 227328
+  014/001: sig 0x000b06f7, pf_mask 0x07, 2025-10-12, rev 0x003e, size 227328
+  009/001: sig 0x000c0652, pf_mask 0x82, 2025-12-15, rev 0x0121, size 91136
+  012/001: sig 0x000c0660, pf_mask 0x02, 2024-05-16, rev 0x0018, size 90112
+  009/001: sig 0x000c0662, pf_mask 0x82, 2025-12-15, rev 0x0121, size 91136
+  009/001: sig 0x000c0664, pf_mask 0x82, 2025-12-15, rev 0x0121, size 91136
+  009/001: sig 0x000c06a2, pf_mask 0x82, 2025-12-15, rev 0x0121, size 91136
+  008/001: sig 0x000c06c0, pf_mask 0x90, 2025-03-25, rev 0x0012, size 168960
+  005/001: sig 0x000c06c1, pf_mask 0x90, 2026-03-24, rev 0x011b, size 163840
+  005/001: sig 0x000c06c2, pf_mask 0x90, 2026-03-24, rev 0x011b, size 163840
+  005/001: sig 0x000c06c3, pf_mask 0x90, 2026-03-24, rev 0x011b, size 163840
+  003/001: sig 0x000c06f1, pf_mask 0x87, 2025-12-17, rev 0x210002e0, size 567296
+  003/001: sig 0x000c06f2, pf_mask 0x87, 2025-12-17, rev 0x210002e0, size 567296
+  002/001: sig 0x000d0670, pf_mask 0x04, 2025-08-25, rev 0x0003, size 205824
+  001/001: sig 0x000d06d0, pf_mask 0x01, 2025-08-07, rev 0x0340, size 1499136
+iucode_tool: Writing selected microcodes to: /boot/intel-uc.img

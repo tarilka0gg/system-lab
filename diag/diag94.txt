@@ -1,0 +1,9 @@
+user_pref("devtools.chrome.enabled", true);
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+
+// RAM reduction
+user_pref("dom.ipc.processCount", 4);
+
+// Disable accessibility bridge (kills idle speech-dispatcher/at-spi processes, avoids a11y jank)
+user_pref("accessibility.force_disabled", 1);
+user_pref("dom.ipc.processCount.webIsolated", 2);

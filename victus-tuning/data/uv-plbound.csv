@@ -1,0 +1,3 @@
+label,core_mv,cache_mv,vcore_mv,freq_allcore_mhz,temp_c,draw_w,pl1_w
+baseline-plbound,0,0,950,2733,80,80.0,80
+uv100-plbound,-100,-100,908,3553,83,80.0,80

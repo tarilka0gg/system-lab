@@ -1,0 +1,4 @@
+ls: cannot access '/usr/src/linux/tools/perf/kernel-compilation.data': No such file or directory
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  195G  193G     0 100% /
+ID 256 gen 1580 top level 5 path srv

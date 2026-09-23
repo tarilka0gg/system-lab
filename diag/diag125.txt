@@ -1,0 +1,9 @@
+!!! Repository 'bentoo' is missing masters attribute in '/var/db/repos/bentoo/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'bentoo' is missing masters attribute in '/var/db/repos/bentoo/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'bentoo' is missing masters attribute in '/var/db/repos/bentoo/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+x11-drivers/nvidia-drivers-595.84
+7.1.8-cachyos1-tuned
+/usr/src/linux-7.1.8-cachyos1

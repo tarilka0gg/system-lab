@@ -1,0 +1,21 @@
+tarilka+   40650  0.5  0.9 5606204 297584 ?      Sl   18:50   0:30 ghostty
+tarilka+   41261  0.8  0.2 2145336 94768 ?       Sl   18:51   0:52 ghostty --title=btop-monitor -e btop
+tarilka+   79376  0.2  0.4 2258516 132452 ?      Sl   20:26   0:00 ghostty -e stress-ng --cpu 8 --io 4 --vm 4 --vm-bytes 1G --fork 4 --timeout 20m
+tarilka+   79385  0.4  0.4 2134260 133420 ?      Sl   20:26   0:01 ghostty -e htop
+tarilka+ 1055604  0.4  0.4 2136608 132780 ?      Sl   20:27   0:00 ghostty -e yazi
+tarilka+ 1128063  1.3  0.4 2063640 134344 ?      Sl   20:27   0:02 ghostty --title=btop-monitor -e btop
+pop-141-intel-rocketlake-none-laptop
+pop-301-generic-x86-64-v2-none-handheld
+pop-215-intel-ivybridge-none-laptop
+pop-025-intel-alderlake-nvidia-desktop
+pop-059-intel-icelake-intel-desktop
+pop-212-amd-znver1-nouveau-laptop
+pop-014-intel-alderlake-nvidia-laptop
+pop-194-amd-znver5-amd-handheld
+pop-243-intel-ivybridge-nouveau-laptop
+pop-298-intel-ivybridge-none-handheld
+pop-047-intel-meteorlake-amd-desktop
+pop-068-intel-icelake-amd-desktop
+pop-090-intel-haswell-nvidia-desktop
+pop-108-amd-bdver4-nvidia-laptop
+pop-230-intel-haswell-nouveau-desktop

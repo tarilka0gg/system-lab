@@ -1,0 +1,15 @@
+131M	/boot
+du: cannot access '/tmp/.mount_PinecobJkfNb': Permission denied
+3.5M	/tmp
+155M	/dev
+24M	/etc
+0	/media
+0	/mnt
+8.0G	/opt
+2.4G	/root
+du: cannot access '/run/user/1000/doc': Permission denied
+2.7M	/run
+88G	/usr
+708G	/var
+0	/srv
+806G	/

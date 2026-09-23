@@ -1,0 +1,2 @@
+name, clocks.max.graphics [MHz], clocks.max.memory [MHz], clocks.current.graphics [MHz], clocks.current.memory [MHz], power.limit [W], power.max_limit [W]
+NVIDIA GeForce RTX 4070 Laptop GPU, 3105 MHz, 8001 MHz, 210 MHz, 405 MHz, [N/A], 120.00 W

@@ -1,0 +1,7 @@
+15:31:14 === ВАЛІДАЦІЯ asym2-c180: CORE=-180 CACHE=-140 (mailbox=-180,-140) ===
+15:31:14 y-cruncher 10хв (correctness)
+15:33:29   y-cruncher: PASS (rc=0, Passed=2)
+15:33:29 PL-bound 8хв (matrixprod, переармування кожні 90с)
+15:41:38   Vcore=890mV P-freq=4024MHz temp=82C draw=79.2W
+15:41:38 нові WHEA/MCE: 0
+15:41:38 === ВЕРДИКТ asym2-c180: PASS ===

@@ -1,0 +1,7 @@
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi        16Gi       5.2Gi       3.7Gi        13Gi        14Gi
+Swap:             0B          0B          0B
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  195G   57G  135G  30% /
+/dev/nvme0n1p3  759G  376G  379G  50% /home
+root       79300  2.9  0.1 243944 64548 ?        Sl   20:26   0:00 perf record -b -e cycles:kp -a -N -c 500009 -o /usr/src/linux/tools/perf/kernel-compilation.data

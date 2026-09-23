@@ -1,0 +1,5 @@
+which: no liquidctl in (/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin)
+/bin/coolercontrold
+/bin/coolercontrol
+fan1:        4400 RPM
+fan2:        4400 RPM

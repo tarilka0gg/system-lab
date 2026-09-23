@@ -1,0 +1,4 @@
+npm warn using --force Recommended protections disabled.
+4.0K	/root/.npm
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  195G   59G  133G  31% /

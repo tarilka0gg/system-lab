@@ -1,0 +1,10 @@
+/sys/class/hwmon/hwmon0/ -> ACAD
+/sys/class/hwmon/hwmon1/ -> acpitz_0
+/sys/class/hwmon/hwmon2/ -> acpitz_1
+/sys/class/hwmon/hwmon3/ -> nvme
+/sys/class/hwmon/hwmon4/ -> BAT1
+/sys/class/hwmon/hwmon5/ -> spd5118
+/sys/class/hwmon/hwmon6/ -> coretemp
+/sys/class/hwmon/hwmon7/ -> hp
+/sys/class/hwmon/hwmon8/ -> ucsi_source_psy_USBC000:001
+/sys/class/hwmon/hwmon9/ -> hidpp_battery_0

@@ -1,0 +1,15 @@
+pop-141-intel-rocketlake-none-laptop
+pop-301-generic-x86-64-v2-none-handheld
+pop-215-intel-ivybridge-none-laptop
+pop-025-intel-alderlake-nvidia-desktop
+pop-059-intel-icelake-intel-desktop
+pop-212-amd-znver1-nouveau-laptop
+pop-014-intel-alderlake-nvidia-laptop
+pop-194-amd-znver5-amd-handheld
+pop-243-intel-ivybridge-nouveau-laptop
+pop-298-intel-ivybridge-none-handheld
+pop-047-intel-meteorlake-amd-desktop
+pop-068-intel-icelake-amd-desktop
+pop-090-intel-haswell-nvidia-desktop
+pop-108-amd-bdver4-nvidia-laptop
+pop-230-intel-haswell-nouveau-desktop

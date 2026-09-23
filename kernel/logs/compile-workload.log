@@ -1,0 +1,77 @@
+=== CC='sccache gcc'  LD='/usr/lib/llvm/22/bin/ld.lld'  --parallel=2  --jobs(на combo)=12  SCCACHE_CACHE_SIZE=80G ===
+=== target 'pop-141-intel-rocketlake-none-laptop': cpu/intel-rocketlake gpu/none platform/laptop ec/all modem/all ===
+[OK_WARN] pop-141-intel-rocketlake-none-laptop
+
+combo                                 config   build
+pop-141-intel-rocketlake-none-laptop  OK_WARN  OK
+=== CC='sccache gcc'  LD='/usr/lib/llvm/22/bin/ld.lld'  --parallel=2  --jobs(на combo)=12  SCCACHE_CACHE_SIZE=80G ===
+=== target 'pop-301-generic-x86-64-v2-none-handheld': cpu/generic-x86-64-v2 gpu/none platform/handheld ec/all modem/all ===
+[OK_WARN] pop-301-generic-x86-64-v2-none-handheld
+
+combo                                    config   build
+pop-301-generic-x86-64-v2-none-handheld  OK_WARN  OK
+=== CC='sccache gcc'  LD='/usr/lib/llvm/22/bin/ld.lld'  --parallel=2  --jobs(на combo)=12  SCCACHE_CACHE_SIZE=80G ===
+=== target 'pop-215-intel-ivybridge-none-laptop': cpu/intel-ivybridge gpu/none platform/laptop ec/all modem/all ===
+[OK_WARN] pop-215-intel-ivybridge-none-laptop
+
+combo                                config   build
+pop-215-intel-ivybridge-none-laptop  OK_WARN  OK
+=== CC='sccache gcc'  LD='/usr/lib/llvm/22/bin/ld.lld'  --parallel=2  --jobs(на combo)=12  SCCACHE_CACHE_SIZE=80G ===
+=== target 'pop-025-intel-alderlake-nvidia-desktop': cpu/intel-alderlake gpu/nvidia platform/desktop ec/all modem/all ===
+[DEVEL] pop-025-intel-alderlake-nvidia-desktop -> pop-025-intel-alderlake-nvidia-desktop-devel.tar.xz
+[OK_WARN] pop-025-intel-alderlake-nvidia-desktop
+
+combo                                   config   build
+pop-025-intel-alderlake-nvidia-desktop  OK_WARN  OK
+=== CC='sccache gcc'  LD='/usr/lib/llvm/22/bin/ld.lld'  --parallel=2  --jobs(на combo)=12  SCCACHE_CACHE_SIZE=80G ===
+=== target 'pop-059-intel-icelake-intel-desktop': cpu/intel-icelake gpu/intel platform/desktop ec/all modem/all ===
+[OK_WARN] pop-059-intel-icelake-intel-desktop
+
+combo                                config   build
+pop-059-intel-icelake-intel-desktop  OK_WARN  OK
+=== CC='sccache gcc'  LD='/usr/lib/llvm/22/bin/ld.lld'  --parallel=2  --jobs(на combo)=12  SCCACHE_CACHE_SIZE=80G ===
+=== target 'pop-212-amd-znver1-nouveau-laptop': cpu/amd-znver1 gpu/nouveau platform/laptop ec/all modem/all ===
+[OK_WARN] pop-212-amd-znver1-nouveau-laptop
+
+combo                              config   build
+pop-212-amd-znver1-nouveau-laptop  OK_WARN  OK
+=== CC='sccache gcc'  LD='/usr/lib/llvm/22/bin/ld.lld'  --parallel=2  --jobs(на combo)=12  SCCACHE_CACHE_SIZE=80G ===
+=== target 'pop-014-intel-alderlake-nvidia-laptop': cpu/intel-alderlake gpu/nvidia platform/laptop ec/all modem/all ===
+[DEVEL] pop-014-intel-alderlake-nvidia-laptop -> pop-014-intel-alderlake-nvidia-laptop-devel.tar.xz
+[OK_WARN] pop-014-intel-alderlake-nvidia-laptop
+
+combo                                  config   build
+pop-014-intel-alderlake-nvidia-laptop  OK_WARN  OK
+=== CC='sccache gcc'  LD='/usr/lib/llvm/22/bin/ld.lld'  --parallel=2  --jobs(на combo)=12  SCCACHE_CACHE_SIZE=80G ===
+=== target 'pop-194-amd-znver5-amd-handheld': cpu/amd-znver5 gpu/amd platform/handheld ec/all modem/all ===
+[OK_WARN] pop-194-amd-znver5-amd-handheld
+
+combo                            config   build
+pop-194-amd-znver5-amd-handheld  OK_WARN  OK
+=== CC='sccache gcc'  LD='/usr/lib/llvm/22/bin/ld.lld'  --parallel=2  --jobs(на combo)=12  SCCACHE_CACHE_SIZE=80G ===
+=== target 'pop-243-intel-ivybridge-nouveau-laptop': cpu/intel-ivybridge gpu/nouveau platform/laptop ec/all modem/all ===
+[OK_WARN] pop-243-intel-ivybridge-nouveau-laptop
+
+combo                                   config   build
+pop-243-intel-ivybridge-nouveau-laptop  OK_WARN  OK
+=== CC='sccache gcc'  LD='/usr/lib/llvm/22/bin/ld.lld'  --parallel=2  --jobs(на combo)=12  SCCACHE_CACHE_SIZE=80G ===
+=== target 'pop-298-intel-ivybridge-none-handheld': cpu/intel-ivybridge gpu/none platform/handheld ec/all modem/all ===
+[OK_WARN] pop-298-intel-ivybridge-none-handheld
+
+combo                                  config   build
+pop-298-intel-ivybridge-none-handheld  OK_WARN  OK
+=== CC='sccache gcc'  LD='/usr/lib/llvm/22/bin/ld.lld'  --parallel=2  --jobs(на combo)=12  SCCACHE_CACHE_SIZE=80G ===
+=== target 'pop-047-intel-meteorlake-amd-desktop': cpu/intel-meteorlake gpu/amd platform/desktop ec/all modem/all ===
+[OK_WARN] pop-047-intel-meteorlake-amd-desktop
+
+combo                                 config   build
+pop-047-intel-meteorlake-amd-desktop  OK_WARN  OK
+=== CC='sccache gcc'  LD='/usr/lib/llvm/22/bin/ld.lld'  --parallel=2  --jobs(на combo)=12  SCCACHE_CACHE_SIZE=80G ===
+=== target 'pop-068-intel-icelake-amd-desktop': cpu/intel-icelake gpu/amd platform/desktop ec/all modem/all ===
+[OK_WARN] pop-068-intel-icelake-amd-desktop
+
+combo                              config   build
+pop-068-intel-icelake-amd-desktop  OK_WARN  OK
+=== CC='sccache gcc'  LD='/usr/lib/llvm/22/bin/ld.lld'  --parallel=2  --jobs(на combo)=12  SCCACHE_CACHE_SIZE=80G ===
+=== target 'pop-090-intel-haswell-nvidia-desktop': cpu/intel-haswell gpu/nvidia platform/desktop ec/all modem/all ===
+_: line 5: 792788 Killed                     "$SELF" --worker "$SRC" "$OUT" "$BUILD" "$JOBS" "$CC" "$LD" "$SEED" "$name" $frags

@@ -1,0 +1,63 @@
+!!! Repository 'bentoo' is missing masters attribute in '/var/db/repos/bentoo/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+>>> Building file list for distfiles cleaning...
+>>> Cleaning distfiles...
+ [   35.4 K ] LizardByte-build-deps-d8b1d18b7e82f8ee396bdd05e226896fa523b0df.tar.gz
+ [    1.0 M ] LizardByte-tray-563dee475f8878d252ab2b9938d3a014e776ed08.tar.gz
+ [   62.1 K ] Simple-Web-Server-546895a93a29062bb178367b46c7afb72da9881e.tar.bz2
+ [    1.6 G ] chromium-151.0.7922.169-linux.tar.xz
+ [   56.4 M ] chromium-clang-llvmorg-23-init-19482-g53d18800-1.tar.xz
+ [  430.7 K ] chromium-openpower-7aae8a84e3.tar.bz2
+ [   22.7 K ] chromium-patches-151-3.tar.bz2
+ [   13.0 K ] chromium-patches-copium-3c7e56fb45.tar.gz
+ [  247.9 M ] chromium-profiler-0.2.tar
+ [  262.1 M ] chromium-rust-toolchain-b998449636-2-llvmorg-23-init-19482-g53d18800.tar.xz
+ [   31.9 M ] chromium-testfonts-9c07d19d9c.tar.gz
+ [  630.5 K ] glad-v2.0.8.tar.gz
+ [  102.9 K ] inputtino-f4ce2b0df536ef309e9ff318f75b460f7097d7c1.tar.gz
+ [  113.6 K ] libdisplaydevice-2026.322.2407.tar.gz
+ [  289.8 K ] libratbag-0.18.tar.gz
+ [  148.8 M ] linux-6.19.tar.xz
+ [  260.7 K ] moonlight-common-c-62687809b1f7410c3db4be2527503a54ae408d70.tar.gz
+ [   84.7 K ] moonlight-enet-115a10baa1d7f291ff5b870765610fd3b4a6e43c.tar.gz
+ [  190.1 K ] nanors-19f07b513e924e471cadd141943c1ec4adc8d0e0.tar.gz
+ [  926.7 K ] patch-6.19.12.xz
+ [  773.9 K ] rollup-wasm-node-4.57.1.tgz
+ [   28.8 M ] sunshine-2026.516.143833.tar.gz
+ [  827.6 K ] sunshine-assets-2026.516.143833.tar.xz
+ [   19.4 K ] wlr-protocols-a741f0ac5d655338a5100fc34bc8cec87d237346.tar.bz2
+ ===========
+ [    2.4 G ] Total space from 24 files were freed in the distfiles directory
+
+   The following unavailable installed packages were found
+             app-admin/perl-cleaner-2.31-r2
+             app-arch/libarchive-3.8.7
+             app-misc/jq-1.8.1
+             dev-libs/libgit2-1.9.4
+             dev-python/ast-serialize-0.3.0
+             dev-python/hatchling-1.30.1
+             dev-python/librt-0.11.0
+             dev-python/mypy-2.1.0
+             dev-python/scikit-build-core-0.12.2
+             dev-python/uv-0.11.21
+             dev-python/vcs-versioning-1.1.1
+             games-util/game-device-udev-rules-20260605
+             gui-apps/noctalia-5.0.0_beta1
+             gui-apps/quickshell-0.3.0
+             gui-wm/gamescope-3.16.24
+             gui-wm/mangowm-0.15.2
+             net-im/telegram-desktop-6.6.2
+             net-libs/libssh2-1.11.1-r1
+             net-libs/llhttp-9.4.1
+             net-libs/nghttp2-1.68.0
+             net-vpn/tailscale-1.98.0
+             sys-apps/util-linux-2.41.4-r1
+             sys-boot/limine-12.3.3
+             sys-devel/gcc-15.2.1_p20260214
+             sys-kernel/cachyos-sources-7.1.3
+             sys-kernel/installkernel-68
+             sys-power/throttled-0.12
+             www-client/zen-bin-1.21.4b-r1
+
+---
+9.4G	/var/cache/distfiles

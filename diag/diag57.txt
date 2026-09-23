@@ -1,0 +1,4 @@
+tarilka+   79370  5.8  0.3 2587532 118736 ?      SLl  20:26   2:42 obs
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi        26Gi       825Mi       4.1Gi       8.6Gi       4.8Gi
+Swap:             0B          0B          0B

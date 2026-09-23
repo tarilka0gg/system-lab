@@ -1,0 +1,3 @@
+[ perf record: Woken up 104851 times to write data ]
+Failed to open /proc/schedstat
+[ perf record: Captured and wrote 26411.943 MB /usr/src/linux/tools/perf/kernel-compilation.data ]

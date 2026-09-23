@@ -1,0 +1,15 @@
+156G	/home/tarilka0gg/Documents
+96G	/home/tarilka0gg/Documents/models
+23G	/home/tarilka0gg/Documents/mustang-cp2a.260805.005
+19G	/home/tarilka0gg/Documents/projects
+8.6G	/home/tarilka0gg/Documents/Games
+6.2G	/home/tarilka0gg/Documents/Apps
+3.2G	/home/tarilka0gg/Documents/kernel-releases
+534M	/home/tarilka0gg/Documents/Adds
+97M	/home/tarilka0gg/Documents/Bios Binaries
+50M	/home/tarilka0gg/Documents/Mods
+25M	/home/tarilka0gg/Documents/Utilities
+3.3M	/home/tarilka0gg/Documents/victus-unlock
+1.7M	/home/tarilka0gg/Documents/Torents
+28K	/home/tarilka0gg/Documents/Files
+4.0K	/home/tarilka0gg/Documents/apps

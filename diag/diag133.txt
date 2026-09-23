@@ -1,0 +1,8 @@
+=== чи щось ще активне/незбережене ===
+=== ключові артефакти на диску ===
+-rw-r--r-- 1 root root 2921700 Sep 13 00:48 /home/tarilka0gg/autofdo-work/kernel-compilation.afdo
+-rwxr-xr-x 1 root root 9085952 Sep 13 01:15 /boot/efi/EFI/limine/vmlinuz-7.1.8-cachyos1-tuned
+-rw-r--r-- 1 root root 9085952 Sep 13 01:14 /boot/vmlinuz-7.1.8-cachyos1-tuned
+default_entry: 2
+=== sync ===
+виконано

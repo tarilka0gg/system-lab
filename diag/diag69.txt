@@ -1,0 +1,2 @@
+tarilka+   40650  0.5  0.9 5376680 321128 ?      Sl   18:50   0:46 ghostty
+tarilka+ 1128063  0.7  0.2 2069236 77288 ?       Sl   20:27   0:25 ghostty --title=btop-monitor -e btop

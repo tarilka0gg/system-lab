@@ -1,0 +1,26 @@
+ls: cannot access '/usr/src/linux/tools/perf/kernel-compilation.afdo': No such file or directory
+Overall:
+    Device size:		 194.60GiB
+    Device allocated:		 194.60GiB
+    Device unallocated:		   1.00MiB
+    Device missing:		     0.00B
+    Device slack:		     0.00B
+    Used:			 192.07GiB
+    Free (estimated):		     0.00B	(min: 0.00B)
+    Free (statfs, df):		     0.00B
+    Data ratio:			      1.00
+    Metadata ratio:		      2.00
+    Global reserve:		 285.20MiB	(used: 16.00KiB)
+    Multiple profiles:		        no
+
+Data,single: Size:188.58GiB, Used:188.58GiB (100.00%)
+   /dev/nvme0n1p2	 188.58GiB
+
+Metadata,DUP: Size:3.00GiB, Used:1.75GiB (58.21%)
+   /dev/nvme0n1p2	   6.00GiB
+
+System,DUP: Size:8.00MiB, Used:48.00KiB (0.59%)
+   /dev/nvme0n1p2	  16.00MiB
+
+Unallocated:
+   /dev/nvme0n1p2	   1.00MiB

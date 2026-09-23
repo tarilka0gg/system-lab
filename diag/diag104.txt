@@ -1,0 +1,5 @@
+cpu MHz		: 4599.709
+cpu MHz		: 4754.721
+cpu MHz		: 4719.192
+cpu MHz		: 4632.410
+Core 8:        +62.0°C  (high = +100.0°C, crit = +100.0°C)

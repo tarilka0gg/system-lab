@@ -1,0 +1,3 @@
+label,core_mv,cache_mv,pcore_avg_mhz,pcore_max_mhz,ecore_avg_mhz,allcore_avg_mhz,vcore_mv,temp_c,draw_w
+baseline,0,0,3435,3500,2800,3191,961,74,80.0
+uv120,-120,-120,3894,3900,3200,3667,917,77,79.9

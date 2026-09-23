@@ -1,0 +1,6 @@
+total 0
+dr-x------ 2 root root  3 Sep 12 20:12 .
+dr-xr-xr-x 9 root root  0 Sep 12 20:12 ..
+lrwx------ 1 root root 64 Sep 12 20:12 0 -> /dev/pts/0
+lrwx------ 1 root root 64 Sep 12 20:12 1 -> /dev/pts/0
+lrwx------ 1 root root 64 Sep 12 20:12 2 -> /dev/pts/0

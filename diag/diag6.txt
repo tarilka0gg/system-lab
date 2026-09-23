@@ -1,0 +1,1016 @@
+COMMAND     PID       USER   FD   TYPE DEVICE SIZE/OFF NLINK      NODE NAME
+elogind-d  1576       root    8u   REG   0,31        0     0      1537 /sys/fs/cgroup/openrc.elogind/memory.pressure
+supervise  1764       root   14w   REG   0,22        0     0      2464 /run/openrc/exclusive/pam_openrc[tarilka0gg] (deleted)
+niri       1810 tarilka0gg   35u   REG    0,1    38927     0      4096 /memfd:smithay-keymap (deleted)
+niri       1810 tarilka0gg   44u   REG    0,1     3840     0      5120 /memfd:smithay-dmabuffeedback-format-table (deleted)
+niri       1810 tarilka0gg   47u   REG    0,1     3840     0      5121 /memfd:smithay-dmabuffeedback-format-table (deleted)
+niri       1810 tarilka0gg   76u   REG    0,1     3840     0      7168 /memfd:smithay-dmabuffeedback-format-table (deleted)
+niri       1810 tarilka0gg   77u   REG    0,1     3840     0      7169 /memfd:smithay-dmabuffeedback-format-table (deleted)
+niri       1810 tarilka0gg  107u   REG    0,1    25216     0      1025 /memfd:wayland-cursor (deleted)
+niri       1810 tarilka0gg  119u   REG    0,1        4     0      4097 /memfd:noctalia-click-shield (deleted)
+niri       1810 tarilka0gg  131u   REG    0,1      640     0      3444 /memfd:xwayland-shared (deleted)
+niri       1810 tarilka0gg  144u   REG    0,1 34208384     0     10534 /memfd:wayland-shm (deleted)
+niri       1810 tarilka0gg  153u   REG    0,1 34208384     0     10680 /memfd:wayland-shm (deleted)
+niri       1810 tarilka0gg  154u   REG    0,1    25216     0      6148 /memfd:wayland-cursor (deleted)
+niri       1810 tarilka0gg  155u   REG    0,1 34208384     0     10675 /memfd:wayland-shm (deleted)
+niri       1810 tarilka0gg  189u   REG    0,1 40579840     0       443 /memfd:gdk-wayland (deleted)
+niri       1810 tarilka0gg  215u   REG   0,27  1920000     0      3474 /dev/shm/.org.chromium.Chromium.LNv1eq (deleted)
+niri       1810 tarilka0gg  237u   REG    0,1 34208384     0      2329 /memfd:wayland-shm (deleted)
+niri       1810 tarilka0gg  280u   REG    0,1    25216     0      2270 /memfd:wayland-cursor (deleted)
+niri       1810 tarilka0gg  283u   REG    0,1    25216     0      1211 /memfd:wayland-cursor (deleted)
+niri       1810 tarilka0gg  308u   REG    0,1    39808     0      3281 /memfd:wayland-cursor (deleted)
+niri       1810 tarilka0gg  327u   REG    0,1    39808     0     17560 /memfd:wayland-cursor (deleted)
+niri       1810 tarilka0gg  356u   REG   0,27  6899608     0      3134 /dev/shm/.org.chromium.Chromium.tT3yll (deleted)
+niri       1810 tarilka0gg  358u   REG   0,27  6899608     0      3149 /dev/shm/.org.chromium.Chromium.cRqiec (deleted)
+niri       1810 tarilka0gg  373u   REG    0,1 34208384     0     16614 /memfd:wayland-shm (deleted)
+noctalia   1874 tarilka0gg   22u   REG    0,1     3840     0      5120 /memfd:smithay-dmabuffeedback-format-table (deleted)
+noctalia   1874 tarilka0gg   82u   REG    0,1     3840     0      5121 /memfd:smithay-dmabuffeedback-format-table (deleted)
+pipewire   2103 tarilka0gg   30u   REG    0,1     2312     0         2 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2103 tarilka0gg   33u   REG    0,1     2312     0         3 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2103 tarilka0gg   37u   REG    0,1     2312     0     10241 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2103 tarilka0gg   42u   REG    0,1     2312     0      9217 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2103 tarilka0gg   44u   REG    0,1     2312     0      9218 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2103 tarilka0gg   48u   REG    0,1     4096     0      9219 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=4096 (deleted)
+pipewire   2103 tarilka0gg   49u   REG    0,1     2312     0     10240 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2103 tarilka0gg   50u   REG    0,1     2312     0     10243 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2103 tarilka0gg   52u   REG    0,1     4096     0     10242 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=4096 (deleted)
+pipewire   2103 tarilka0gg   54u   REG    0,1     4096     0      9220 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=4096 (deleted)
+pipewire   2103 tarilka0gg   56u   REG    0,1     2312     0     10244 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2103 tarilka0gg   59u   REG    0,1     2312     0     10245 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2103 tarilka0gg   61u   REG    0,1     2312     0     10246 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2103 tarilka0gg   63u   REG    0,1     2312     0     10247 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2103 tarilka0gg   65u   REG    0,1     2312     0     10248 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2103 tarilka0gg   67u   REG    0,1     2312     0     10249 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2103 tarilka0gg   69u   REG    0,1     2312     0     10250 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2103 tarilka0gg   72u   REG    0,1    65664     0      6623 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=65664 (deleted)
+pipewire   2103 tarilka0gg   76u   REG    0,1     2312     0        58 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2103 tarilka0gg   77u   REG    0,1    65664     0     14540 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=65664 (deleted)
+pipewire   2103 tarilka0gg   81u   REG    0,1     4096     0        59 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=4096 (deleted)
+pipewire   2103 tarilka0gg   83u   REG    0,1    65664     0     14542 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=65664 (deleted)
+pipewire   2103 tarilka0gg   84u   REG    0,1     2312     0     17411 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2103 tarilka0gg   88u   REG    0,1     4096     0     17412 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=4096 (deleted)
+pipewire   2103 tarilka0gg   97u   REG    0,1    65664     0      6624 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=65664 (deleted)
+pipewire   2103 tarilka0gg  102u   REG    0,1    65664     0     14543 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=65664 (deleted)
+pipewire   2103 tarilka0gg  105u   REG    0,1     2312     0      4288 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2103 tarilka0gg  163u   REG    0,1     2312     0       237 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2103 tarilka0gg  165u   REG    0,1     4096     0       236 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=4096 (deleted)
+pipewire   2103 tarilka0gg  167u   REG    0,1     2312     0       238 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2103 tarilka0gg  168u   REG    0,1    65664     0     14541 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=65664 (deleted)
+pipewire   2103 tarilka0gg  171u   REG    0,1     4096     0       239 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=4096 (deleted)
+pipewire   2103 tarilka0gg  177u   REG    0,1     4096     0       240 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=4096 (deleted)
+Xwayland   2410 tarilka0gg 2048u   REG    0,1        4     0      9389 /memfd:xshmfence (deleted)
+Xwayland   2410 tarilka0gg 2050u   REG    0,1        4     0       192 /memfd:xshmfence (deleted)
+Xwayland   2410 tarilka0gg 2051u   REG    0,1        4     0     14426 /memfd:xshmfence (deleted)
+Xwayland   2410 tarilka0gg 2053u   REG    0,1        4     0     10484 /memfd:xshmfence (deleted)
+Xwayland   2410 tarilka0gg 2054u   REG    0,1        4     0       194 /memfd:xshmfence (deleted)
+Xwayland   2410 tarilka0gg 2055u   REG    0,1        4     0      5244 /memfd:xshmfence (deleted)
+Xwayland   2410 tarilka0gg 2056u   REG    0,1        4     0     11540 /memfd:xshmfence (deleted)
+Xwayland   2410 tarilka0gg 2057u   REG    0,1        4     0       195 /memfd:xshmfence (deleted)
+Xwayland   2410 tarilka0gg 2058u   REG    0,1        4     0     11541 /memfd:xshmfence (deleted)
+Xwayland   2410 tarilka0gg 2059u   REG    0,1        4     0      6402 /memfd:xshmfence (deleted)
+Xwayland   2410 tarilka0gg 2060u   REG    0,1        4     0     11542 /memfd:xshmfence (deleted)
+Xwayland   2410 tarilka0gg 2061u   REG    0,1        4     0     11543 /memfd:xshmfence (deleted)
+Xwayland   2410 tarilka0gg 2062u   REG    0,1        4     0     11544 /memfd:xshmfence (deleted)
+Xwayland   2410 tarilka0gg 2063u   REG    0,1        4     0     11545 /memfd:xshmfence (deleted)
+pipewire   2587 tarilka0gg   27u   REG    0,1     2312     0     16387 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2587 tarilka0gg   28u   REG    0,1     2312     0        58 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2587 tarilka0gg   32u   REG    0,1    65664     0     14540 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=65664 (deleted)
+pipewire   2587 tarilka0gg   33u   REG    0,1    65664     0     14541 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=65664 (deleted)
+pipewire   2587 tarilka0gg   34u   REG    0,1     4096     0       236 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=4096 (deleted)
+pipewire   2587 tarilka0gg   36u   REG    0,1     2312     0      5162 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2587 tarilka0gg   37u   REG    0,1     2312     0     17411 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2587 tarilka0gg   41u   REG    0,1    65664     0     14542 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=65664 (deleted)
+pipewire   2587 tarilka0gg   42u   REG    0,1    65664     0     14543 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=65664 (deleted)
+pipewire   2587 tarilka0gg   64u   REG    0,1     2312     0      4288 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+wireplumb  2600 tarilka0gg   36u   REG    0,1     2312     0     10241 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+wireplumb  2600 tarilka0gg   50u   REG    0,1     2312     0      2049 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+wireplumb  2600 tarilka0gg   53u   REG    0,1     2312     0       237 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+wireplumb  2600 tarilka0gg   54u   REG    0,1     2312     0     11626 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+wireplumb  2600 tarilka0gg   56u   REG    0,1    65664     0     14540 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=65664 (deleted)
+wireplumb  2600 tarilka0gg   57u   REG    0,1     2312     0     11627 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+wireplumb  2600 tarilka0gg   58u   REG    0,1    65664     0     14541 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=65664 (deleted)
+wireplumb  2600 tarilka0gg   59u   REG    0,1     2312     0     11628 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+wireplumb  2600 tarilka0gg   60u   REG    0,1     2312     0      4288 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+wireplumb  2600 tarilka0gg   67u   REG    0,1     2312     0       238 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+wireplumb  2600 tarilka0gg   71u   REG    0,1     2312     0        58 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+wireplumb  2600 tarilka0gg   73u   REG    0,1     4096     0       236 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=4096 (deleted)
+wireplumb  2600 tarilka0gg   75u   REG    0,1    65664     0     14542 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=65664 (deleted)
+wireplumb  2600 tarilka0gg   76u   REG    0,1    65664     0     14543 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=65664 (deleted)
+wireplumb  2600 tarilka0gg   77u   REG    0,1     2312     0     17411 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2608 tarilka0gg   17u   REG    0,1     2312     0     10244 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2608 tarilka0gg   18u   REG    0,1     2312     0      8194 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2608 tarilka0gg   20u   REG    0,1     2312     0      8195 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2608 tarilka0gg   21u   REG    0,1     2312     0      9217 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2608 tarilka0gg   25u   REG    0,1     2312     0      9218 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+pipewire   2608 tarilka0gg   33u   REG    0,1    65664     0      6623 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=65664 (deleted)
+pipewire   2608 tarilka0gg   34u   REG    0,1    65664     0      6624 /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=65664 (deleted)
+zen       33314 tarilka0gg   19u   REG    0,1    25216     0      1025 /memfd:wayland-cursor (deleted)
+zen       33314 tarilka0gg   43r   REG    0,1   156120     0      3075 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg   51r   REG    0,1  1048576     0     11264 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg   52u   REG    0,1     3840     0      5120 /memfd:smithay-dmabuffeedback-format-table (deleted)
+zen       33314 tarilka0gg   57r   REG    0,1  1048576     0      9221 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg   58r   REG    0,1  1048576     0      9222 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg   59r   REG    0,1  1048576     0      9223 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg   63r   REG    0,1      224     0     11265 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg   65r   REG    0,1   460800     0     11266 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg   66r   REG    0,1   296992     0     11267 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg   77r   REG    0,1     7418     0     11270 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg   79r   REG    0,1      226     0     11271 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg   80r   REG    0,1     6190     0     11272 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg   81r   REG    0,1     2172     0     11273 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg   82r   REG    0,1     2356     0     11274 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg   83r   REG    0,1    68240     0     11275 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg   84r   REG    0,1    24560     0     11276 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg   85r   REG    0,1      170     0     11277 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg   86r   REG    0,1     2748     0     11278 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg   87r   REG    0,1     1488     0     11279 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg   88r   REG    0,1    24584     0     11280 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg   92u   REG    0,1     3840     0      5120 /memfd:smithay-dmabuffeedback-format-table (deleted)
+zen       33314 tarilka0gg  111u   REG    0,1     4096     0        12 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg  125r   REG    0,1    11822     0     11298 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg  165r   REG    0,1  1073224     0     11840 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg  170r   REG    0,1  1073224     0     11840 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg  190r   REG    0,1    14116     0     11339 /memfd:mozilla-ipc (deleted)
+zen       33314 tarilka0gg  216u   REG    0,1 67108864     0      6173 /memfd:pulseaudio (deleted)
+zen       33314 tarilka0gg  234u   REG    0,1   393216     0      4119 /memfd:cubeb-shm-33314-1 (deleted)
+zen       33314 tarilka0gg  263u   REG    0,1 67108864     0      4297 /memfd:pulseaudio (deleted)
+zen       33314 tarilka0gg  284u   REG    0,1   393216     0      3090 /memfd:cubeb-shm-33314-3 (deleted)
+Socket    33406 tarilka0gg   22r   REG    0,1   296992     0     11267 /memfd:mozilla-ipc (deleted)
+xdg-deskt 33441 tarilka0gg    9u   REG    0,1     3840     0      5120 /memfd:smithay-dmabuffeedback-format-table (deleted)
+xdg-deskt 33468 tarilka0gg   11u   REG    0,1    25216     0      6148 /memfd:wayland-cursor (deleted)
+xdg-deskt 33484 tarilka0gg   17u   REG    0,1     3840     0      5120 /memfd:smithay-dmabuffeedback-format-table (deleted)
+Privilege 33491 tarilka0gg    4r   REG    0,1  1073224     0     11840 /memfd:mozilla-ipc (deleted)
+Privilege 33491 tarilka0gg   23r   REG    0,1   296992     0     11267 /memfd:mozilla-ipc (deleted)
+Privilege 33491 tarilka0gg   24r   REG    0,1   460800     0     11266 /memfd:mozilla-ipc (deleted)
+Privilege 33491 tarilka0gg   25r   REG    0,1    11822     0     11298 /memfd:mozilla-ipc (deleted)
+Privilege 33491 tarilka0gg   28r   REG    0,1    14116     0     11339 /memfd:mozilla-ipc (deleted)
+Privilege 33491 tarilka0gg   30r   REG    0,1     7418     0     11270 /memfd:mozilla-ipc (deleted)
+Privilege 33491 tarilka0gg   31r   REG    0,1      226     0     11271 /memfd:mozilla-ipc (deleted)
+Privilege 33491 tarilka0gg   32r   REG    0,1     6190     0     11272 /memfd:mozilla-ipc (deleted)
+Privilege 33491 tarilka0gg   33r   REG    0,1     2172     0     11273 /memfd:mozilla-ipc (deleted)
+Privilege 33491 tarilka0gg   34r   REG    0,1     2356     0     11274 /memfd:mozilla-ipc (deleted)
+Privilege 33491 tarilka0gg   35r   REG    0,1    68240     0     11275 /memfd:mozilla-ipc (deleted)
+Privilege 33491 tarilka0gg   36r   REG    0,1    24560     0     11276 /memfd:mozilla-ipc (deleted)
+Privilege 33491 tarilka0gg   37r   REG    0,1      170     0     11277 /memfd:mozilla-ipc (deleted)
+Privilege 33491 tarilka0gg   38r   REG    0,1      224     0     11265 /memfd:mozilla-ipc (deleted)
+Privilege 33491 tarilka0gg   39r   REG    0,1     2748     0     11278 /memfd:mozilla-ipc (deleted)
+Privilege 33491 tarilka0gg   40r   REG    0,1     1488     0     11279 /memfd:mozilla-ipc (deleted)
+Privilege 33491 tarilka0gg   41r   REG    0,1    24584     0     11280 /memfd:mozilla-ipc (deleted)
+RDD\x20Pr 33500 tarilka0gg   22r   REG    0,1   296992     0     11267 /memfd:mozilla-ipc (deleted)
+Web\x20Co 33541 tarilka0gg   23r   REG    0,1   296992     0     11267 /memfd:mozilla-ipc (deleted)
+Web\x20Co 33541 tarilka0gg   24r   REG    0,1   460800     0     11266 /memfd:mozilla-ipc (deleted)
+Web\x20Co 33541 tarilka0gg   28r   REG    0,1    11822     0     11298 /memfd:mozilla-ipc (deleted)
+Web\x20Co 33541 tarilka0gg   29r   REG    0,1  1073224     0     11840 /memfd:mozilla-ipc (deleted)
+Web\x20Co 33541 tarilka0gg   30r   REG    0,1    14116     0     11339 /memfd:mozilla-ipc (deleted)
+Web\x20Co 33541 tarilka0gg   31r   REG    0,1     7418     0     11270 /memfd:mozilla-ipc (deleted)
+Web\x20Co 33541 tarilka0gg   32r   REG    0,1      226     0     11271 /memfd:mozilla-ipc (deleted)
+Web\x20Co 33541 tarilka0gg   33r   REG    0,1     6190     0     11272 /memfd:mozilla-ipc (deleted)
+Web\x20Co 33541 tarilka0gg   34r   REG    0,1     2172     0     11273 /memfd:mozilla-ipc (deleted)
+Web\x20Co 33541 tarilka0gg   35r   REG    0,1     2356     0     11274 /memfd:mozilla-ipc (deleted)
+Web\x20Co 33541 tarilka0gg   36r   REG    0,1    68240     0     11275 /memfd:mozilla-ipc (deleted)
+Web\x20Co 33541 tarilka0gg   37r   REG    0,1    24560     0     11276 /memfd:mozilla-ipc (deleted)
+Web\x20Co 33541 tarilka0gg   38r   REG    0,1      170     0     11277 /memfd:mozilla-ipc (deleted)
+Web\x20Co 33541 tarilka0gg   39r   REG    0,1      224     0     11265 /memfd:mozilla-ipc (deleted)
+Web\x20Co 33541 tarilka0gg   40r   REG    0,1     2748     0     11278 /memfd:mozilla-ipc (deleted)
+Web\x20Co 33541 tarilka0gg   41r   REG    0,1     1488     0     11279 /memfd:mozilla-ipc (deleted)
+Web\x20Co 33541 tarilka0gg   42r   REG    0,1    24584     0     11280 /memfd:mozilla-ipc (deleted)
+Isolated  33636 tarilka0gg   23r   REG    0,1   460800     0     11266 /memfd:mozilla-ipc (deleted)
+Isolated  33636 tarilka0gg   24u   REG    0,1   393216     0      4119 /memfd:cubeb-shm-33314-1 (deleted)
+Isolated  33636 tarilka0gg   27r   REG    0,1    11822     0     11298 /memfd:mozilla-ipc (deleted)
+Isolated  33636 tarilka0gg   29r   REG    0,1     7418     0     11270 /memfd:mozilla-ipc (deleted)
+Isolated  33636 tarilka0gg   30r   REG    0,1      226     0     11271 /memfd:mozilla-ipc (deleted)
+Isolated  33636 tarilka0gg   31r   REG    0,1     6190     0     11272 /memfd:mozilla-ipc (deleted)
+Isolated  33636 tarilka0gg   32r   REG    0,1     2172     0     11273 /memfd:mozilla-ipc (deleted)
+Isolated  33636 tarilka0gg   33r   REG    0,1     2356     0     11274 /memfd:mozilla-ipc (deleted)
+Isolated  33636 tarilka0gg   34r   REG    0,1    24584     0     11280 /memfd:mozilla-ipc (deleted)
+Isolated  33636 tarilka0gg   35r   REG    0,1    24560     0     11276 /memfd:mozilla-ipc (deleted)
+Isolated  33636 tarilka0gg   36r   REG    0,1      170     0     11277 /memfd:mozilla-ipc (deleted)
+Isolated  33636 tarilka0gg   37r   REG    0,1      224     0     11265 /memfd:mozilla-ipc (deleted)
+Isolated  33636 tarilka0gg   38r   REG    0,1     2748     0     11278 /memfd:mozilla-ipc (deleted)
+Isolated  33636 tarilka0gg   39r   REG    0,1     1488     0     11279 /memfd:mozilla-ipc (deleted)
+Isolated  33636 tarilka0gg   41r   REG    0,1    68240     0     11275 /memfd:mozilla-ipc (deleted)
+Isolated  33636 tarilka0gg   43r   REG    0,1   296992     0     11267 /memfd:mozilla-ipc (deleted)
+Isolated  33636 tarilka0gg   47r   REG    0,1  1073224     0     11840 /memfd:mozilla-ipc (deleted)
+Isolated  33636 tarilka0gg   57r   REG    0,1    14116     0     11339 /memfd:mozilla-ipc (deleted)
+Isolated  33652 tarilka0gg   23r   REG    0,1   296992     0     11267 /memfd:mozilla-ipc (deleted)
+Isolated  33652 tarilka0gg   24r   REG    0,1   460800     0     11266 /memfd:mozilla-ipc (deleted)
+Isolated  33652 tarilka0gg   28r   REG    0,1    11822     0     11298 /memfd:mozilla-ipc (deleted)
+Isolated  33652 tarilka0gg   30r   REG    0,1     7418     0     11270 /memfd:mozilla-ipc (deleted)
+Isolated  33652 tarilka0gg   31r   REG    0,1      226     0     11271 /memfd:mozilla-ipc (deleted)
+Isolated  33652 tarilka0gg   32r   REG    0,1     6190     0     11272 /memfd:mozilla-ipc (deleted)
+Isolated  33652 tarilka0gg   33r   REG    0,1     2172     0     11273 /memfd:mozilla-ipc (deleted)
+Isolated  33652 tarilka0gg   34r   REG    0,1     2356     0     11274 /memfd:mozilla-ipc (deleted)
+Isolated  33652 tarilka0gg   36r   REG    0,1    24560     0     11276 /memfd:mozilla-ipc (deleted)
+Isolated  33652 tarilka0gg   37r   REG    0,1      170     0     11277 /memfd:mozilla-ipc (deleted)
+Isolated  33652 tarilka0gg   38r   REG    0,1      224     0     11265 /memfd:mozilla-ipc (deleted)
+Isolated  33652 tarilka0gg   39r   REG    0,1     2748     0     11278 /memfd:mozilla-ipc (deleted)
+Isolated  33652 tarilka0gg   40r   REG    0,1     1488     0     11279 /memfd:mozilla-ipc (deleted)
+Isolated  33652 tarilka0gg   41r   REG    0,1    68240     0     11275 /memfd:mozilla-ipc (deleted)
+Isolated  33652 tarilka0gg   42r   REG    0,1  1073224     0     11840 /memfd:mozilla-ipc (deleted)
+Isolated  33652 tarilka0gg   50r   REG    0,1    24584     0     11280 /memfd:mozilla-ipc (deleted)
+Isolated  33652 tarilka0gg   58r   REG    0,1    14116     0     11339 /memfd:mozilla-ipc (deleted)
+Isolated  33652 tarilka0gg   60u   REG    0,1   393216     0      3090 /memfd:cubeb-shm-33314-3 (deleted)
+WebExtens 33741 tarilka0gg   23r   REG    0,1   460800     0     11266 /memfd:mozilla-ipc (deleted)
+WebExtens 33741 tarilka0gg   27r   REG    0,1    11822     0     11298 /memfd:mozilla-ipc (deleted)
+WebExtens 33741 tarilka0gg   30r   REG    0,1     7418     0     11270 /memfd:mozilla-ipc (deleted)
+WebExtens 33741 tarilka0gg   31r   REG    0,1      226     0     11271 /memfd:mozilla-ipc (deleted)
+WebExtens 33741 tarilka0gg   32r   REG    0,1     6190     0     11272 /memfd:mozilla-ipc (deleted)
+WebExtens 33741 tarilka0gg   33r   REG    0,1     2172     0     11273 /memfd:mozilla-ipc (deleted)
+WebExtens 33741 tarilka0gg   34r   REG    0,1     2356     0     11274 /memfd:mozilla-ipc (deleted)
+WebExtens 33741 tarilka0gg   35r   REG    0,1    68240     0     11275 /memfd:mozilla-ipc (deleted)
+WebExtens 33741 tarilka0gg   36r   REG    0,1    24560     0     11276 /memfd:mozilla-ipc (deleted)
+WebExtens 33741 tarilka0gg   37r   REG    0,1      170     0     11277 /memfd:mozilla-ipc (deleted)
+WebExtens 33741 tarilka0gg   38r   REG    0,1      224     0     11265 /memfd:mozilla-ipc (deleted)
+WebExtens 33741 tarilka0gg   39r   REG    0,1     2748     0     11278 /memfd:mozilla-ipc (deleted)
+WebExtens 33741 tarilka0gg   40r   REG    0,1     1488     0     11279 /memfd:mozilla-ipc (deleted)
+WebExtens 33741 tarilka0gg   41r   REG    0,1    24584     0     11280 /memfd:mozilla-ipc (deleted)
+WebExtens 33741 tarilka0gg   44r   REG    0,1   296992     0     11267 /memfd:mozilla-ipc (deleted)
+WebExtens 33741 tarilka0gg   48r   REG    0,1    14116     0     11339 /memfd:mozilla-ipc (deleted)
+Utility   33802 tarilka0gg   22r   REG    0,1   296992     0     11267 /memfd:mozilla-ipc (deleted)
+Isolated  34769 tarilka0gg   15r   REG    0,1  1073224     0     11840 /memfd:mozilla-ipc (deleted)
+Isolated  34769 tarilka0gg   23r   REG    0,1   296992     0     11267 /memfd:mozilla-ipc (deleted)
+Isolated  34769 tarilka0gg   24r   REG    0,1   460800     0     11266 /memfd:mozilla-ipc (deleted)
+Isolated  34769 tarilka0gg   26r   REG    0,1    14116     0     11339 /memfd:mozilla-ipc (deleted)
+Isolated  34769 tarilka0gg   30r   REG    0,1     7418     0     11270 /memfd:mozilla-ipc (deleted)
+Isolated  34769 tarilka0gg   31r   REG    0,1      226     0     11271 /memfd:mozilla-ipc (deleted)
+Isolated  34769 tarilka0gg   32r   REG    0,1     6190     0     11272 /memfd:mozilla-ipc (deleted)
+Isolated  34769 tarilka0gg   33r   REG    0,1     2172     0     11273 /memfd:mozilla-ipc (deleted)
+Isolated  34769 tarilka0gg   34r   REG    0,1     2356     0     11274 /memfd:mozilla-ipc (deleted)
+Isolated  34769 tarilka0gg   36r   REG    0,1    24560     0     11276 /memfd:mozilla-ipc (deleted)
+Isolated  34769 tarilka0gg   37r   REG    0,1      170     0     11277 /memfd:mozilla-ipc (deleted)
+Isolated  34769 tarilka0gg   38r   REG    0,1     2748     0     11278 /memfd:mozilla-ipc (deleted)
+Isolated  34769 tarilka0gg   39r   REG    0,1     1488     0     11279 /memfd:mozilla-ipc (deleted)
+Isolated  34769 tarilka0gg   40r   REG    0,1    68240     0     11275 /memfd:mozilla-ipc (deleted)
+Isolated  34769 tarilka0gg   41r   REG    0,1    11822     0     11298 /memfd:mozilla-ipc (deleted)
+Isolated  34769 tarilka0gg   42r   REG    0,1    24584     0     11280 /memfd:mozilla-ipc (deleted)
+Isolated  34769 tarilka0gg   43r   REG    0,1      224     0     11265 /memfd:mozilla-ipc (deleted)
+Isolated  35298 tarilka0gg   23r   REG    0,1   460800     0     11266 /memfd:mozilla-ipc (deleted)
+Isolated  35298 tarilka0gg   29r   REG    0,1     7418     0     11270 /memfd:mozilla-ipc (deleted)
+Isolated  35298 tarilka0gg   30r   REG    0,1      226     0     11271 /memfd:mozilla-ipc (deleted)
+Isolated  35298 tarilka0gg   31r   REG    0,1     6190     0     11272 /memfd:mozilla-ipc (deleted)
+Isolated  35298 tarilka0gg   32r   REG    0,1     2172     0     11273 /memfd:mozilla-ipc (deleted)
+Isolated  35298 tarilka0gg   33r   REG    0,1     2356     0     11274 /memfd:mozilla-ipc (deleted)
+Isolated  35298 tarilka0gg   35r   REG    0,1    24560     0     11276 /memfd:mozilla-ipc (deleted)
+Isolated  35298 tarilka0gg   36r   REG    0,1      170     0     11277 /memfd:mozilla-ipc (deleted)
+Isolated  35298 tarilka0gg   37r   REG    0,1     2748     0     11278 /memfd:mozilla-ipc (deleted)
+Isolated  35298 tarilka0gg   38r   REG    0,1     1488     0     11279 /memfd:mozilla-ipc (deleted)
+Isolated  35298 tarilka0gg   39r   REG    0,1    24584     0     11280 /memfd:mozilla-ipc (deleted)
+Isolated  35298 tarilka0gg   40r   REG    0,1    11822     0     11298 /memfd:mozilla-ipc (deleted)
+Isolated  35298 tarilka0gg   41r   REG    0,1    14116     0     11339 /memfd:mozilla-ipc (deleted)
+Isolated  35298 tarilka0gg   42r   REG    0,1      224     0     11265 /memfd:mozilla-ipc (deleted)
+Isolated  35298 tarilka0gg   43r   REG    0,1    68240     0     11275 /memfd:mozilla-ipc (deleted)
+Isolated  35298 tarilka0gg   44r   REG    0,1  1073224     0     11840 /memfd:mozilla-ipc (deleted)
+Isolated  35298 tarilka0gg   45r   REG    0,1   296992     0     11267 /memfd:mozilla-ipc (deleted)
+Isolated  36200 tarilka0gg   15r   REG    0,1  1073224     0     11840 /memfd:mozilla-ipc (deleted)
+Isolated  36200 tarilka0gg   23r   REG    0,1   296992     0     11267 /memfd:mozilla-ipc (deleted)
+Isolated  36200 tarilka0gg   24r   REG    0,1   460800     0     11266 /memfd:mozilla-ipc (deleted)
+Isolated  36200 tarilka0gg   28r   REG    0,1    14116     0     11339 /memfd:mozilla-ipc (deleted)
+Isolated  36200 tarilka0gg   30r   REG    0,1     7418     0     11270 /memfd:mozilla-ipc (deleted)
+Isolated  36200 tarilka0gg   31r   REG    0,1      226     0     11271 /memfd:mozilla-ipc (deleted)
+Isolated  36200 tarilka0gg   32r   REG    0,1     6190     0     11272 /memfd:mozilla-ipc (deleted)
+Isolated  36200 tarilka0gg   33r   REG    0,1     2172     0     11273 /memfd:mozilla-ipc (deleted)
+Isolated  36200 tarilka0gg   34r   REG    0,1     2356     0     11274 /memfd:mozilla-ipc (deleted)
+Isolated  36200 tarilka0gg   36r   REG    0,1    24560     0     11276 /memfd:mozilla-ipc (deleted)
+Isolated  36200 tarilka0gg   37r   REG    0,1      170     0     11277 /memfd:mozilla-ipc (deleted)
+Isolated  36200 tarilka0gg   38r   REG    0,1     2748     0     11278 /memfd:mozilla-ipc (deleted)
+Isolated  36200 tarilka0gg   39r   REG    0,1     1488     0     11279 /memfd:mozilla-ipc (deleted)
+Isolated  36200 tarilka0gg   40r   REG    0,1    68240     0     11275 /memfd:mozilla-ipc (deleted)
+Isolated  36200 tarilka0gg   41r   REG    0,1    11822     0     11298 /memfd:mozilla-ipc (deleted)
+Isolated  36200 tarilka0gg   43r   REG    0,1      224     0     11265 /memfd:mozilla-ipc (deleted)
+Isolated  36200 tarilka0gg   44r   REG    0,1    24584     0     11280 /memfd:mozilla-ipc (deleted)
+Isolated  36411 tarilka0gg   15r   REG    0,1  1073224     0     11840 /memfd:mozilla-ipc (deleted)
+Isolated  36411 tarilka0gg   23r   REG    0,1   296992     0     11267 /memfd:mozilla-ipc (deleted)
+Isolated  36411 tarilka0gg   24r   REG    0,1   460800     0     11266 /memfd:mozilla-ipc (deleted)
+Isolated  36411 tarilka0gg   25r   REG    0,1    68240     0     11275 /memfd:mozilla-ipc (deleted)
+Isolated  36411 tarilka0gg   28r   REG    0,1    14116     0     11339 /memfd:mozilla-ipc (deleted)
+Isolated  36411 tarilka0gg   29r   REG    0,1    24584     0     11280 /memfd:mozilla-ipc (deleted)
+Isolated  36411 tarilka0gg   30r   REG    0,1     7418     0     11270 /memfd:mozilla-ipc (deleted)
+Isolated  36411 tarilka0gg   31r   REG    0,1      226     0     11271 /memfd:mozilla-ipc (deleted)
+Isolated  36411 tarilka0gg   32r   REG    0,1     6190     0     11272 /memfd:mozilla-ipc (deleted)
+Isolated  36411 tarilka0gg   33r   REG    0,1     2172     0     11273 /memfd:mozilla-ipc (deleted)
+Isolated  36411 tarilka0gg   34r   REG    0,1     2356     0     11274 /memfd:mozilla-ipc (deleted)
+Isolated  36411 tarilka0gg   36r   REG    0,1    24560     0     11276 /memfd:mozilla-ipc (deleted)
+Isolated  36411 tarilka0gg   37r   REG    0,1      170     0     11277 /memfd:mozilla-ipc (deleted)
+Isolated  36411 tarilka0gg   38r   REG    0,1     2748     0     11278 /memfd:mozilla-ipc (deleted)
+Isolated  36411 tarilka0gg   39r   REG    0,1     1488     0     11279 /memfd:mozilla-ipc (deleted)
+Isolated  36411 tarilka0gg   41r   REG    0,1    11822     0     11298 /memfd:mozilla-ipc (deleted)
+Isolated  36411 tarilka0gg   43r   REG    0,1      224     0     11265 /memfd:mozilla-ipc (deleted)
+Isolated  36748 tarilka0gg   23r   REG    0,1   296992     0     11267 /memfd:mozilla-ipc (deleted)
+Isolated  36748 tarilka0gg   24r   REG    0,1   460800     0     11266 /memfd:mozilla-ipc (deleted)
+Isolated  36748 tarilka0gg   25r   REG    0,1  1073224     0     11840 /memfd:mozilla-ipc (deleted)
+Isolated  36748 tarilka0gg   29r   REG    0,1    14116     0     11339 /memfd:mozilla-ipc (deleted)
+Isolated  36748 tarilka0gg   30r   REG    0,1     7418     0     11270 /memfd:mozilla-ipc (deleted)
+Isolated  36748 tarilka0gg   31r   REG    0,1      226     0     11271 /memfd:mozilla-ipc (deleted)
+Isolated  36748 tarilka0gg   32r   REG    0,1     6190     0     11272 /memfd:mozilla-ipc (deleted)
+Isolated  36748 tarilka0gg   33r   REG    0,1    68240     0     11275 /memfd:mozilla-ipc (deleted)
+Isolated  36748 tarilka0gg   34r   REG    0,1     2356     0     11274 /memfd:mozilla-ipc (deleted)
+Isolated  36748 tarilka0gg   36r   REG    0,1    24560     0     11276 /memfd:mozilla-ipc (deleted)
+Isolated  36748 tarilka0gg   37r   REG    0,1      170     0     11277 /memfd:mozilla-ipc (deleted)
+Isolated  36748 tarilka0gg   38r   REG    0,1     2748     0     11278 /memfd:mozilla-ipc (deleted)
+Isolated  36748 tarilka0gg   39r   REG    0,1     1488     0     11279 /memfd:mozilla-ipc (deleted)
+Isolated  36748 tarilka0gg   40r   REG    0,1    24584     0     11280 /memfd:mozilla-ipc (deleted)
+Isolated  36748 tarilka0gg   41r   REG    0,1    11822     0     11298 /memfd:mozilla-ipc (deleted)
+Isolated  36748 tarilka0gg   42r   REG    0,1      224     0     11265 /memfd:mozilla-ipc (deleted)
+Isolated  36748 tarilka0gg   43r   REG    0,1     2172     0     11273 /memfd:mozilla-ipc (deleted)
+steam     38245 tarilka0gg   28u  FIFO   0,20      0t0     0 101019312 /tmp/.millennium-pv-2soSkU/cmd.fifo (deleted)
+steam     38245 tarilka0gg   30u  FIFO   0,20      0t0     0 101019313 /tmp/.millennium-pv-2soSkU/resp.fifo (deleted)
+steam     38245 tarilka0gg   87u   REG    0,1 67108864     0      4183 /memfd:pulseaudio (deleted)
+steam     38245 tarilka0gg  105u   REG    0,1 67108864     0      8323 /memfd:pulseaudio (deleted)
+steamwebh 38485 tarilka0gg  mem    REG   0,27  2097152     0      2343 /dev/shm/.com.valvesoftware.Steam.X7jguW
+steamwebh 38485 tarilka0gg  mem    REG    0,1        4     0     11545 /memfd:xshmfence
+steamwebh 38485 tarilka0gg  mem    REG    0,1        4     0     11544 /memfd:xshmfence
+steamwebh 38485 tarilka0gg  mem    REG    0,1        4     0     11543 /memfd:xshmfence
+steamwebh 38485 tarilka0gg  mem    REG    0,1        4     0     11542 /memfd:xshmfence
+steamwebh 38485 tarilka0gg  mem    REG   0,27  2097152     0        27 /dev/shm/.com.valvesoftware.Steam.vYefhk
+steamwebh 38485 tarilka0gg  mem    REG    0,1        4     0      6402 /memfd:xshmfence
+steamwebh 38485 tarilka0gg  mem    REG    0,1        4     0     11541 /memfd:xshmfence
+steamwebh 38485 tarilka0gg  mem    REG    0,1        4     0       195 /memfd:xshmfence
+steamwebh 38485 tarilka0gg  mem    REG   0,27   131072     0      2344 /dev/shm/.com.valvesoftware.Steam.f64nks
+steamwebh 38485 tarilka0gg  mem    REG    0,1        4     0     11540 /memfd:xshmfence
+steamwebh 38485 tarilka0gg  mem    REG    0,1        4     0      5244 /memfd:xshmfence
+steamwebh 38485 tarilka0gg  mem    REG    0,1        4     0       194 /memfd:xshmfence
+steamwebh 38485 tarilka0gg  mem    REG    0,1        4     0     10484 /memfd:xshmfence
+steamwebh 38485 tarilka0gg  mem    REG   0,27   131064     0        21 /dev/shm/.com.valvesoftware.Steam.I9dE9v
+steamwebh 38485 tarilka0gg  mem    REG   0,27   524288     0        18 /dev/shm/.com.valvesoftware.Steam.CXZPR1
+steamwebh 38485 tarilka0gg  mem    REG   0,27   524288     0        16 /dev/shm/.com.valvesoftware.Steam.uP5OmP
+steamwebh 38485 tarilka0gg  mem    REG   0,27        4     0       153 /dev/shm/.com.valvesoftware.Steam.LhhwyO
+steamwebh 38485 tarilka0gg  mem    REG    0,1        4     0       192 /memfd:xshmfence
+steamwebh 38485 tarilka0gg  mem    REG   0,27   131072     0        20 /dev/shm/.com.valvesoftware.Steam.uCa6ZT
+steamwebh 38485 tarilka0gg  mem    REG   0,27   131072     0        28 /dev/shm/.com.valvesoftware.Steam.rqxH1h
+steamwebh 38485 tarilka0gg  mem    REG   0,27   131072     0        17 /dev/shm/.com.valvesoftware.Steam.rSQIvH
+steamwebh 38485 tarilka0gg  mem    REG   0,27   131072     0        15 /dev/shm/.com.valvesoftware.Steam.JwSvhu
+steamwebh 38485 tarilka0gg  mem    REG   0,27   262144     0        14 /dev/shm/.com.valvesoftware.Steam.opAEUN
+steamwebh 38485 tarilka0gg  mem    REG   0,27   262144     0        12 /dev/shm/.com.valvesoftware.Steam.MAQl92
+steamwebh 38485 tarilka0gg  mem    REG   0,27       64     0       155 /dev/shm/ValveIPCSHM_1000
+steamwebh 38485 tarilka0gg  mem    REG   0,35  4194304     0  19778531 /home/tarilka0gg/.local/share/Steam/config/htmlcache/BrowserMetrics/BrowserMetrics-6AA5743A-9655.pma
+steamwebh 38485 tarilka0gg  mem    REG   0,27      208     0        48 /dev/shm/.com.valvesoftware.Steam.CqL0vx
+steamwebh 38485 tarilka0gg  mem    REG   0,27        4     0        13 /dev/shm/.com.valvesoftware.Steam.4XIFqt
+steamwebh 38485 tarilka0gg    3r  FIFO   0,20      0t0     0 101019312 /tmp/.millennium-pv-2soSkU/cmd.fifo (deleted)
+steamwebh 38485 tarilka0gg    4w  FIFO   0,20      0t0     0 101019313 /tmp/.millennium-pv-2soSkU/resp.fifo (deleted)
+steamwebh 38485 tarilka0gg   10u   REG   0,35  4194304     0  19778531 /home/tarilka0gg/.local/share/Steam/config/htmlcache/BrowserMetrics/BrowserMetrics-6AA5743A-9655.pma (deleted)
+steamwebh 38485 tarilka0gg   54u   REG   0,27        4     0        13 /dev/shm/.com.valvesoftware.Steam.4XIFqt (deleted)
+steamwebh 38485 tarilka0gg   61r   REG   0,27   262144     0        14 /dev/shm/.com.valvesoftware.Steam.opAEUN (deleted)
+steamwebh 38485 tarilka0gg   74r   REG   0,27   131064     0        21 /dev/shm/.com.valvesoftware.Steam.I9dE9v (deleted)
+steamwebh 38485 tarilka0gg   77r   REG   0,27   131064     0        21 /dev/shm/.com.valvesoftware.Steam.I9dE9v (deleted)
+steamwebh 38485 tarilka0gg  134r   REG   0,27      208     0       441 /dev/shm/.com.valvesoftware.Steam.pxOISY (deleted)
+steamwebh 38485 tarilka0gg  135r   REG   0,27      208     0       451 /dev/shm/.com.valvesoftware.Steam.UKCOQI (deleted)
+steamwebh 38485 tarilka0gg  183u   REG   0,27       64     0       155 /dev/shm/ValveIPCSHM_1000 (deleted)
+steamwebh 38485 tarilka0gg  195r   REG   0,27      208     0       138 /dev/shm/.com.valvesoftware.Steam.6tlX3u (deleted)
+steamwebh 38485 tarilka0gg  220r   REG   0,27      208     0       373 /dev/shm/.com.valvesoftware.Steam.18wk5G (deleted)
+steamwebh 38485 tarilka0gg  223r   REG   0,27      208     0       390 /dev/shm/.com.valvesoftware.Steam.fO8xUq (deleted)
+steamwebh 38485 tarilka0gg  225r   REG   0,27      208     0       383 /dev/shm/.com.valvesoftware.Steam.Rgy9NB (deleted)
+steamwebh 38485 tarilka0gg  228r   REG   0,27      208     0       398 /dev/shm/.com.valvesoftware.Steam.2Dagsq (deleted)
+steamwebh 38485 tarilka0gg  235r   REG   0,27      208     0       403 /dev/shm/.com.valvesoftware.Steam.5WntmQ (deleted)
+steamwebh 38485 tarilka0gg  241r   REG   0,27      208     0       407 /dev/shm/.com.valvesoftware.Steam.jBjTZh (deleted)
+steamwebh 38485 tarilka0gg  246r   REG   0,27      208     0       417 /dev/shm/.com.valvesoftware.Steam.H14MbY (deleted)
+steamwebh 38485 tarilka0gg  255r   REG   0,27      208     0       461 /dev/shm/.com.valvesoftware.Steam.GttCjP (deleted)
+steamwebh 38485 tarilka0gg  260r   REG   0,27      208     0       472 /dev/shm/.com.valvesoftware.Steam.VNt3Fm (deleted)
+steamwebh 38519 tarilka0gg  mem    REG   0,27  1048576     0      2359 /dev/shm/.com.valvesoftware.Steam.FQZw8j
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      1645 /dev/shm/.com.valvesoftware.Steam.BZQzNV
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1498 /dev/shm/.com.valvesoftware.Steam.AXJOti
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1495 /dev/shm/.com.valvesoftware.Steam.aLubaN
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1492 /dev/shm/.com.valvesoftware.Steam.O4F1Gt
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1487 /dev/shm/.com.valvesoftware.Steam.xzYQB9
+steamwebh 38519 tarilka0gg  mem    REG   0,27   524288     0      2301 /dev/shm/.com.valvesoftware.Steam.Yornpz
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1482 /dev/shm/.com.valvesoftware.Steam.kHxAWN
+steamwebh 38519 tarilka0gg  mem    REG   0,27   524288     0      2297 /dev/shm/.com.valvesoftware.Steam.Ldrjtu
+steamwebh 38519 tarilka0gg  mem    REG   0,27   524288     0      2294 /dev/shm/.com.valvesoftware.Steam.rBkuxJ
+steamwebh 38519 tarilka0gg  mem    REG   0,27   524288     0      2291 /dev/shm/.com.valvesoftware.Steam.bCyg91
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      2278 /dev/shm/.com.valvesoftware.Steam.YHm1sT
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1264 /dev/shm/.com.valvesoftware.Steam.8pw1Xr
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1263 /dev/shm/.com.valvesoftware.Steam.WOTYJ6
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1262 /dev/shm/.com.valvesoftware.Steam.103pK3
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1259 /dev/shm/.com.valvesoftware.Steam.2eM1bT
+steamwebh 38519 tarilka0gg  mem    REG   0,27   327680     0      2277 /dev/shm/.com.valvesoftware.Steam.vKXMSZ
+steamwebh 38519 tarilka0gg  mem    REG   0,27   327680     0      2271 /dev/shm/.com.valvesoftware.Steam.pHKYlk
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      2268 /dev/shm/.com.valvesoftware.Steam.yMoQqa
+steamwebh 38519 tarilka0gg  mem    REG   0,27   327680     0      2267 /dev/shm/.com.valvesoftware.Steam.f700EW
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      2265 /dev/shm/.com.valvesoftware.Steam.K0wH9Y
+steamwebh 38519 tarilka0gg  mem    REG   0,27   327680     0      2264 /dev/shm/.com.valvesoftware.Steam.YOGlZa
+steamwebh 38519 tarilka0gg  mem    REG   0,27   327680     0      2259 /dev/shm/.com.valvesoftware.Steam.B51Ss3
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      2258 /dev/shm/.com.valvesoftware.Steam.lWYzr9
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      2256 /dev/shm/.com.valvesoftware.Steam.QEDHFw
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1450 /dev/shm/.com.valvesoftware.Steam.kJ7rPS
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      2247 /dev/shm/.com.valvesoftware.Steam.snDCbg
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1445 /dev/shm/.com.valvesoftware.Steam.zr8e69
+steamwebh 38519 tarilka0gg  mem    REG   0,27   131072     0      2354 /dev/shm/.com.valvesoftware.Steam.AjtGeo
+steamwebh 38519 tarilka0gg  mem    REG   0,27   131072     0      2345 /dev/shm/.com.valvesoftware.Steam.uHvTeY
+steamwebh 38519 tarilka0gg  mem    REG   0,27   327680     0      2244 /dev/shm/.com.valvesoftware.Steam.k7mhtr
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1436 /dev/shm/.com.valvesoftware.Steam.9yPgvf
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1433 /dev/shm/.com.valvesoftware.Steam.y9taUz
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      2240 /dev/shm/.com.valvesoftware.Steam.6XBkqr
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1394 /dev/shm/.com.valvesoftware.Steam.fp2zh6
+steamwebh 38519 tarilka0gg  mem    REG   0,27   655360     0      2208 /dev/shm/.com.valvesoftware.Steam.gz8pb4
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1386 /dev/shm/.com.valvesoftware.Steam.qm2GP7
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1385 /dev/shm/.com.valvesoftware.Steam.w03zTi
+steamwebh 38519 tarilka0gg  mem    REG   0,27    65536     0      2360 /dev/shm/.com.valvesoftware.Steam.eWf7PE
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1361 /dev/shm/.com.valvesoftware.Steam.if2osW
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1421 /dev/shm/.com.valvesoftware.Steam.krzQuX
+steamwebh 38519 tarilka0gg  mem    REG    0,1  8608752     0        19 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1356 /dev/shm/.com.valvesoftware.Steam.KWzGuj
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2187 /dev/shm/.com.valvesoftware.Steam.eTuq3U
+steamwebh 38519 tarilka0gg  mem    REG    0,1  8608752     0        18 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2185 /dev/shm/.com.valvesoftware.Steam.kCVvT6
+steamwebh 38519 tarilka0gg  mem    REG    0,1   302388     0        41 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG    0,1   302388     0        40 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2139 /dev/shm/.com.valvesoftware.Steam.HT9aOd
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2138 /dev/shm/.com.valvesoftware.Steam.HK5Ca2
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2136 /dev/shm/.com.valvesoftware.Steam.3XU7Ci
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2134 /dev/shm/.com.valvesoftware.Steam.9ds421
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2133 /dev/shm/.com.valvesoftware.Steam.YKEIvM
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2124 /dev/shm/.com.valvesoftware.Steam.BNrP0z
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2120 /dev/shm/.com.valvesoftware.Steam.ngMRlA
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1420 /dev/shm/.com.valvesoftware.Steam.D7Ap6X
+steamwebh 38519 tarilka0gg  mem    REG    0,1   238008     0        35 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG    0,1   238008     0        34 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG    0,1   253500     0        33 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2117 /dev/shm/.com.valvesoftware.Steam.NklSE0
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2115 /dev/shm/.com.valvesoftware.Steam.4frCDj
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2114 /dev/shm/.com.valvesoftware.Steam.xY4tIv
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2112 /dev/shm/.com.valvesoftware.Steam.iQFFrN
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2111 /dev/shm/.com.valvesoftware.Steam.Bhv1jL
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2108 /dev/shm/.com.valvesoftware.Steam.IZhG3G
+steamwebh 38519 tarilka0gg  mem    REG    0,1   253500     0        32 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG    0,1   350550     0        31 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG    0,1   350550     0        30 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2657 /dev/shm/.com.valvesoftware.Steam.My9Zf3
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2103 /dev/shm/.com.valvesoftware.Steam.EuNWxe
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2100 /dev/shm/.com.valvesoftware.Steam.ztIWzv
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2099 /dev/shm/.com.valvesoftware.Steam.zg2Bat
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      2098 /dev/shm/.com.valvesoftware.Steam.MHNyKk
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2095 /dev/shm/.com.valvesoftware.Steam.K0jefy
+steamwebh 38519 tarilka0gg  mem    REG    0,1   305118     0        27 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG    0,1   305118     0        26 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG    0,1   246804     0        25 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2653 /dev/shm/.com.valvesoftware.Steam.gzRv93
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2652 /dev/shm/.com.valvesoftware.Steam.1UNTDo
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2651 /dev/shm/.com.valvesoftware.Steam.1PDRkx
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2086 /dev/shm/.com.valvesoftware.Steam.vDny4q
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2085 /dev/shm/.com.valvesoftware.Steam.OtjOST
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2650 /dev/shm/.com.valvesoftware.Steam.Tb7DTw
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2649 /dev/shm/.com.valvesoftware.Steam.7xoUHV
+steamwebh 38519 tarilka0gg  mem    REG    0,1   246804     0        24 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2648 /dev/shm/.com.valvesoftware.Steam.EeumrK
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2647 /dev/shm/.com.valvesoftware.Steam.ospeYu
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      1872 /dev/shm/.com.valvesoftware.Steam.6d0Uf6
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      1871 /dev/shm/.com.valvesoftware.Steam.ZDhfkK
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      1870 /dev/shm/.com.valvesoftware.Steam.sk4Wff
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      1869 /dev/shm/.com.valvesoftware.Steam.nsZYZK
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      1867 /dev/shm/.com.valvesoftware.Steam.m9R6sp
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      1866 /dev/shm/.com.valvesoftware.Steam.uYZuxn
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      1865 /dev/shm/.com.valvesoftware.Steam.PsNPj8
+steamwebh 38519 tarilka0gg  mem    REG    0,1   254592     0        23 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG    0,1   254592     0        22 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG    0,1   417312     0        21 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG    0,1   417312     0        20 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      1863 /dev/shm/.com.valvesoftware.Steam.E4V29L
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      1862 /dev/shm/.com.valvesoftware.Steam.RgoUqT
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      1860 /dev/shm/.com.valvesoftware.Steam.DTMP5K
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      1859 /dev/shm/.com.valvesoftware.Steam.ME71fJ
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      1856 /dev/shm/.com.valvesoftware.Steam.BIrpNR
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      1855 /dev/shm/.com.valvesoftware.Steam.tH7PPD
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0       380 /dev/shm/.com.valvesoftware.Steam.Iq4vky
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1875 /dev/shm/.com.valvesoftware.Steam.alQ8Kv
+steamwebh 38519 tarilka0gg  mem    REG   0,27   524288     0      2077 /dev/shm/.com.valvesoftware.Steam.3b3cAY
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2076 /dev/shm/.com.valvesoftware.Steam.YJAFHv
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      1850 /dev/shm/.com.valvesoftware.Steam.iqaMbJ
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2646 /dev/shm/.com.valvesoftware.Steam.pkJNuI
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2073 /dev/shm/.com.valvesoftware.Steam.r9dgv9
+steamwebh 38519 tarilka0gg  mem    REG   0,27   524288     0      2072 /dev/shm/.com.valvesoftware.Steam.zPbsUR
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      2071 /dev/shm/.com.valvesoftware.Steam.JS5CiT
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2645 /dev/shm/.com.valvesoftware.Steam.9aY2hZ
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      2067 /dev/shm/.com.valvesoftware.Steam.GiiuRG
+steamwebh 38519 tarilka0gg  mem    REG    0,1   146982     0        37 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0       379 /dev/shm/.com.valvesoftware.Steam.EcUZDp
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1873 /dev/shm/.com.valvesoftware.Steam.mpVI0F
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2070 /dev/shm/.com.valvesoftware.Steam.c2Me8f
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2066 /dev/shm/.com.valvesoftware.Steam.IAeoYg
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2065 /dev/shm/.com.valvesoftware.Steam.yN8Gtm
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1416 /dev/shm/.com.valvesoftware.Steam.zA9GgN
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2644 /dev/shm/.com.valvesoftware.Steam.LCnM6K
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2063 /dev/shm/.com.valvesoftware.Steam.4Unr8l
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2062 /dev/shm/.com.valvesoftware.Steam.ycYVb1
+steamwebh 38519 tarilka0gg  mem    REG    0,1   146982     0        36 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      2061 /dev/shm/.com.valvesoftware.Steam.ljfShQ
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2643 /dev/shm/.com.valvesoftware.Steam.2OzSHH
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2059 /dev/shm/.com.valvesoftware.Steam.f9JZs7
+steamwebh 38519 tarilka0gg  mem    REG   0,27   131072     0      1864 /dev/shm/.com.valvesoftware.Steam.82c4bq
+steamwebh 38519 tarilka0gg  mem    REG   0,27   688128     0      1809 /dev/shm/.com.valvesoftware.Steam.AJixx5
+steamwebh 38519 tarilka0gg  mem    REG    0,1  9623040     0         3 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2642 /dev/shm/.com.valvesoftware.Steam.sTljcc
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2641 /dev/shm/.com.valvesoftware.Steam.hD22JP
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2640 /dev/shm/.com.valvesoftware.Steam.johEpo
+steamwebh 38519 tarilka0gg  mem    REG    0,1  9623040     0         2 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1718 /dev/shm/.com.valvesoftware.Steam.aySMy0
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1717 /dev/shm/.com.valvesoftware.Steam.9JGeli
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2639 /dev/shm/.com.valvesoftware.Steam.EYTKmE
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1715 /dev/shm/.com.valvesoftware.Steam.6vw83D
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2638 /dev/shm/.com.valvesoftware.Steam.rHY9zF
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2057 /dev/shm/.com.valvesoftware.Steam.3pYVfD
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1960 /dev/shm/.com.valvesoftware.Steam.Nlg7Vn
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1708 /dev/shm/.com.valvesoftware.Steam.csFAgW
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1959 /dev/shm/.com.valvesoftware.Steam.lnpF1a
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1703 /dev/shm/.com.valvesoftware.Steam.Bm0GTa
+steamwebh 38519 tarilka0gg  mem    REG    0,1    54708     0        39 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG    0,1    54708     0        38 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2635 /dev/shm/.com.valvesoftware.Steam.LKfg6V
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1692 /dev/shm/.com.valvesoftware.Steam.YtI7p2
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1932 /dev/shm/.com.valvesoftware.Steam.eOLraM
+steamwebh 38519 tarilka0gg  mem    REG    0,1   117000     0        29 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1411 /dev/shm/.com.valvesoftware.Steam.qgQ5ze
+steamwebh 38519 tarilka0gg  mem    REG   0,27   524288     0      4577 /dev/shm/.com.valvesoftware.Steam.FLGb8o
+steamwebh 38519 tarilka0gg  mem    REG    0,1   117000     0        28 /SYSV00000000
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1687 /dev/shm/.com.valvesoftware.Steam.1tpdto
+steamwebh 38519 tarilka0gg  mem    REG   0,27   131072     0      1861 /dev/shm/.com.valvesoftware.Steam.MMvvBT
+steamwebh 38519 tarilka0gg  mem    REG   0,27   131072     0      1948 /dev/shm/.com.valvesoftware.Steam.7IYy3g
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      4936 /dev/shm/.com.valvesoftware.Steam.YiRqch
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      4935 /dev/shm/.com.valvesoftware.Steam.lCkllf
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      4934 /dev/shm/.com.valvesoftware.Steam.LdJDHi
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1929 /dev/shm/.com.valvesoftware.Steam.vARMpz
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      4933 /dev/shm/.com.valvesoftware.Steam.3BKyPC
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1928 /dev/shm/.com.valvesoftware.Steam.mDwHNj
+steamwebh 38519 tarilka0gg  mem    REG   0,27   524288     0      4927 /dev/shm/.com.valvesoftware.Steam.jVLDV5
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      4553 /dev/shm/.com.valvesoftware.Steam.qmBrMo
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2455 /dev/shm/.com.valvesoftware.Steam.l79x8b
+steamwebh 38519 tarilka0gg  mem    REG   0,27   131072     0      1408 /dev/shm/.com.valvesoftware.Steam.Di0q3H
+steamwebh 38519 tarilka0gg  mem    REG   0,27   524288     0      4475 /dev/shm/.com.valvesoftware.Steam.krrBYk
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1680 /dev/shm/.com.valvesoftware.Steam.kCRdj9
+steamwebh 38519 tarilka0gg  mem    REG   0,27   393216     0      1924 /dev/shm/.com.valvesoftware.Steam.y7pZPL
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      4552 /dev/shm/.com.valvesoftware.Steam.1LQHAJ
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      4932 /dev/shm/.com.valvesoftware.Steam.OkWSco
+steamwebh 38519 tarilka0gg  mem    REG   0,27   524288     0      1772 /dev/shm/.com.valvesoftware.Steam.De4bQ8
+steamwebh 38519 tarilka0gg  mem    REG   0,27   524288     0      1771 /dev/shm/.com.valvesoftware.Steam.BT3RdQ
+steamwebh 38519 tarilka0gg  mem    REG   0,27   524288     0      4180 /dev/shm/.com.valvesoftware.Steam.TNkEZr
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2633 /dev/shm/.com.valvesoftware.Steam.721Ew2
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1773 /dev/shm/.com.valvesoftware.Steam.aNWDXQ
+steamwebh 38519 tarilka0gg  mem    REG   0,27   131072     0      4560 /dev/shm/.com.valvesoftware.Steam.LYSyzO
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      4931 /dev/shm/.com.valvesoftware.Steam.3it2pL
+steamwebh 38519 tarilka0gg  mem    REG   0,27   131072     0      2634 /dev/shm/.com.valvesoftware.Steam.kLX2nm
+steamwebh 38519 tarilka0gg  mem    REG   0,27   131072     0      2632 /dev/shm/.com.valvesoftware.Steam.LaN12k
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      4930 /dev/shm/.com.valvesoftware.Steam.e0Kied
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      4424 /dev/shm/.com.valvesoftware.Steam.Pht9Rp
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1909 /dev/shm/.com.valvesoftware.Steam.OWPO7g
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      4423 /dev/shm/.com.valvesoftware.Steam.Oe4zD8
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      4929 /dev/shm/.com.valvesoftware.Steam.5XDxGK
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      3988 /dev/shm/.com.valvesoftware.Steam.jbxY8Q
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      4928 /dev/shm/.com.valvesoftware.Steam.NvEIoG
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1906 /dev/shm/.com.valvesoftware.Steam.lw91MA
+steamwebh 38519 tarilka0gg  mem    REG   0,27    16384     0       378 /dev/shm/.com.valvesoftware.Steam.NBQxrW
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      1748 /dev/shm/.com.valvesoftware.Steam.Zd3H12
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0      2631 /dev/shm/.com.valvesoftware.Steam.HHsyU2
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0       165 /dev/shm/.com.valvesoftware.Steam.bEg5YM
+steamwebh 38519 tarilka0gg  mem    REG   0,27   131072     0        30 /dev/shm/.com.valvesoftware.Steam.SU18B5
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0        12 /dev/shm/.com.valvesoftware.Steam.MAQl92
+steamwebh 38519 tarilka0gg  mem    REG   0,27   131072     0        15 /dev/shm/.com.valvesoftware.Steam.JwSvhu
+steamwebh 38519 tarilka0gg  mem    REG   0,27        4     0       153 /dev/shm/.com.valvesoftware.Steam.LhhwyO
+steamwebh 38519 tarilka0gg  mem    REG   0,27      144     0      2358 /dev/shm/.com.valvesoftware.Steam.itXqsg
+steamwebh 38519 tarilka0gg  mem    REG   0,27        4     0        13 /dev/shm/.com.valvesoftware.Steam.4XIFqt
+steamwebh 38519 tarilka0gg  mem    REG   0,27   262144     0        14 /dev/shm/.com.valvesoftware.Steam.opAEUN
+steamwebh 38519 tarilka0gg   72u   REG   0,27        4     0        13 /dev/shm/.com.valvesoftware.Steam.4XIFqt (deleted)
+steamwebh 38519 tarilka0gg   73u   REG   0,27      144     0      2358 /dev/shm/.com.valvesoftware.Steam.itXqsg (deleted)
+steamwebh 38519 tarilka0gg   79u   REG   0,27  1048576     0      2359 /dev/shm/.com.valvesoftware.Steam.FQZw8j (deleted)
+steamwebh 38519 tarilka0gg   80u   REG   0,27    65536     0      2360 /dev/shm/.com.valvesoftware.Steam.eWf7PE (deleted)
+steamwebh 38534 tarilka0gg  mem    REG   0,27   131000     0        61 /dev/shm/.com.valvesoftware.Steam.aNnS13
+steamwebh 38534 tarilka0gg  mem    REG   0,27   131000     0        60 /dev/shm/.com.valvesoftware.Steam.X1CcGq
+steamwebh 38534 tarilka0gg  mem    REG   0,27   131000     0        59 /dev/shm/.com.valvesoftware.Steam.549LrL
+steamwebh 38534 tarilka0gg  mem    REG   0,27   131000     0        58 /dev/shm/.com.valvesoftware.Steam.vYnEbd
+steamwebh 38534 tarilka0gg  mem    REG   0,27   524288     0        16 /dev/shm/.com.valvesoftware.Steam.uP5OmP
+steamwebh 38534 tarilka0gg  mem    REG   0,27   131072     0        32 /dev/shm/.com.valvesoftware.Steam.TCzDXD
+steamwebh 38534 tarilka0gg  mem    REG   0,27   262144     0        14 /dev/shm/.com.valvesoftware.Steam.opAEUN
+steamwebh 38534 tarilka0gg  mem    REG   0,27   131072     0        17 /dev/shm/.com.valvesoftware.Steam.rSQIvH
+steamwebh 38534 tarilka0gg  mem    REG   0,27        8     0        47 /dev/shm/.com.valvesoftware.Steam.NwoK89
+steamwebh 38534 tarilka0gg   31r   REG   0,27        8     0        47 /dev/shm/.com.valvesoftware.Steam.NwoK89 (deleted)
+steamwebh 38534 tarilka0gg   33u   REG   0,27   131000     0        58 /dev/shm/.com.valvesoftware.Steam.vYnEbd (deleted)
+steamwebh 38534 tarilka0gg   34u   REG   0,27   131000     0        59 /dev/shm/.com.valvesoftware.Steam.549LrL (deleted)
+steamwebh 38534 tarilka0gg   35u   REG   0,27   131000     0        60 /dev/shm/.com.valvesoftware.Steam.X1CcGq (deleted)
+steamwebh 38534 tarilka0gg   36u   REG   0,27   131000     0        61 /dev/shm/.com.valvesoftware.Steam.aNnS13 (deleted)
+steamwebh 38537 tarilka0gg  mem    REG   0,27   131072     0        33 /dev/shm/.com.valvesoftware.Steam.Mg87bF
+steamwebh 38537 tarilka0gg  mem    REG   0,27   524288     0        18 /dev/shm/.com.valvesoftware.Steam.CXZPR1
+steamwebh 38537 tarilka0gg  mem    REG   0,27   131072     0        20 /dev/shm/.com.valvesoftware.Steam.uCa6ZT
+steamwebh 38537 tarilka0gg  mem    REG   0,27   262144     0        14 /dev/shm/.com.valvesoftware.Steam.opAEUN
+steamwebh 38606 tarilka0gg  mem    REG   0,27  1048576     0      2359 /dev/shm/.com.valvesoftware.Steam.FQZw8j
+steamwebh 38606 tarilka0gg  mem    REG   0,27   131072     0      2354 /dev/shm/.com.valvesoftware.Steam.AjtGeo
+steamwebh 38606 tarilka0gg  mem    REG   0,27    65536     0      2360 /dev/shm/.com.valvesoftware.Steam.eWf7PE
+steamwebh 38606 tarilka0gg  mem    REG   0,27   524288     0      2301 /dev/shm/.com.valvesoftware.Steam.Yornpz
+steamwebh 38606 tarilka0gg  mem    REG   0,27   524288     0      2297 /dev/shm/.com.valvesoftware.Steam.Ldrjtu
+steamwebh 38606 tarilka0gg  mem    REG   0,27   524288     0      2294 /dev/shm/.com.valvesoftware.Steam.rBkuxJ
+steamwebh 38606 tarilka0gg  mem    REG   0,27   524288     0      2291 /dev/shm/.com.valvesoftware.Steam.bCyg91
+steamwebh 38606 tarilka0gg  mem    REG   0,27   393216     0      2278 /dev/shm/.com.valvesoftware.Steam.YHm1sT
+steamwebh 38606 tarilka0gg  mem    REG   0,27   327680     0      2277 /dev/shm/.com.valvesoftware.Steam.vKXMSZ
+steamwebh 38606 tarilka0gg  mem    REG   0,27   327680     0      2271 /dev/shm/.com.valvesoftware.Steam.pHKYlk
+steamwebh 38606 tarilka0gg  mem    REG   0,27   393216     0      2268 /dev/shm/.com.valvesoftware.Steam.yMoQqa
+steamwebh 38606 tarilka0gg  mem    REG   0,27   327680     0      2267 /dev/shm/.com.valvesoftware.Steam.f700EW
+steamwebh 38606 tarilka0gg  mem    REG   0,27   393216     0      2265 /dev/shm/.com.valvesoftware.Steam.K0wH9Y
+steamwebh 38606 tarilka0gg  mem    REG   0,27   327680     0      2264 /dev/shm/.com.valvesoftware.Steam.YOGlZa
+steamwebh 38606 tarilka0gg  mem    REG   0,27   393216     0      2258 /dev/shm/.com.valvesoftware.Steam.lWYzr9
+steamwebh 38606 tarilka0gg  mem    REG   0,27   393216     0      2256 /dev/shm/.com.valvesoftware.Steam.QEDHFw
+steamwebh 38606 tarilka0gg  mem    REG   0,27   393216     0      2247 /dev/shm/.com.valvesoftware.Steam.snDCbg
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0       380 /dev/shm/.com.valvesoftware.Steam.Iq4vky
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0       379 /dev/shm/.com.valvesoftware.Steam.EcUZDp
+steamwebh 38606 tarilka0gg  mem    REG   0,27   327680     0      2259 /dev/shm/.com.valvesoftware.Steam.B51Ss3
+steamwebh 38606 tarilka0gg  mem    REG   0,27   327680     0      2244 /dev/shm/.com.valvesoftware.Steam.k7mhtr
+steamwebh 38606 tarilka0gg  mem    REG   0,27   393216     0      2240 /dev/shm/.com.valvesoftware.Steam.6XBkqr
+steamwebh 38606 tarilka0gg  mem    REG   0,27   655360     0      2208 /dev/shm/.com.valvesoftware.Steam.gz8pb4
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2187 /dev/shm/.com.valvesoftware.Steam.eTuq3U
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2185 /dev/shm/.com.valvesoftware.Steam.kCVvT6
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2139 /dev/shm/.com.valvesoftware.Steam.HT9aOd
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2138 /dev/shm/.com.valvesoftware.Steam.HK5Ca2
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2136 /dev/shm/.com.valvesoftware.Steam.3XU7Ci
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2134 /dev/shm/.com.valvesoftware.Steam.9ds421
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2133 /dev/shm/.com.valvesoftware.Steam.YKEIvM
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2124 /dev/shm/.com.valvesoftware.Steam.BNrP0z
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2120 /dev/shm/.com.valvesoftware.Steam.ngMRlA
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2117 /dev/shm/.com.valvesoftware.Steam.NklSE0
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2115 /dev/shm/.com.valvesoftware.Steam.4frCDj
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2114 /dev/shm/.com.valvesoftware.Steam.xY4tIv
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2112 /dev/shm/.com.valvesoftware.Steam.iQFFrN
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2111 /dev/shm/.com.valvesoftware.Steam.Bhv1jL
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2108 /dev/shm/.com.valvesoftware.Steam.IZhG3G
+steamwebh 38606 tarilka0gg  mem    REG   0,27   393216     0      2098 /dev/shm/.com.valvesoftware.Steam.MHNyKk
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2095 /dev/shm/.com.valvesoftware.Steam.K0jefy
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2086 /dev/shm/.com.valvesoftware.Steam.vDny4q
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2085 /dev/shm/.com.valvesoftware.Steam.OtjOST
+steamwebh 38606 tarilka0gg  mem    REG   0,27   524288     0      2077 /dev/shm/.com.valvesoftware.Steam.3b3cAY
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2076 /dev/shm/.com.valvesoftware.Steam.YJAFHv
+steamwebh 38606 tarilka0gg  mem    REG   0,27   524288     0      2072 /dev/shm/.com.valvesoftware.Steam.zPbsUR
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2653 /dev/shm/.com.valvesoftware.Steam.gzRv93
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2073 /dev/shm/.com.valvesoftware.Steam.r9dgv9
+steamwebh 38606 tarilka0gg  mem    REG   0,27   393216     0      2071 /dev/shm/.com.valvesoftware.Steam.JS5CiT
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2070 /dev/shm/.com.valvesoftware.Steam.c2Me8f
+steamwebh 38606 tarilka0gg  mem    REG   0,27   393216     0      2067 /dev/shm/.com.valvesoftware.Steam.GiiuRG
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2066 /dev/shm/.com.valvesoftware.Steam.IAeoYg
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2065 /dev/shm/.com.valvesoftware.Steam.yN8Gtm
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2649 /dev/shm/.com.valvesoftware.Steam.7xoUHV
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2063 /dev/shm/.com.valvesoftware.Steam.4Unr8l
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2062 /dev/shm/.com.valvesoftware.Steam.ycYVb1
+steamwebh 38606 tarilka0gg  mem    REG   0,27   393216     0      2061 /dev/shm/.com.valvesoftware.Steam.ljfShQ
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2648 /dev/shm/.com.valvesoftware.Steam.EeumrK
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2059 /dev/shm/.com.valvesoftware.Steam.f9JZs7
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2057 /dev/shm/.com.valvesoftware.Steam.3pYVfD
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2644 /dev/shm/.com.valvesoftware.Steam.LCnM6K
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2643 /dev/shm/.com.valvesoftware.Steam.2OzSHH
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2103 /dev/shm/.com.valvesoftware.Steam.EuNWxe
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2639 /dev/shm/.com.valvesoftware.Steam.EYTKmE
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2638 /dev/shm/.com.valvesoftware.Steam.rHY9zF
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2100 /dev/shm/.com.valvesoftware.Steam.ztIWzv
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      2099 /dev/shm/.com.valvesoftware.Steam.zg2Bat
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      1960 /dev/shm/.com.valvesoftware.Steam.Nlg7Vn
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      1264 /dev/shm/.com.valvesoftware.Steam.8pw1Xr
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      1263 /dev/shm/.com.valvesoftware.Steam.WOTYJ6
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      1959 /dev/shm/.com.valvesoftware.Steam.lnpF1a
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      1262 /dev/shm/.com.valvesoftware.Steam.103pK3
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      4936 /dev/shm/.com.valvesoftware.Steam.YiRqch
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      4935 /dev/shm/.com.valvesoftware.Steam.lCkllf
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      4934 /dev/shm/.com.valvesoftware.Steam.LdJDHi
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      4933 /dev/shm/.com.valvesoftware.Steam.3BKyPC
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      1259 /dev/shm/.com.valvesoftware.Steam.2eM1bT
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      4932 /dev/shm/.com.valvesoftware.Steam.OkWSco
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      4931 /dev/shm/.com.valvesoftware.Steam.3it2pL
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      4553 /dev/shm/.com.valvesoftware.Steam.qmBrMo
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      4552 /dev/shm/.com.valvesoftware.Steam.1LQHAJ
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      1932 /dev/shm/.com.valvesoftware.Steam.eOLraM
+steamwebh 38606 tarilka0gg  mem    REG   0,27   524288     0      4927 /dev/shm/.com.valvesoftware.Steam.jVLDV5
+steamwebh 38606 tarilka0gg  mem    REG   0,27   131072     0      2634 /dev/shm/.com.valvesoftware.Steam.kLX2nm
+steamwebh 38606 tarilka0gg  mem    REG   0,27   131072     0      2632 /dev/shm/.com.valvesoftware.Steam.LaN12k
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      1929 /dev/shm/.com.valvesoftware.Steam.vARMpz
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      4930 /dev/shm/.com.valvesoftware.Steam.e0Kied
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      1928 /dev/shm/.com.valvesoftware.Steam.mDwHNj
+steamwebh 38606 tarilka0gg  mem    REG   0,27   524288     0      4475 /dev/shm/.com.valvesoftware.Steam.krrBYk
+steamwebh 38606 tarilka0gg  mem    REG   0,27   524288     0      4180 /dev/shm/.com.valvesoftware.Steam.TNkEZr
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      4929 /dev/shm/.com.valvesoftware.Steam.5XDxGK
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      3988 /dev/shm/.com.valvesoftware.Steam.jbxY8Q
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      4424 /dev/shm/.com.valvesoftware.Steam.Pht9Rp
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      4423 /dev/shm/.com.valvesoftware.Steam.Oe4zD8
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0      1748 /dev/shm/.com.valvesoftware.Steam.Zd3H12
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0       165 /dev/shm/.com.valvesoftware.Steam.bEg5YM
+steamwebh 38606 tarilka0gg  mem    REG   0,27  2097152     0        27 /dev/shm/.com.valvesoftware.Steam.vYefhk
+steamwebh 38606 tarilka0gg  mem    REG   0,27   131072     0      4560 /dev/shm/.com.valvesoftware.Steam.LYSyzO
+steamwebh 38606 tarilka0gg  mem    REG   0,27   131000     0        61 /dev/shm/.com.valvesoftware.Steam.aNnS13
+steamwebh 38606 tarilka0gg  mem    REG   0,27   131000     0        60 /dev/shm/.com.valvesoftware.Steam.X1CcGq
+steamwebh 38606 tarilka0gg  mem    REG   0,27   131000     0        59 /dev/shm/.com.valvesoftware.Steam.549LrL
+steamwebh 38606 tarilka0gg  mem    REG   0,27   131064     0        21 /dev/shm/.com.valvesoftware.Steam.I9dE9v
+steamwebh 38606 tarilka0gg  mem    REG   0,27   131000     0        58 /dev/shm/.com.valvesoftware.Steam.vYnEbd
+steamwebh 38606 tarilka0gg  mem    REG   0,27   131072     0        33 /dev/shm/.com.valvesoftware.Steam.Mg87bF
+steamwebh 38606 tarilka0gg  mem    REG   0,27   131072     0        32 /dev/shm/.com.valvesoftware.Steam.TCzDXD
+steamwebh 38606 tarilka0gg  mem    REG   0,27      208     0       472 /dev/shm/.com.valvesoftware.Steam.VNt3Fm
+steamwebh 38606 tarilka0gg  mem    REG   0,27      208     0       461 /dev/shm/.com.valvesoftware.Steam.GttCjP
+steamwebh 38606 tarilka0gg  mem    REG   0,27      208     0       451 /dev/shm/.com.valvesoftware.Steam.UKCOQI
+steamwebh 38606 tarilka0gg  mem    REG   0,27      208     0       441 /dev/shm/.com.valvesoftware.Steam.pxOISY
+steamwebh 38606 tarilka0gg  mem    REG   0,27    16384     0       378 /dev/shm/.com.valvesoftware.Steam.NBQxrW
+steamwebh 38606 tarilka0gg  mem    REG   0,27   131072     0        30 /dev/shm/.com.valvesoftware.Steam.SU18B5
+steamwebh 38606 tarilka0gg  mem    REG   0,27      208     0       417 /dev/shm/.com.valvesoftware.Steam.H14MbY
+steamwebh 38606 tarilka0gg  mem    REG   0,27      208     0       407 /dev/shm/.com.valvesoftware.Steam.jBjTZh
+steamwebh 38606 tarilka0gg  mem    REG   0,27      208     0       403 /dev/shm/.com.valvesoftware.Steam.5WntmQ
+steamwebh 38606 tarilka0gg  mem    REG   0,27   131072     0        28 /dev/shm/.com.valvesoftware.Steam.rqxH1h
+steamwebh 38606 tarilka0gg  mem    REG   0,27   262144     0        14 /dev/shm/.com.valvesoftware.Steam.opAEUN
+steamwebh 38606 tarilka0gg  mem    REG   0,27      208     0       398 /dev/shm/.com.valvesoftware.Steam.2Dagsq
+steamwebh 38606 tarilka0gg  mem    REG   0,27      208     0       390 /dev/shm/.com.valvesoftware.Steam.fO8xUq
+steamwebh 38606 tarilka0gg  mem    REG   0,27      208     0       383 /dev/shm/.com.valvesoftware.Steam.Rgy9NB
+steamwebh 38606 tarilka0gg  mem    REG   0,27      208     0       373 /dev/shm/.com.valvesoftware.Steam.18wk5G
+steamwebh 38606 tarilka0gg  mem    REG   0,27        8     0        47 /dev/shm/.com.valvesoftware.Steam.NwoK89
+steamwebh 38606 tarilka0gg  mem    REG   0,27      208     0       138 /dev/shm/.com.valvesoftware.Steam.6tlX3u
+steamwebh 38606 tarilka0gg  mem    REG   0,27      208     0        48 /dev/shm/.com.valvesoftware.Steam.CqL0vx
+steamwebh 38606 tarilka0gg  mem    REG   0,27      144     0      2358 /dev/shm/.com.valvesoftware.Steam.itXqsg
+steamwebh 38606 tarilka0gg   24u   REG   0,27   131000     0        58 /dev/shm/.com.valvesoftware.Steam.vYnEbd (deleted)
+steamwebh 38606 tarilka0gg   25u   REG   0,27   131000     0        59 /dev/shm/.com.valvesoftware.Steam.549LrL (deleted)
+steamwebh 38606 tarilka0gg   30u   REG   0,20  8889041     0 101019336 /tmp/.com.valvesoftware.Steam.oVf9uB (deleted)
+steamwebh 38606 tarilka0gg   31u   REG   0,27   131000     0        60 /dev/shm/.com.valvesoftware.Steam.X1CcGq (deleted)
+steamwebh 38606 tarilka0gg   34u   REG   0,27   131000     0        61 /dev/shm/.com.valvesoftware.Steam.aNnS13 (deleted)
+steamwebh 38606 tarilka0gg   45r   REG   0,27        8     0        47 /dev/shm/.com.valvesoftware.Steam.NwoK89 (deleted)
+steamwebh 38606 tarilka0gg   47u   REG   0,27      144     0      2358 /dev/shm/.com.valvesoftware.Steam.itXqsg (deleted)
+steamwebh 38606 tarilka0gg   49u   REG   0,27  1048576     0      2359 /dev/shm/.com.valvesoftware.Steam.FQZw8j (deleted)
+steamwebh 38606 tarilka0gg   51u   REG   0,27    65536     0      2360 /dev/shm/.com.valvesoftware.Steam.eWf7PE (deleted)
+steamwebh 39673 tarilka0gg  mem    REG   0,27  2097152     0      2343 /dev/shm/.com.valvesoftware.Steam.X7jguW
+steamwebh 39673 tarilka0gg  mem    REG   0,27   131064     0        21 /dev/shm/.com.valvesoftware.Steam.I9dE9v
+steamwebh 39673 tarilka0gg  mem    REG   0,27   131072     0      2345 /dev/shm/.com.valvesoftware.Steam.uHvTeY
+steamwebh 39673 tarilka0gg  mem    REG   0,27   131072     0      2344 /dev/shm/.com.valvesoftware.Steam.f64nks
+steamwebh 39673 tarilka0gg  mem    REG   0,27   262144     0        14 /dev/shm/.com.valvesoftware.Steam.opAEUN
+steamwebh 39673 tarilka0gg  mem    REG   0,27      208     0      2346 /dev/shm/.com.valvesoftware.Steam.iUwt6P
+steamwebh 39673 tarilka0gg   30u   REG   0,20        0     0 101019370 /tmp/.com.valvesoftware.Steam.EU7Nzw (deleted)
+ghostty   40650 tarilka0gg    8u   REG    0,1     3840     0      5120 /memfd:smithay-dmabuffeedback-format-table (deleted)
+ghostty   40650 tarilka0gg   10u   REG    0,1     3840     0      5120 /memfd:smithay-dmabuffeedback-format-table (deleted)
+ghostty   41261 tarilka0gg    8u   REG    0,1     3840     0      5120 /memfd:smithay-dmabuffeedback-format-table (deleted)
+ghostty   41261 tarilka0gg   10u   REG    0,1     3840     0      5120 /memfd:smithay-dmabuffeedback-format-table (deleted)
+Telegram  41380 tarilka0gg   36u   REG    0,1     3840     0      5120 /memfd:smithay-dmabuffeedback-format-table (deleted)
+gnome-sof 48843 tarilka0gg    8u   REG    0,1     3840     0      5120 /memfd:smithay-dmabuffeedback-format-table (deleted)
+gnome-sof 48843 tarilka0gg   42u   REG    0,1     3840     0      5120 /memfd:smithay-dmabuffeedback-format-table (deleted)
+xdg-dbus- 48976 tarilka0gg   73u   REG    0,1     1624     0      9443 /memfd:bwrap-args (deleted)
+vesktop.b 48981 tarilka0gg  mem    REG   0,52  4198400     0      1960 /dev/shm/.org.chromium.Chromium.sO9dgg
+vesktop.b 48981 tarilka0gg  mem    REG   0,52   414456     0       853 /dev/shm/.org.chromium.Chromium.VF4c9P
+vesktop.b 48981 tarilka0gg  mem    REG   0,52   705684     0       848 /dev/shm/.org.chromium.Chromium.D92d8M
+vesktop.b 48981 tarilka0gg  mem    REG   0,52  1048576     0       657 /dev/shm/.org.chromium.Chromium.8IFAHY
+vesktop.b 48981 tarilka0gg  mem    REG   0,52   410712     0       765 /dev/shm/.org.chromium.Chromium.4nCEvR
+vesktop.b 48981 tarilka0gg  mem    REG   0,52   757076     0       763 /dev/shm/.org.chromium.Chromium.hZhUEG
+vesktop.b 48981 tarilka0gg  mem    REG   0,52    65536     0      1172 /dev/shm/.org.chromium.Chromium.TTEkkH
+vesktop.b 48981 tarilka0gg  mem    REG   0,52    65536     0      1173 /dev/shm/.org.chromium.Chromium.YFilI5
+vesktop.b 48981 tarilka0gg  mem    REG   0,52   131072     0       147 /dev/shm/.org.chromium.Chromium.01BmMH
+vesktop.b 48981 tarilka0gg  mem    REG   0,52   131072     0        24 /dev/shm/.org.chromium.Chromium.2TBv7G
+vesktop.b 48981 tarilka0gg  mem    REG   0,52   359804     0        21 /dev/shm/.org.chromium.Chromium.jglQ7O
+vesktop.b 48981 tarilka0gg  mem    REG   0,52    65536     0        56 /dev/shm/.org.chromium.Chromium.BgSQ29
+vesktop.b 48981 tarilka0gg  mem    REG   0,52     7817     0       655 /dev/shm/.org.chromium.Chromium.O1l9Q9
+vesktop.b 48981 tarilka0gg  mem    REG   0,52     4937     0       654 /dev/shm/.org.chromium.Chromium.CHLmxu
+vesktop.b 48981 tarilka0gg  mem    REG   0,52        8     0        23 /dev/shm/.org.chromium.Chromium.DBJURa
+vesktop.b 48981 tarilka0gg  mem    REG   0,52    65536     0        55 /dev/shm/.org.chromium.Chromium.JQIne6
+vesktop.b 48981 tarilka0gg  mem    REG   0,52       16     0        31 /dev/shm/.org.chromium.Chromium.jcbyHl
+vesktop.b 48981 tarilka0gg  mem    REG   0,52      144     0        40 /dev/shm/.org.chromium.Chromium.qwkeiw
+vesktop.b 48981 tarilka0gg  mem    REG   0,52    65536     0      1141 /dev/shm/.org.chromium.Chromium.Wke5B6
+vesktop.b 48981 tarilka0gg  mem    REG   0,52   131072     0       698 /dev/shm/.org.chromium.Chromium.iuCFg9
+vesktop.b 48981 tarilka0gg  mem    REG   0,52      144     0        37 /dev/shm/.org.chromium.Chromium.ctTFco
+vesktop.b 48981 tarilka0gg  mem    REG   0,52    17785     0       659 /dev/shm/.org.chromium.Chromium.esaaj5
+vesktop.b 48981 tarilka0gg  mem    REG   0,52     8857     0       658 /dev/shm/.org.chromium.Chromium.6ppld6
+vesktop.b 48981 tarilka0gg  mem    REG    0,1    39808     0      3281 /memfd:wayland-cursor
+vesktop.b 48981 tarilka0gg  mem    REG   0,52   131072     0         6 /dev/shm/.org.chromium.Chromium.6BvbgZ
+vesktop.b 48981 tarilka0gg  mem    REG   0,52   131072     0         5 /dev/shm/.org.chromium.Chromium.YVpTg2
+vesktop.b 48981 tarilka0gg  mem    REG   0,52   262144     0         3 /dev/shm/.org.chromium.Chromium.ueD51M
+vesktop.b 48981 tarilka0gg  mem    REG    0,1    25216     0      1211 /memfd:wayland-cursor
+vesktop.b 48981 tarilka0gg  mem    REG   0,52        4     0         2 /dev/shm/.org.chromium.Chromium.hGmhrI
+vesktop.b 48981 tarilka0gg   55u   REG    0,1    25216     0      1211 /memfd:wayland-cursor (deleted)
+vesktop.b 48981 tarilka0gg   69u   REG   0,52        4     0         2 /dev/shm/.org.chromium.Chromium.hGmhrI (deleted)
+vesktop.b 48981 tarilka0gg   73r   REG   0,52   262144     0         3 /dev/shm/.org.chromium.Chromium.ueD51M (deleted)
+vesktop.b 48981 tarilka0gg   76r   REG   0,52        4     0         4 /dev/shm/.org.chromium.Chromium.dwU27N (deleted)
+vesktop.b 48981 tarilka0gg   82u   REG    0,1    39808     0      3281 /memfd:wayland-cursor (deleted)
+vesktop.b 48981 tarilka0gg  114u   REG   0,52      144     0        37 /dev/shm/.org.chromium.Chromium.ctTFco (deleted)
+vesktop.b 48981 tarilka0gg  121r   REG   0,52   359804     0        21 /dev/shm/.org.chromium.Chromium.jglQ7O (deleted)
+vesktop.b 48981 tarilka0gg  123u   REG   0,52      144     0        40 /dev/shm/.org.chromium.Chromium.qwkeiw (deleted)
+vesktop.b 48981 tarilka0gg  127r   REG   0,52        8     0        23 /dev/shm/.org.chromium.Chromium.DBJURa (deleted)
+vesktop.b 48981 tarilka0gg  132r   REG   0,52  1048576     0       657 /dev/shm/.org.chromium.Chromium.8IFAHY (deleted)
+vesktop.b 48981 tarilka0gg  141r   REG   0,52   757076     0       763 /dev/shm/.org.chromium.Chromium.hZhUEG (deleted)
+vesktop.b 48981 tarilka0gg  142r   REG   0,52   410712     0       765 /dev/shm/.org.chromium.Chromium.4nCEvR (deleted)
+vesktop.b 48981 tarilka0gg  150r   REG   0,52   705684     0       848 /dev/shm/.org.chromium.Chromium.D92d8M (deleted)
+vesktop.b 48981 tarilka0gg  151r   REG   0,52   414456     0       853 /dev/shm/.org.chromium.Chromium.VF4c9P (deleted)
+vesktop.b 49053 tarilka0gg  mem    REG   0,52  2097152     0       738 /dev/shm/.org.chromium.Chromium.Em0D2S
+vesktop.b 49053 tarilka0gg  mem    REG   0,52  1048576     0       657 /dev/shm/.org.chromium.Chromium.8IFAHY
+vesktop.b 49053 tarilka0gg  mem    REG   0,52  1048576     0       734 /dev/shm/.org.chromium.Chromium.ayVY53
+vesktop.b 49053 tarilka0gg  mem    REG   0,52   131072     0       158 /dev/shm/.org.chromium.Chromium.caNR7b
+vesktop.b 49053 tarilka0gg  mem    REG   0,52    65536     0       155 /dev/shm/.org.chromium.Chromium.jHjz2B
+vesktop.b 49053 tarilka0gg  mem    REG   0,52    65536     0       154 /dev/shm/.org.chromium.Chromium.r3sdNX
+vesktop.b 49053 tarilka0gg  mem    REG   0,52    65536     0       936 /dev/shm/.org.chromium.Chromium.u4z6GV
+vesktop.b 49053 tarilka0gg  mem    REG   0,52    65536     0       935 /dev/shm/.org.chromium.Chromium.76KDYa
+vesktop.b 49053 tarilka0gg  mem    REG   0,52    65536     0       735 /dev/shm/.org.chromium.Chromium.KyMt0E
+vesktop.b 49053 tarilka0gg  mem    REG   0,52   131072     0        33 /dev/shm/.org.chromium.Chromium.pybdZy
+vesktop.b 49053 tarilka0gg  mem    REG   0,52   131072     0         5 /dev/shm/.org.chromium.Chromium.YVpTg2
+vesktop.b 49053 tarilka0gg  mem    REG   0,52    65536     0       928 /dev/shm/.org.chromium.Chromium.LGjPhf
+vesktop.b 49053 tarilka0gg  mem    REG   0,52    65536     0       927 /dev/shm/.org.chromium.Chromium.YKmrCN
+vesktop.b 49053 tarilka0gg  mem    REG   0,52      144     0       926 /dev/shm/.org.chromium.Chromium.8V4aNT
+vesktop.b 49053 tarilka0gg  mem    REG   0,52    65536     0      1992 /dev/shm/.org.chromium.Chromium.09EdNH
+vesktop.b 49053 tarilka0gg  mem    REG   0,52      144     0       934 /dev/shm/.org.chromium.Chromium.nPanVx
+vesktop.b 49053 tarilka0gg  mem    REG   0,52      144     0       153 /dev/shm/.org.chromium.Chromium.pHyTq1
+vesktop.b 49053 tarilka0gg  mem    REG   0,52     4096     0       912 /dev/shm/.org.chromium.Chromium.msDe01
+vesktop.b 49053 tarilka0gg  mem    REG   0,52      144     0       150 /dev/shm/.org.chromium.Chromium.bd5vZ8
+vesktop.b 49053 tarilka0gg  mem    REG   0,52     4096     0       872 /dev/shm/.org.chromium.Chromium.tLiDkF
+vesktop.b 49053 tarilka0gg  mem    REG   0,52     4096     0        54 /dev/shm/.org.chromium.Chromium.LXk62M
+vesktop.b 49053 tarilka0gg  mem    REG   0,52     4096     0       739 /dev/shm/.org.chromium.Chromium.F4TCKA
+vesktop.b 49053 tarilka0gg  mem    REG   0,52      144     0       733 /dev/shm/.org.chromium.Chromium.5Eu1wb
+vesktop.b 49053 tarilka0gg  mem    REG   0,52      144     0        40 /dev/shm/.org.chromium.Chromium.qwkeiw
+vesktop.b 49053 tarilka0gg  mem    REG   0,52      144     0        37 /dev/shm/.org.chromium.Chromium.ctTFco
+vesktop.b 49053 tarilka0gg  mem    REG   0,52       16     0        36 /dev/shm/.org.chromium.Chromium.cb0vTk
+vesktop.b 49053 tarilka0gg  mem    REG   0,52     4096     0      1991 /dev/shm/.org.chromium.Chromium.ZodnmH
+vesktop.b 49053 tarilka0gg  mem    REG   0,52       16     0        31 /dev/shm/.org.chromium.Chromium.jcbyHl
+vesktop.b 49053 tarilka0gg  mem    REG   0,52        4     0         2 /dev/shm/.org.chromium.Chromium.hGmhrI
+vesktop.b 49053 tarilka0gg  mem    REG   0,52   262144     0         3 /dev/shm/.org.chromium.Chromium.ueD51M
+vesktop.b 49053 tarilka0gg   19u   REG   0,52        4     0         2 /dev/shm/.org.chromium.Chromium.hGmhrI (deleted)
+vesktop.b 49053 tarilka0gg   20u   REG   0,52    65536     0      1992 /dev/shm/.org.chromium.Chromium.09EdNH (deleted)
+vesktop.b 49053 tarilka0gg   21r   REG   0,52       16     0        31 /dev/shm/.org.chromium.Chromium.jcbyHl (deleted)
+vesktop.b 49053 tarilka0gg   23u   REG   0,52      144     0        37 /dev/shm/.org.chromium.Chromium.ctTFco (deleted)
+vesktop.b 49053 tarilka0gg   24u   REG   0,52     4096     0       872 /dev/shm/.org.chromium.Chromium.tLiDkF (deleted)
+vesktop.b 49053 tarilka0gg   26r   REG   0,52       16     0        36 /dev/shm/.org.chromium.Chromium.cb0vTk (deleted)
+vesktop.b 49053 tarilka0gg   28u   REG   0,52      144     0       926 /dev/shm/.org.chromium.Chromium.8V4aNT (deleted)
+vesktop.b 49053 tarilka0gg   29u   REG   0,52      144     0        40 /dev/shm/.org.chromium.Chromium.qwkeiw (deleted)
+vesktop.b 49053 tarilka0gg   35u   REG   0,52      144     0       934 /dev/shm/.org.chromium.Chromium.nPanVx (deleted)
+vesktop.b 49053 tarilka0gg   37u   REG   0,52     4096     0       912 /dev/shm/.org.chromium.Chromium.msDe01 (deleted)
+vesktop.b 49053 tarilka0gg   40u   REG   0,52     4096     0        54 /dev/shm/.org.chromium.Chromium.LXk62M (deleted)
+vesktop.b 49053 tarilka0gg   41r   REG   0,52  1048576     0       657 /dev/shm/.org.chromium.Chromium.8IFAHY (deleted)
+vesktop.b 49053 tarilka0gg   47u   REG   0,52      144     0       733 /dev/shm/.org.chromium.Chromium.5Eu1wb (deleted)
+vesktop.b 49053 tarilka0gg   48u   REG   0,52  1048576     0       734 /dev/shm/.org.chromium.Chromium.ayVY53 (deleted)
+vesktop.b 49053 tarilka0gg   49u   REG   0,52    65536     0       735 /dev/shm/.org.chromium.Chromium.KyMt0E (deleted)
+vesktop.b 49053 tarilka0gg   50u   REG   0,52  2097152     0       738 /dev/shm/.org.chromium.Chromium.Em0D2S (deleted)
+vesktop.b 49053 tarilka0gg   51u   REG   0,52      144     0       150 /dev/shm/.org.chromium.Chromium.bd5vZ8 (deleted)
+vesktop.b 49053 tarilka0gg   52u   REG   0,52     4096     0       739 /dev/shm/.org.chromium.Chromium.F4TCKA (deleted)
+vesktop.b 49053 tarilka0gg   55u   REG   0,52     4096     0      1991 /dev/shm/.org.chromium.Chromium.ZodnmH (deleted)
+vesktop.b 49053 tarilka0gg   56u   REG   0,52    65536     0       935 /dev/shm/.org.chromium.Chromium.76KDYa (deleted)
+vesktop.b 49053 tarilka0gg   58u   REG   0,52    65536     0       927 /dev/shm/.org.chromium.Chromium.YKmrCN (deleted)
+vesktop.b 49053 tarilka0gg   60u   REG   0,52    65536     0       928 /dev/shm/.org.chromium.Chromium.LGjPhf (deleted)
+vesktop.b 49053 tarilka0gg   62u   REG   0,52    65536     0       936 /dev/shm/.org.chromium.Chromium.u4z6GV (deleted)
+vesktop.b 49053 tarilka0gg   66u   REG   0,52      144     0       153 /dev/shm/.org.chromium.Chromium.pHyTq1 (deleted)
+vesktop.b 49053 tarilka0gg   67u   REG   0,52    65536     0       154 /dev/shm/.org.chromium.Chromium.r3sdNX (deleted)
+vesktop.b 49053 tarilka0gg   68u   REG   0,52    65536     0       155 /dev/shm/.org.chromium.Chromium.jHjz2B (deleted)
+vesktop.b 49058 tarilka0gg  mem    REG   0,52   131000     0       652 /dev/shm/.org.chromium.Chromium.DwwTCb
+vesktop.b 49058 tarilka0gg  mem    REG   0,52   131000     0       651 /dev/shm/.org.chromium.Chromium.Ynznrk
+vesktop.b 49058 tarilka0gg  mem    REG   0,52    65536     0      1173 /dev/shm/.org.chromium.Chromium.YFilI5
+vesktop.b 49058 tarilka0gg  mem    REG   0,52    65536     0      1172 /dev/shm/.org.chromium.Chromium.TTEkkH
+vesktop.b 49058 tarilka0gg  mem    REG   0,52    65536     0        56 /dev/shm/.org.chromium.Chromium.BgSQ29
+vesktop.b 49058 tarilka0gg  mem    REG   0,52    65536     0        55 /dev/shm/.org.chromium.Chromium.JQIne6
+vesktop.b 49058 tarilka0gg  mem    REG   0,52   131072     0        26 /dev/shm/.org.chromium.Chromium.NtIw9b
+vesktop.b 49058 tarilka0gg  mem    REG   0,52   262144     0         3 /dev/shm/.org.chromium.Chromium.ueD51M
+vesktop.b 49058 tarilka0gg  mem    REG   0,52       16     0        25 /dev/shm/.org.chromium.Chromium.K9oFsu
+vesktop.b 49058 tarilka0gg  mem    REG   0,52   131072     0         6 /dev/shm/.org.chromium.Chromium.6BvbgZ
+vesktop.b 49058 tarilka0gg   23r   REG   0,52       16     0        25 /dev/shm/.org.chromium.Chromium.K9oFsu (deleted)
+vesktop.b 49058 tarilka0gg   26u   REG   0,52   131000     0       651 /dev/shm/.org.chromium.Chromium.Ynznrk (deleted)
+vesktop.b 49058 tarilka0gg   27u   REG   0,52   131000     0       652 /dev/shm/.org.chromium.Chromium.DwwTCb (deleted)
+vesktop.b 49110 tarilka0gg  mem    REG   0,52  4198400     0      1960 /dev/shm/.org.chromium.Chromium.sO9dgg
+vesktop.b 49110 tarilka0gg  mem    REG   0,52  2097152     0       738 /dev/shm/.org.chromium.Chromium.Em0D2S
+vesktop.b 49110 tarilka0gg  mem    REG   0,52    65536     0      1141 /dev/shm/.org.chromium.Chromium.Wke5B6
+vesktop.b 49110 tarilka0gg  mem    REG   0,52   131072     0       938 /dev/shm/.org.chromium.Chromium.57qAJR
+vesktop.b 49110 tarilka0gg  mem    REG   0,52    65536     0       928 /dev/shm/.org.chromium.Chromium.LGjPhf
+vesktop.b 49110 tarilka0gg  mem    REG   0,52    65536     0       936 /dev/shm/.org.chromium.Chromium.u4z6GV
+vesktop.b 49110 tarilka0gg  mem    REG   0,52    65536     0       935 /dev/shm/.org.chromium.Chromium.76KDYa
+vesktop.b 49110 tarilka0gg  mem    REG   0,52   414456     0       853 /dev/shm/.org.chromium.Chromium.VF4c9P
+vesktop.b 49110 tarilka0gg  mem    REG   0,52   705684     0       848 /dev/shm/.org.chromium.Chromium.D92d8M
+vesktop.b 49110 tarilka0gg  mem    REG   0,52   410712     0       765 /dev/shm/.org.chromium.Chromium.4nCEvR
+vesktop.b 49110 tarilka0gg  mem    REG   0,52   757076     0       763 /dev/shm/.org.chromium.Chromium.hZhUEG
+vesktop.b 49110 tarilka0gg  mem    REG   0,52    65536     0       927 /dev/shm/.org.chromium.Chromium.YKmrCN
+vesktop.b 49110 tarilka0gg  mem    REG   0,52  1048576     0       734 /dev/shm/.org.chromium.Chromium.ayVY53
+vesktop.b 49110 tarilka0gg  mem    REG   0,52   131000     0       652 /dev/shm/.org.chromium.Chromium.DwwTCb
+vesktop.b 49110 tarilka0gg  mem    REG   0,52   131000     0       651 /dev/shm/.org.chromium.Chromium.Ynznrk
+vesktop.b 49110 tarilka0gg  mem    REG   0,52      144     0       934 /dev/shm/.org.chromium.Chromium.nPanVx
+vesktop.b 49110 tarilka0gg  mem    REG   0,52      144     0       926 /dev/shm/.org.chromium.Chromium.8V4aNT
+vesktop.b 49110 tarilka0gg  mem    REG   0,52   131072     0       158 /dev/shm/.org.chromium.Chromium.caNR7b
+vesktop.b 49110 tarilka0gg  mem    REG   0,52    65536     0       155 /dev/shm/.org.chromium.Chromium.jHjz2B
+vesktop.b 49110 tarilka0gg  mem    REG   0,52    65536     0       154 /dev/shm/.org.chromium.Chromium.r3sdNX
+vesktop.b 49110 tarilka0gg  mem    REG   0,52    65536     0      1992 /dev/shm/.org.chromium.Chromium.09EdNH
+vesktop.b 49110 tarilka0gg  mem    REG   0,52   131072     0       148 /dev/shm/.org.chromium.Chromium.7YrZvM
+vesktop.b 49110 tarilka0gg  mem    REG   0,52   131072     0       147 /dev/shm/.org.chromium.Chromium.01BmMH
+vesktop.b 49110 tarilka0gg  mem    REG   0,52  2008728     0        30 /dev/shm/.org.chromium.Chromium.lwteyM
+vesktop.b 49110 tarilka0gg  mem    REG   0,52    65536     0       735 /dev/shm/.org.chromium.Chromium.KyMt0E
+vesktop.b 49110 tarilka0gg  mem    REG   0,52    78944     0        43 /dev/shm/.org.chromium.Chromium.RJl0Dy
+vesktop.b 49110 tarilka0gg  mem    REG   0,52   131072     0        33 /dev/shm/.org.chromium.Chromium.pybdZy
+vesktop.b 49110 tarilka0gg  mem    REG   0,52   153464     0        29 /dev/shm/.org.chromium.Chromium.KRxrO0
+vesktop.b 49110 tarilka0gg  mem    REG   0,52   353360     0        28 /dev/shm/.org.chromium.Chromium.TyVSDR
+vesktop.b 49110 tarilka0gg  mem    REG   0,52       16     0        36 /dev/shm/.org.chromium.Chromium.cb0vTk
+vesktop.b 49110 tarilka0gg  mem    REG   0,52     4096     0       912 /dev/shm/.org.chromium.Chromium.msDe01
+vesktop.b 49110 tarilka0gg  mem    REG   0,52     4096     0       872 /dev/shm/.org.chromium.Chromium.tLiDkF
+vesktop.b 49110 tarilka0gg  mem    REG   0,52     4096     0      1991 /dev/shm/.org.chromium.Chromium.ZodnmH
+vesktop.b 49110 tarilka0gg  mem    REG   0,52   122752     0        27 /dev/shm/.org.chromium.Chromium.nGdUFR
+vesktop.b 49110 tarilka0gg  mem    REG   0,52   131072     0        26 /dev/shm/.org.chromium.Chromium.NtIw9b
+vesktop.b 49110 tarilka0gg  mem    REG   0,52   131072     0        24 /dev/shm/.org.chromium.Chromium.2TBv7G
+vesktop.b 49110 tarilka0gg  mem    REG   0,52     4096     0       739 /dev/shm/.org.chromium.Chromium.F4TCKA
+vesktop.b 49110 tarilka0gg  mem    REG   0,52      144     0       733 /dev/shm/.org.chromium.Chromium.5Eu1wb
+vesktop.b 49110 tarilka0gg  mem    REG   0,52       16     0        25 /dev/shm/.org.chromium.Chromium.K9oFsu
+vesktop.b 49110 tarilka0gg  mem    REG   0,52      144     0       153 /dev/shm/.org.chromium.Chromium.pHyTq1
+vesktop.b 49110 tarilka0gg  mem    REG   0,52      144     0       150 /dev/shm/.org.chromium.Chromium.bd5vZ8
+vesktop.b 49110 tarilka0gg  mem    REG   0,52        8     0        23 /dev/shm/.org.chromium.Chromium.DBJURa
+vesktop.b 49110 tarilka0gg  mem    REG   0,52   262144     0         3 /dev/shm/.org.chromium.Chromium.ueD51M
+vesktop.b 49110 tarilka0gg   22u   REG   0,52   122752     0        27 /dev/shm/.org.chromium.Chromium.nGdUFR (deleted)
+vesktop.b 49110 tarilka0gg   23u   REG   0,52      144     0       733 /dev/shm/.org.chromium.Chromium.5Eu1wb (deleted)
+vesktop.b 49110 tarilka0gg   27u   REG   0,37   301680     0       105 /run/flatpak/app/dev.vencord.Vesktop/.org.chromium.Chromium.XDIPoo (deleted)
+vesktop.b 49110 tarilka0gg   30r   REG   0,52   122752     0        27 /dev/shm/.org.chromium.Chromium.nGdUFR (deleted)
+vesktop.b 49110 tarilka0gg   31u   REG   0,52   353360     0        28 /dev/shm/.org.chromium.Chromium.TyVSDR (deleted)
+vesktop.b 49110 tarilka0gg   32r   REG   0,52   353360     0        28 /dev/shm/.org.chromium.Chromium.TyVSDR (deleted)
+vesktop.b 49110 tarilka0gg   33u   REG   0,52   153464     0        29 /dev/shm/.org.chromium.Chromium.KRxrO0 (deleted)
+vesktop.b 49110 tarilka0gg   34r   REG   0,52   153464     0        29 /dev/shm/.org.chromium.Chromium.KRxrO0 (deleted)
+vesktop.b 49110 tarilka0gg   35u   REG   0,52  2008728     0        30 /dev/shm/.org.chromium.Chromium.lwteyM (deleted)
+vesktop.b 49110 tarilka0gg   36r   REG   0,52  2008728     0        30 /dev/shm/.org.chromium.Chromium.lwteyM (deleted)
+vesktop.b 49110 tarilka0gg   38u   REG   0,52    78944     0        43 /dev/shm/.org.chromium.Chromium.RJl0Dy (deleted)
+vesktop.b 49110 tarilka0gg   39r   REG   0,52    78944     0        43 /dev/shm/.org.chromium.Chromium.RJl0Dy (deleted)
+vesktop.b 49110 tarilka0gg   40u   REG   0,52  1048576     0       734 /dev/shm/.org.chromium.Chromium.ayVY53 (deleted)
+vesktop.b 49110 tarilka0gg   41u   REG   0,52   131000     0       651 /dev/shm/.org.chromium.Chromium.Ynznrk (deleted)
+vesktop.b 49110 tarilka0gg   42u   REG   0,52   131000     0       652 /dev/shm/.org.chromium.Chromium.DwwTCb (deleted)
+vesktop.b 49110 tarilka0gg   43u   REG   0,52    65536     0       735 /dev/shm/.org.chromium.Chromium.KyMt0E (deleted)
+vesktop.b 49110 tarilka0gg   44u   REG   0,52  4198400     0      1960 /dev/shm/.org.chromium.Chromium.sO9dgg (deleted)
+vesktop.b 49110 tarilka0gg   45u   REG   0,52  2097152     0       738 /dev/shm/.org.chromium.Chromium.Em0D2S (deleted)
+vesktop.b 49110 tarilka0gg   46u   REG   0,52     4096     0       739 /dev/shm/.org.chromium.Chromium.F4TCKA (deleted)
+vesktop.b 49110 tarilka0gg   47u   REG   0,52    65536     0       935 /dev/shm/.org.chromium.Chromium.76KDYa (deleted)
+vesktop.b 49110 tarilka0gg   48u   REG   0,52    65536     0      1992 /dev/shm/.org.chromium.Chromium.09EdNH (deleted)
+vesktop.b 49110 tarilka0gg   49u   REG   0,52      144     0       934 /dev/shm/.org.chromium.Chromium.nPanVx (deleted)
+vesktop.b 49110 tarilka0gg   50u   REG   0,52     4096     0      1991 /dev/shm/.org.chromium.Chromium.ZodnmH (deleted)
+vesktop.b 49110 tarilka0gg   51u   REG   0,52     4096     0       912 /dev/shm/.org.chromium.Chromium.msDe01 (deleted)
+vesktop.b 49110 tarilka0gg   53u   REG   0,52    65536     0       936 /dev/shm/.org.chromium.Chromium.u4z6GV (deleted)
+vesktop.b 49110 tarilka0gg   55u   REG   0,52    65536     0       927 /dev/shm/.org.chromium.Chromium.YKmrCN (deleted)
+vesktop.b 49110 tarilka0gg   61u   REG   0,52      144     0       926 /dev/shm/.org.chromium.Chromium.8V4aNT (deleted)
+vesktop.b 49110 tarilka0gg   62u   REG   0,52    65536     0       928 /dev/shm/.org.chromium.Chromium.LGjPhf (deleted)
+vesktop.b 49110 tarilka0gg   83u   REG   0,52     4096     0       872 /dev/shm/.org.chromium.Chromium.tLiDkF (deleted)
+vesktop.b 49110 tarilka0gg  118u   REG   0,52      144     0       150 /dev/shm/.org.chromium.Chromium.bd5vZ8 (deleted)
+vesktop.b 49110 tarilka0gg  122u   REG   0,52      144     0       153 /dev/shm/.org.chromium.Chromium.pHyTq1 (deleted)
+vesktop.b 49110 tarilka0gg  123u   REG   0,52    65536     0       154 /dev/shm/.org.chromium.Chromium.r3sdNX (deleted)
+vesktop.b 49110 tarilka0gg  124u   REG   0,52    65536     0       155 /dev/shm/.org.chromium.Chromium.jHjz2B (deleted)
+vesktop.b 49216 tarilka0gg  mem    REG   0,52   131072     0       938 /dev/shm/.org.chromium.Chromium.57qAJR
+vesktop.b 49216 tarilka0gg  mem    REG   0,52   131072     0       698 /dev/shm/.org.chromium.Chromium.iuCFg9
+vesktop.b 49216 tarilka0gg  mem    REG   0,52   262144     0         3 /dev/shm/.org.chromium.Chromium.ueD51M
+claude-de 49643 tarilka0gg   42u   REG   0,27  6899608     0      3134 /dev/shm/.org.chromium.Chromium.tT3yll (deleted)
+claude-de 49643 tarilka0gg   44u   REG    0,1    39808     0     17560 /memfd:wayland-cursor (deleted)
+claude-de 49643 tarilka0gg   60u   REG    0,1    25216     0      2270 /memfd:wayland-cursor (deleted)
+claude-de 49643 tarilka0gg   69u   REG   0,27        4     0      2966 /dev/shm/.org.chromium.Chromium.gkLdK9 (deleted)
+claude-de 49643 tarilka0gg   73r   REG   0,27   262144     0      2967 /dev/shm/.org.chromium.Chromium.bRNC5O (deleted)
+claude-de 49643 tarilka0gg   76r   REG   0,27        4     0      2968 /dev/shm/.org.chromium.Chromium.6fiXcv (deleted)
+claude-de 49643 tarilka0gg   89r   REG   0,27        8     0      2978 /dev/shm/.org.chromium.Chromium.ybyf1Y (deleted)
+claude-de 49643 tarilka0gg  111r   REG   0,27        8     0      3060 /dev/shm/.org.chromium.Chromium.FruQ4H (deleted)
+claude-de 49643 tarilka0gg  146u   REG   0,27   131000     0      3351 /dev/shm/.org.chromium.Chromium.ArayXf (deleted)
+claude-de 49643 tarilka0gg  147u   REG   0,27  6899608     0      3149 /dev/shm/.org.chromium.Chromium.cRqiec (deleted)
+claude-de 49643 tarilka0gg  148r   REG   0,27   359804     0      3207 /dev/shm/.org.chromium.Chromium.ZYbwbD (deleted)
+claude-de 49643 tarilka0gg  149u   REG   0,27   131000     0      3352 /dev/shm/.org.chromium.Chromium.TSI4Ew (deleted)
+claude-de 49643 tarilka0gg  158r   REG   0,27   410712     0      3464 /dev/shm/.org.chromium.Chromium.p4FTuk (deleted)
+claude-de 49643 tarilka0gg  159r   REG   0,27   393576     0      3465 /dev/shm/.org.chromium.Chromium.aYs5kr (deleted)
+claude-de 49643 tarilka0gg  161u   REG   0,27  1920000     0      3474 /dev/shm/.org.chromium.Chromium.LNv1eq (deleted)
+claude-de 49690 tarilka0gg   23u   REG   0,27        4     0      2966 /dev/shm/.org.chromium.Chromium.gkLdK9 (deleted)
+claude-de 49690 tarilka0gg   25r   REG   0,27       16     0      2985 /dev/shm/.org.chromium.Chromium.VJaDBM (deleted)
+claude-de 49690 tarilka0gg   27r   REG   0,27       16     0      2992 /dev/shm/.org.chromium.Chromium.5yLsaY (deleted)
+claude-de 49690 tarilka0gg   32r   REG   0,27       16     0      3061 /dev/shm/.org.chromium.Chromium.xzNhsn (deleted)
+claude-de 49696 tarilka0gg   33r   REG   0,27       16     0      3065 /dev/shm/.org.chromium.Chromium.V5m16U (deleted)
+claude-de 49696 tarilka0gg   36r   REG   0,27       16     0      3180 /dev/shm/.org.chromium.Chromium.ASy6s9 (deleted)
+claude-de 49696 tarilka0gg   41u   REG   0,27   131000     0      3351 /dev/shm/.org.chromium.Chromium.ArayXf (deleted)
+claude-de 49696 tarilka0gg   42u   REG   0,27   131000     0      3352 /dev/shm/.org.chromium.Chromium.TSI4Ew (deleted)
+claude-de 49696 tarilka0gg   49r   REG   0,27       16     0      3488 /dev/shm/.org.chromium.Chromium.FxvOpM (deleted)
+claude-de 49811 tarilka0gg   29u   REG   0,20   113982     0 101020622 /tmp/.org.chromium.Chromium.TLoCXc (deleted)
+claude-de 49832 tarilka0gg   22u   REG   0,27  4198400     0      4976 /dev/shm/.org.chromium.Chromium.ucsCNj (deleted)
+claude-de 49832 tarilka0gg   27u   REG   0,20        0     0 101020624 /tmp/.org.chromium.Chromium.kTzMyr (deleted)
+cowork-li 49892 tarilka0gg   42u   REG   0,27  6899608     0      3134 /dev/shm/.org.chromium.Chromium.tT3yll (deleted)
+cowork-li 49892 tarilka0gg   69u   REG   0,27        4     0      2966 /dev/shm/.org.chromium.Chromium.gkLdK9 (deleted)
+cowork-li 49892 tarilka0gg   73r   REG   0,27   262144     0      2967 /dev/shm/.org.chromium.Chromium.bRNC5O (deleted)
+cowork-li 49892 tarilka0gg   76r   REG   0,27        4     0      2968 /dev/shm/.org.chromium.Chromium.6fiXcv (deleted)
+cowork-li 49892 tarilka0gg   78w   REG   0,35    60271     0  19700153 /home/tarilka0gg/.config/Claude/Local Storage/leveldb/000207.log (deleted)
+cowork-li 49892 tarilka0gg   89r   REG   0,27        8     0      2978 /dev/shm/.org.chromium.Chromium.ybyf1Y (deleted)
+cowork-li 49892 tarilka0gg  111r   REG   0,27        8     0      3060 /dev/shm/.org.chromium.Chromium.FruQ4H (deleted)
+cowork-li 49892 tarilka0gg  147u   REG   0,27  6899608     0      3149 /dev/shm/.org.chromium.Chromium.cRqiec (deleted)
+cowork-li 49892 tarilka0gg  148r   REG   0,27   359804     0      3207 /dev/shm/.org.chromium.Chromium.ZYbwbD (deleted)
+cowork-li 49892 tarilka0gg  150u   REG   0,27  2097152     0      3213 /dev/shm/.org.chromium.Chromium.TDVCi9 (deleted)
+claude-de 49936 tarilka0gg   19u   REG    0,1 67108864     0      7379 /memfd:pulseaudio (deleted)
+ghostty   72901 tarilka0gg    7u   REG    0,1     3840     0      5120 /memfd:smithay-dmabuffeedback-format-table (deleted)
+ghostty   72901 tarilka0gg   10u   REG    0,1     3840     0      5120 /memfd:smithay-dmabuffeedback-format-table (deleted)
+Web\x20Co 73833 tarilka0gg   23r   REG    0,1   460800     0     11266 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73833 tarilka0gg   29r   REG    0,1   296992     0     11267 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73833 tarilka0gg   30r   REG    0,1     7418     0     11270 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73833 tarilka0gg   31r   REG    0,1      226     0     11271 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73833 tarilka0gg   32r   REG    0,1     6190     0     11272 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73833 tarilka0gg   33r   REG    0,1     2172     0     11273 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73833 tarilka0gg   34r   REG    0,1     2356     0     11274 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73833 tarilka0gg   35r   REG    0,1    68240     0     11275 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73833 tarilka0gg   36r   REG    0,1    24560     0     11276 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73833 tarilka0gg   37r   REG    0,1      170     0     11277 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73833 tarilka0gg   38r   REG    0,1     2748     0     11278 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73833 tarilka0gg   39r   REG    0,1     1488     0     11279 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73833 tarilka0gg   40r   REG    0,1    24584     0     11280 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73833 tarilka0gg   41r   REG    0,1    11822     0     11298 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73833 tarilka0gg   42r   REG    0,1    14116     0     11339 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73833 tarilka0gg   43r   REG    0,1      224     0     11265 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73839 tarilka0gg   23r   REG    0,1   460800     0     11266 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73839 tarilka0gg   29r   REG    0,1     7418     0     11270 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73839 tarilka0gg   30r   REG    0,1      226     0     11271 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73839 tarilka0gg   31r   REG    0,1     6190     0     11272 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73839 tarilka0gg   32r   REG    0,1     2172     0     11273 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73839 tarilka0gg   33r   REG    0,1     2356     0     11274 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73839 tarilka0gg   34r   REG    0,1    68240     0     11275 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73839 tarilka0gg   35r   REG    0,1    24560     0     11276 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73839 tarilka0gg   36r   REG    0,1      170     0     11277 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73839 tarilka0gg   37r   REG    0,1     2748     0     11278 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73839 tarilka0gg   38r   REG    0,1     1488     0     11279 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73839 tarilka0gg   39r   REG    0,1    24584     0     11280 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73839 tarilka0gg   40r   REG    0,1    11822     0     11298 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73839 tarilka0gg   41r   REG    0,1    14116     0     11339 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73839 tarilka0gg   42r   REG    0,1      224     0     11265 /memfd:mozilla-ipc (deleted)
+Web\x20Co 73839 tarilka0gg   44r   REG    0,1   296992     0     11267 /memfd:mozilla-ipc (deleted)
+Web\x20Co 74795 tarilka0gg   23r   REG    0,1   296992     0     11267 /memfd:mozilla-ipc (deleted)
+Web\x20Co 74795 tarilka0gg   24r   REG    0,1   460800     0     11266 /memfd:mozilla-ipc (deleted)
+Web\x20Co 74795 tarilka0gg   30r   REG    0,1     7418     0     11270 /memfd:mozilla-ipc (deleted)
+Web\x20Co 74795 tarilka0gg   31r   REG    0,1      226     0     11271 /memfd:mozilla-ipc (deleted)
+Web\x20Co 74795 tarilka0gg   32r   REG    0,1     6190     0     11272 /memfd:mozilla-ipc (deleted)
+Web\x20Co 74795 tarilka0gg   33r   REG    0,1     2172     0     11273 /memfd:mozilla-ipc (deleted)
+Web\x20Co 74795 tarilka0gg   34r   REG    0,1     2356     0     11274 /memfd:mozilla-ipc (deleted)
+Web\x20Co 74795 tarilka0gg   35r   REG    0,1    68240     0     11275 /memfd:mozilla-ipc (deleted)
+Web\x20Co 74795 tarilka0gg   36r   REG    0,1    24560     0     11276 /memfd:mozilla-ipc (deleted)
+Web\x20Co 74795 tarilka0gg   37r   REG    0,1      170     0     11277 /memfd:mozilla-ipc (deleted)
+Web\x20Co 74795 tarilka0gg   38r   REG    0,1     2748     0     11278 /memfd:mozilla-ipc (deleted)
+Web\x20Co 74795 tarilka0gg   39r   REG    0,1     1488     0     11279 /memfd:mozilla-ipc (deleted)
+Web\x20Co 74795 tarilka0gg   40r   REG    0,1    24584     0     11280 /memfd:mozilla-ipc (deleted)
+Web\x20Co 74795 tarilka0gg   41r   REG    0,1    11822     0     11298 /memfd:mozilla-ipc (deleted)
+Web\x20Co 74795 tarilka0gg   42r   REG    0,1    14116     0     11339 /memfd:mozilla-ipc (deleted)
+Web\x20Co 74795 tarilka0gg   43r   REG    0,1      224     0     11265 /memfd:mozilla-ipc (deleted)

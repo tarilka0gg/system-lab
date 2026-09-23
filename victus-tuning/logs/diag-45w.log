@@ -1,0 +1,37 @@
+переармування + старт навантаження
+t=30s draw=79.8W
+--- ПІД ЧАС БУСТУ (80W) ---
+  MSR 0x610   PL1=80W PL2=115W
+  MMIO 0x59A0 PL1=80W PL2=115W
+  PSYS 0x65C  raw=0xdd0000 PL=0W en=0
+  POWER_CTL 0x1FC raw=0x64005f BD_PROCHOT_en(b0)=1
+  CONFIG_TDP_CONTROL 0x64B = 0
+  THERM_STATUS 0x19C: PROCHOT_now(b2)=0 PROCHOT_log(b3)=0 thermal(b0)=0 нижче_TjMax=29C
+чекаю просідання...
+  t≈36s draw=79.9W freq=3545MHz
+  t≈42s draw=79.9W freq=3567MHz
+  t≈48s draw=80.0W freq=3561MHz
+  t≈54s draw=80.0W freq=3555MHz
+  t≈60s draw=80.0W freq=3549MHz
+  t≈66s draw=80.0W freq=3555MHz
+  t≈72s draw=80.0W freq=3536MHz
+  t≈78s draw=80.0W freq=3567MHz
+  t≈84s draw=80.0W freq=3567MHz
+  t≈90s draw=80.0W freq=3555MHz
+  t≈96s draw=80.0W freq=3627MHz
+  t≈102s draw=80.0W freq=3613MHz
+  t≈108s draw=80.0W freq=3544MHz
+  t≈114s draw=80.0W freq=3575MHz
+  t≈120s draw=80.0W freq=3583MHz
+  t≈126s draw=80.0W freq=3667MHz
+  t≈132s draw=80.0W freq=3564MHz
+  t≈138s draw=80.0W freq=3583MHz
+  t≈144s draw=49.9W freq=2567MHz
+>>> ПРОСІДАННЯ ЗАФІКСОВАНО
+--- ПІСЛЯ ПРОСІДАННЯ (45W) ---
+  MSR 0x610   PL1=80W PL2=115W
+  MMIO 0x59A0 PL1=80W PL2=115W
+  PSYS 0x65C  raw=0xdd0000 PL=0W en=0
+  POWER_CTL 0x1FC raw=0x64005f BD_PROCHOT_en(b0)=1
+  CONFIG_TDP_CONTROL 0x64B = 0
+  THERM_STATUS 0x19C: PROCHOT_now(b2)=0 PROCHOT_log(b3)=0 thermal(b0)=0 нижче_TjMax=35C

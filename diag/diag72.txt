@@ -1,0 +1,2 @@
+File /home/tarilka0gg/autofdo-work/kernel-compilation.data not owned by current user or root (use -f to override)
+exit=0

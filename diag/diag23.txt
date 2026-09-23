@@ -1,0 +1,20 @@
+377G	/home/tarilka0gg/.local
+375G	/home/tarilka0gg/.local/share
+189G	/home/tarilka0gg/.local/share/Trash
+182G	/home/tarilka0gg/.local/share/Steam
+1.5G	/home/tarilka0gg/.local/share/Paradox Interactive
+871M	/home/tarilka0gg/.local/src/Gruvbox-GTK-Theme
+871M	/home/tarilka0gg/.local/src
+863M	/home/tarilka0gg/.local/share/PixelFlasher
+686M	/home/tarilka0gg/.local/share/flatpak
+626M	/home/tarilka0gg/.local/share/TelegramDesktop
+425M	/home/tarilka0gg/.local/share/nvim
+392M	/home/tarilka0gg/.local/share/fonts
+305M	/home/tarilka0gg/.local/share/containers
+304M	/home/tarilka0gg/.local/state
+293M	/home/tarilka0gg/.local/state/quickshell
+188M	/home/tarilka0gg/.local/share/icons
+83M	/home/tarilka0gg/.local/lib
+58M	/home/tarilka0gg/.local/lib/python3.14
+45M	/home/tarilka0gg/.local/share/pw-logs
+25M	/home/tarilka0gg/.local/lib/python3.13

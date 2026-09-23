@@ -1,0 +1,22 @@
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p3  759G  565G  191G  75% /home
+564G	/home/tarilka0gg
+377G	/home/tarilka0gg/.local
+156G	/home/tarilka0gg/Documents
+17G	/home/tarilka0gg/.var
+3.7G	/home/tarilka0gg/.cache
+2.7G	/home/tarilka0gg/gentoo-installer-test
+2.2G	/home/tarilka0gg/.config
+1.5G	/home/tarilka0gg/.rustup
+1.4G	/home/tarilka0gg/Media
+1.3G	/home/tarilka0gg/.npm
+1.3G	/home/tarilka0gg/.cargo
+446M	/home/tarilka0gg/.paradoxlauncher
+426M	/home/tarilka0gg/.wine
+238M	/home/tarilka0gg/.opencode
+175M	/home/tarilka0gg/.icons
+92M	/home/tarilka0gg/.nv
+66M	/home/tarilka0gg/Downloads
+51M	/home/tarilka0gg/.claude
+46M	/home/tarilka0gg/.venvs
+33M	/home/tarilka0gg/.wdm

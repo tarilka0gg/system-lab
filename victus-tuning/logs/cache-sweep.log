@@ -1,0 +1,110 @@
+17:34:11 ===== CACHE=-150 (CORE=-165) =====
+  CPU (0): -165.04 mV
+  GPU (1): -49.80 mV
+  CPU Cache (2): -150.39 mV
+  all-core: FAIL_COMPUTE (Passed=2)
+  boost:    FAIL_COMPUTE (Passed=2)
+17:38:29 ВЕРДИКТ CACHE=-150: FAIL_COMPUTE(boost)
+17:38:44 ===== CACHE=-160 (CORE=-165) =====
+  CPU (0): -165.04 mV
+  GPU (1): -49.80 mV
+  CPU Cache (2): -160.16 mV
+  all-core: FAIL_COMPUTE (Passed=2)
+  boost:    FAIL_COMPUTE (Passed=2)
+17:43:00 ВЕРДИКТ CACHE=-160: FAIL_COMPUTE(boost)
+17:43:15 ===== CACHE=-165 (CORE=-165) =====
+  CPU (0): -165.04 mV
+  GPU (1): -49.80 mV
+  CPU Cache (2): -165.04 mV
+  all-core: FAIL_COMPUTE (Passed=2)
+  boost:    FAIL_COMPUTE (Passed=2)
+17:47:32 ВЕРДИКТ CACHE=-165: FAIL_COMPUTE(boost)
+17:47:47 === СВІП ЗАВЕРШЕНО ===
+17:51:24 ===== CACHE=-140 (CORE=-165) =====
+  CPU (0): -165.04 mV
+  GPU (1): -49.80 mV
+  CPU Cache (2): -139.65 mV
+  all-core: FAIL_COMPUTE (Passed=2)
+  boost:    FAIL_COMPUTE (Passed=2)
+17:55:41 ВЕРДИКТ CACHE=-140: FAIL_COMPUTE(boost)
+17:55:56 === СВІП ЗАВЕРШЕНО ===
+17:56:20 ===== CACHE=-140 (CORE=-160) =====
+  CPU (0): -160.16 mV
+  GPU (1): -49.80 mV
+  CPU Cache (2): -139.65 mV
+  all-core: PASS (Passed=7)
+  boost:    FAIL_COMPUTE (Passed=2)
+18:04:14 ВЕРДИКТ CACHE=-140: FAIL_COMPUTE(boost)
+18:04:29 === СВІП ЗАВЕРШЕНО ===
+18:05:03 ===== CACHE=-140 (CORE=-150) =====
+  CPU (0): -150.39 mV
+  GPU (1): -49.80 mV
+  CPU Cache (2): -139.65 mV
+18:06:17 ===== CACHE=-150 (CORE=-140) =====
+  CPU (0): -139.65 mV
+  GPU (1): -49.80 mV
+  CPU Cache (2): -150.39 mV
+  all-core: PASS (Passed=7)
+  boost:    PASS (Passed=4)
+18:15:46 ВЕРДИКТ CACHE=-150: PASS
+18:16:01 ===== CACHE=-160 (CORE=-140) =====
+  CPU (0): -139.65 mV
+  GPU (1): -49.80 mV
+  CPU Cache (2): -160.16 mV
+  all-core: PASS (Passed=7)
+  boost:    PASS (Passed=4)
+18:25:31 ВЕРДИКТ CACHE=-160: PASS
+18:25:46 ===== CACHE=-165 (CORE=-140) =====
+  CPU (0): -139.65 mV
+  GPU (1): -49.80 mV
+  CPU Cache (2): -165.04 mV
+  all-core: PASS (Passed=7)
+  boost:    PASS (Passed=4)
+18:35:16 ВЕРДИКТ CACHE=-165: PASS
+18:35:31 ===== CACHE=-180 (CORE=-140) =====
+  CPU (0): -139.65 mV
+  GPU (1): -49.80 mV
+  CPU Cache (2): -179.69 mV
+  all-core: PASS (Passed=7)
+  boost:    FAIL_COMPUTE (Passed=4)
+18:44:57 ВЕРДИКТ CACHE=-180: FAIL_COMPUTE(boost)
+18:45:12 === СВІП ЗАВЕРШЕНО ===
+18:55:52 ===== CACHE=-165 (CORE=-165) =====
+  CPU (0): -165.04 mV
+  GPU (1): -49.80 mV
+  CPU Cache (2): -165.04 mV
+  all-core: FAIL_COMPUTE (Passed=2)
+  boost:    FAIL_COMPUTE (Passed=2)
+19:00:07 ВЕРДИКТ CACHE=-165: FAIL_COMPUTE(boost)
+19:00:22 === СВІП ЗАВЕРШЕНО ===
+19:01:34 ===== CACHE=-170 (CORE=-140) =====
+  CPU (0): -139.65 mV
+  GPU (1): -49.80 mV
+  CPU Cache (2): -169.92 mV
+  all-core: PASS (Passed=7)
+  boost:    PASS (Passed=4)
+19:11:04 ВЕРДИКТ CACHE=-170: PASS
+19:11:19 ===== CACHE=-175 (CORE=-140) =====
+  CPU (0): -139.65 mV
+  GPU (1): -49.80 mV
+  CPU Cache (2): -174.80 mV
+  all-core: PASS (Passed=7)
+  boost:    PASS (Passed=4)
+19:20:49 ВЕРДИКТ CACHE=-175: PASS
+19:21:04 === СВІП ЗАВЕРШЕНО ===
+19:36:55 ===== CACHE=-175 (CORE=-160) =====
+  CPU (0): -160.16 mV
+  GPU (1): -150.39 mV
+  CPU Cache (2): -174.80 mV
+  all-core: PASS (Passed=7)
+  boost:    FAIL_COMPUTE (Passed=2)
+19:44:50 ВЕРДИКТ CACHE=-175: FAIL_COMPUTE(boost)
+19:45:05 === СВІП ЗАВЕРШЕНО ===
+19:56:39 ===== CACHE=-175 (CORE=-150) =====
+  CPU (0): -150.39 mV
+  GPU (1): -150.39 mV
+  CPU Cache (2): -174.80 mV
+  all-core: PASS (Passed=7)
+  boost:    PASS (Passed=4)
+20:06:08 ВЕРДИКТ CACHE=-175: PASS
+20:06:23 === СВІП ЗАВЕРШЕНО ===

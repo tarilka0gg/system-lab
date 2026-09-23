@@ -1,0 +1,12 @@
+total 0
+drwxr-xr-x 3 root root    0 Sep 12 20:29 .
+drwxr-xr-x 3 root root    0 Sep 12 20:06 ..
+lrwxrwxrwx 1 root root    0 Sep 12 20:29 device -> ../../../hp-wmi
+-r--r--r-- 1 root root 4096 Sep 12 20:29 fan1_input
+-r--r--r-- 1 root root 4096 Sep 12 20:29 fan2_input
+-r--r--r-- 1 root root 4096 Sep 12 20:12 name
+drwxr-xr-x 2 root root    0 Sep 12 20:29 power
+-rw-r--r-- 1 root root 4096 Sep 12 20:29 pwm1
+-rw-r--r-- 1 root root 4096 Sep 12 14:40 pwm1_enable
+lrwxrwxrwx 1 root root    0 Sep 12 20:29 subsystem -> ../../../../../class/hwmon
+-rw-r--r-- 1 root root 4096 Sep 12 20:29 uevent

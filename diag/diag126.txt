@@ -1,0 +1,2 @@
+Failed to validate a sane '/dev'.
+'/dev/null' is not a character device.

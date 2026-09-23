@@ -1,0 +1,5 @@
+pid 1101245's current affinity list: 0-23
+pid 1101245's new affinity list: 8
+  8
+  8
+  8

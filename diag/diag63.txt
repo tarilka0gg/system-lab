@@ -1,0 +1,7 @@
+total 63765112
+drwxr-xr-x 1 tarilka0gg tarilka0gg          46 Sep 12 21:19 .
+drwxr-xr-x 1 tarilka0gg tarilka0gg        2796 Sep 12 21:20 ..
+-rw------- 1 tarilka0gg tarilka0gg 65295473436 Sep 12 21:12 kernel-compilation.data
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  195G   63G  127G  34% /
+/dev/nvme0n1p3  759G  400G  355G  54% /home

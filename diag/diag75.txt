@@ -1,0 +1,2 @@
+root     1101238 26.4  2.0 823992 669732 ?       S    21:22   0:01 /usr/lib/llvm/22/bin/llvm-profgen --kernel --perfdata=/home/tarilka0gg/autofdo-work/kernel-compilation.data --binary=/usr/src/linux/vmlinux -o /home/tarilka0gg/autofdo-work/kernel-compilation.afdo
+root     1101245 97.8  1.1 64030040 369200 ?     R    21:22   0:03 /bin/perf script --show-mmap-events -F ip,brstack -i /home/tarilka0gg/autofdo-work/kernel-compilation.data

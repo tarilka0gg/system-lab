@@ -1,0 +1,5 @@
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi        26Gi       776Mi       4.0Gi       8.6Gi       4.9Gi
+Swap:             0B          0B          0B
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  195G  170G   24G  88% /

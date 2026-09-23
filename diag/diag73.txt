@@ -1,0 +1,12 @@
+-rw------- 1 tarilka0gg tarilka0gg 65295473436 Sep 12 21:12 /home/tarilka0gg/autofdo-work/kernel-compilation.data
+root
+PERF_RECORD_MMAP2 -1/0: [0xffffffffb4000000(0xedae40) @ 0xffffffffb4000000 <9bee5b9cb465d93a16bd7b8705126e7e427cef57>]: ---p [kernel.kallsyms]_text
+PERF_RECORD_MMAP2 -1/0: [0xffffffffc0400000(0x1000) @ 0 <ee759f6f0134eda1f8d2335331d61c270b3ea59d>]: ---p /lib/modules/7.1.8-cachyos1-tuned/kernel/sound/soundcore.ko
+PERF_RECORD_MMAP2 -1/0: [0xffffffffc0401000(0x1000) @ 0 <87becde28111b27909cc7d93735e7f165e01dfd2>]: ---p /lib/modules/7.1.8-cachyos1-tuned/kernel/drivers/acpi/acpi_pad.ko
+PERF_RECORD_MMAP2 -1/0: [0xffffffffc0402000(0xc000) @ 0 <8465e37fce4a1536125ce5936cec2d920f6a3c0f>]: ---p /lib/modules/7.1.8-cachyos1-tuned/kernel/sound/core/snd.ko
+PERF_RECORD_MMAP2 -1/0: [0xffffffffc040e000(0x1000) @ 0 <fa64decb286e0a66d14d1026aecad24cf92b39f8>]: ---p /lib/modules/7.1.8-cachyos1-tuned/kernel/drivers/watchdog/iTCO_wdt.ko
+PERF_RECORD_MMAP2 -1/0: [0xffffffffc040f000(0x2000) @ 0 <9e09282e6aa374d7b6922037417c84f0398b3447>]: ---p /lib/modules/7.1.8-cachyos1-tuned/kernel/sound/core/snd-ctl-led.ko
+PERF_RECORD_MMAP2 -1/0: [0xffffffffc0411000(0x2000) @ 0 <0e925de49c75f6b544ec9f69007240dc64329d67>]: ---p /lib/modules/7.1.8-cachyos1-tuned/kernel/drivers/thermal/intel/int340x_thermal/acpi_thermal_rel.ko
+PERF_RECORD_MMAP2 -1/0: [0xffffffffc0413000(0x3000) @ 0 <8c5b9484674afaacec37c2b541b153367e36663c>]: ---p /lib/modules/7.1.8-cachyos1-tuned/kernel/drivers/platform/wmi/wmi.ko
+PERF_RECORD_MMAP2 -1/0: [0xffffffffc0416000(0x1000) @ 0 <004edf523c1f938f5942ebd6ff501da5df8e1536>]: ---p /lib/modules/7.1.8-cachyos1-tuned/kernel/drivers/thermal/intel/int340x_thermal/int340x_thermal_zone.ko
+PERF_RECORD_MMAP2 -1/0: [0xffffffffc0417000(0x1000) @ 0 <33c9284a6cf1de8b9ccefae53e12de5964717c77>]: ---p /lib/modules/7.1.8-cachyos1-tuned/kernel/drivers/hwmon/coretemp.ko

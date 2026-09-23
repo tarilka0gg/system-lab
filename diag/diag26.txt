@@ -1,0 +1,4 @@
+which: no sysbench in (/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin)
+/bin/stress-ng
+/bin/obs
+/run/user/1000/niri.wayland-1.1810.sock

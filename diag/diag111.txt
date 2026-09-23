@@ -1,0 +1,3 @@
+root     1101238  0.0  2.0 823992 669676 ?       S    21:22   0:01 /usr/lib/llvm/22/bin/llvm-profgen --kernel --perfdata=/home/tarilka0gg/autofdo-work/kernel-compilation.data --binary=/usr/src/linux/vmlinux -o /home/tarilka0gg/autofdo-work/kernel-compilation.afdo
+root     1101245 99.8 43.4 65891080 14156860 ?   R    21:22 149:20 /bin/perf script --show-mmap-events -F ip,brstack -i /home/tarilka0gg/autofdo-work/kernel-compilation.data
+ls: cannot access '/home/tarilka0gg/autofdo-work/kernel-compilation.afdo': No such file or directory

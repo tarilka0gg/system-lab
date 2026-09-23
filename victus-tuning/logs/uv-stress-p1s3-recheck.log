@@ -1,0 +1,3 @@
+stress-ng: info:  [55442] setting to a 12 mins run per stressor
+stress-ng: info:  [55442] dispatching hogs: 24 cpu
+stress-ng: info:  [55442] note: 24 cpus have scaling governors set to powersave and this may impact performance; setting /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor to 'performance' may improve performance

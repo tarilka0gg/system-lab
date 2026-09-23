@@ -1,0 +1,2 @@
+label,core_mv,cache_mv,threads,max_ratio,max_pcore_mhz,vcore_mv,ycruncher,verdict
+core165,-165,-140,4,44,4300,878,PASS,PASS

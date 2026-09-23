@@ -1,0 +1,3 @@
+-rw-r--r-- 1 root root 2921700 Sep 13 00:48 /home/tarilka0gg/autofdo-work/kernel-compilation.afdo
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  195G   55G  135G  30% /

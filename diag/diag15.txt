@@ -1,0 +1,80 @@
+total 102343252
+drwxrwxrwt 1 root       root              1930 Sep 12 20:17 .
+drwxr-xr-x 1 root       root               132 Jul 17 22:45 ..
+-rw-r--r-- 1 tarilka0gg tarilka0gg          92 Sep 12 18:52 bd9ccae75ce72a4ddb4260b3c0743e13-{87A94AB0-E370-4cde-98D3-ACC110C5967D}
+drwx------ 1 root       root                20 Sep 12 18:51 cc-socks
+drwx------ 1 root       root                32 Sep 12 18:51 claude-0
+prwx------ 1 tarilka0gg tarilka0gg           0 Sep 12 18:52 clr-debug-pipe-41575-1508724-in
+prwx------ 1 tarilka0gg tarilka0gg           0 Sep 12 18:52 clr-debug-pipe-41575-1508724-out
+drwx------ 1 tarilka0gg tarilka0gg          60 Sep 12 18:48 .com.valvesoftware.Steam.5XnW5X
+srwxrwxrwx 1 tarilka0gg tarilka0gg           0 Sep 12 14:40 dbus-yvaUM0T0wf
+srw------- 1 tarilka0gg tarilka0gg           0 Sep 12 18:52 dotnet-diagnostic-41575-1508724-socket
+drwxr-x--T 1 tarilka0gg tarilka0gg          84 Sep 12 18:48 dumps
+-rw-r--r-- 1 tarilka0gg tarilka0gg        1537 Sep 12 19:59 gameoverlay_ui.previous.txt
+-rw-r--r-- 1 tarilka0gg tarilka0gg        1537 Sep 12 20:06 gameoverlay_ui.txt
+srwxr-xr-x 1 tarilka0gg tarilka0gg           0 Sep 12 18:52 HByt5dqXy_-TiXIWjzY3B2tU-TD-webview-41428
+srwxr-xr-x 1 tarilka0gg tarilka0gg           0 Sep 12 18:52 HByt5dqXy_-TiXIWjzY3B2tU-TD-webview-41447
+drwxrwxrwt 1 root       root                 0 Sep 12 14:40 .ICE-unix
+srwxr-xr-x 1 tarilka0gg tarilka0gg           0 Sep 12 18:48 millennium-mep.sock
+drwx------ 1 tarilka0gg tarilka0gg           6 Sep 12 18:48 .millennium-pv-2soSkU
+-rw-r--r-- 1 tarilka0gg tarilka0gg           0 Sep 12 18:42 MozillaUpdateLock-9C4BFB3326DBB993
+drwxr-xr-x 1 tarilka0gg tarilka0gg          48 Sep 12 18:42 noctalia-media-art
+drwxr-xr-x 1 tarilka0gg tarilka0gg          26 Sep 12 20:11 noctalia-weather
+drwxr-xr-x 1 root       root                46 Sep 12 18:51 node-compile-cache
+-rw-r--r-- 1 root       root       58922646781 Sep 12 20:05 perf-script-3ee3330f29dc979499add1b434586bb3.tmp
+-rw-r--r-- 1 root       root               175 Sep 12 20:05 perf-script-3ee3330f29dc979499add1b434586bb3.tmp.err
+-rw-r--r-- 1 root       root       45876793344 Sep 12 20:14 perf-script-50fbf5856bff8d06fd3e41d8c899a92c.tmp
+-rw-r--r-- 1 root       root                48 Sep 12 20:08 perf-script-50fbf5856bff8d06fd3e41d8c899a92c.tmp.err
+-rw------- 1 root       root                 0 Sep 12 20:08 perf-vdso.so-r822D9
+-rw------- 1 root       root              8192 Sep 12 20:08 perf-vdso.so-XpOrLB
+drwxr-xr-x 1 tarilka0gg tarilka0gg          16 Sep 12 18:48 pressure-vessel-libs-eS7LdI
+drwx------ 1 tarilka0gg tarilka0gg          60 Sep 12 19:10 scoped_dirmx6dKv
+drwxr-xr-x 1 tarilka0gg tarilka0gg           0 Sep 12 18:48 steam
+srwxr-xr-x 1 tarilka0gg tarilka0gg           0 Sep 12 18:49 steam_chrome_overlay_uid1000_spid39862
+srwxr-xr-x 1 tarilka0gg tarilka0gg           0 Sep 12 20:00 steam_chrome_overlay_uid1000_spid69241
+srwxr-xr-x 1 tarilka0gg tarilka0gg           0 Sep 12 18:48 steam_chrome_shmem_uid1000_spid38245
+drwxr-xr-x 1 tarilka0gg tarilka0gg           0 Sep 12 18:48 steamJMdHmH
+drwx------ 1 tarilka0gg tarilka0gg          68 Sep 12 18:49 .wine-1000
+-r--r--r-- 1 tarilka0gg tarilka0gg          11 Sep 12 14:40 .X0-lock
+drwxrwxrwt 1 root       root                 8 Sep 12 14:40 .X11-unix
+drwxr-xr-x 1 tarilka0gg tarilka0gg           0 Sep 12 18:42 yazi-1000
+srwxr-xr-x 1 tarilka0gg tarilka0gg           0 Sep 12 18:42 .yazi_dds-1000.sock
+98G	/tmp
+0	/tmp/.ICE-unix
+0	/tmp/.X11-unix
+0	/tmp/dbus-yvaUM0T0wf
+4.0K	/tmp/.X0-lock
+8.0K	/tmp/noctalia-weather
+0	/tmp/MozillaUpdateLock-9C4BFB3326DBB993
+32K	/tmp/noctalia-media-art
+0	/tmp/yazi-1000
+0	/tmp/.yazi_dds-1000.sock
+4.0K	/tmp/dumps
+4.0K	/tmp/.millennium-pv-2soSkU
+0	/tmp/millennium-mep.sock
+0	/tmp/steam
+0	/tmp/steamJMdHmH
+8.0K	/tmp/pressure-vessel-libs-eS7LdI
+4.0K	/tmp/.com.valvesoftware.Steam.5XnW5X
+0	/tmp/steam_chrome_shmem_uid1000_spid38245
+0	/tmp/.wine-1000
+0	/tmp/steam_chrome_overlay_uid1000_spid39862
+0	/tmp/claude-0
+0	/tmp/cc-socks
+2.2M	/tmp/node-compile-cache
+4.0K	/tmp/bd9ccae75ce72a4ddb4260b3c0743e13-{87A94AB0-E370-4cde-98D3-ACC110C5967D}
+0	/tmp/HByt5dqXy_-TiXIWjzY3B2tU-TD-webview-41428
+0	/tmp/HByt5dqXy_-TiXIWjzY3B2tU-TD-webview-41447
+0	/tmp/dotnet-diagnostic-41575-1508724-socket
+0	/tmp/clr-debug-pipe-41575-1508724-in
+0	/tmp/clr-debug-pipe-41575-1508724-out
+4.0K	/tmp/scoped_dirmx6dKv
+4.0K	/tmp/gameoverlay_ui.previous.txt
+4.0K	/tmp/gameoverlay_ui.txt
+0	/tmp/steam_chrome_overlay_uid1000_spid69241
+55G	/tmp/perf-script-3ee3330f29dc979499add1b434586bb3.tmp
+4.0K	/tmp/perf-script-3ee3330f29dc979499add1b434586bb3.tmp.err
+43G	/tmp/perf-script-50fbf5856bff8d06fd3e41d8c899a92c.tmp
+4.0K	/tmp/perf-script-50fbf5856bff8d06fd3e41d8c899a92c.tmp.err
+8.0K	/tmp/perf-vdso.so-XpOrLB
+0	/tmp/perf-vdso.so-r822D9

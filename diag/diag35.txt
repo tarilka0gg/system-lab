@@ -1,0 +1,6 @@
+tarilka+   40650  0.4  0.8 5508828 291224 ?      Sl   18:50   0:28 ghostty
+tarilka+   41261  0.8  0.2 2143288 97540 ?       Sl   18:51   0:51 ghostty --title=btop-monitor -e btop
+tarilka+   79376  0.3  0.6 2258516 201020 ?      Sl   20:26   0:00 ghostty -e stress-ng --cpu 8 --io 4 --vm 4 --vm-bytes 1G --fork 4 --timeout 20m
+tarilka+   79385  0.5  0.6 2134260 201996 ?      Sl   20:26   0:00 ghostty -e htop
+tarilka+ 1055604  0.7  0.6 2134752 201408 ?      Sl   20:27   0:00 ghostty -e yazi
+tarilka+ 1128063  1.8  0.6 2065624 203012 ?      Sl   20:27   0:01 ghostty --title=btop-monitor -e btop

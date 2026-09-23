@@ -1,0 +1,5 @@
+stress-ng: info:  [40794] setting to a 15 mins run per stressor
+stress-ng: info:  [40794] dispatching hogs: 24 cpu, 12 matrix, 2 vm
+stress-ng: info:  [40794] note: 24 cpus have scaling governors set to powersave and this may impact performance; setting /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor to 'performance' may improve performance
+stress-ng: info:  [40820] matrix: using 192KB per stressor instance (total 2.25MB of 18.37GB available memory)
+stress-ng: info:  [40832] vm: using 256MB per stressor instance (total 512MB of 18.37GB available memory)

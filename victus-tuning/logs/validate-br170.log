@@ -1,0 +1,7 @@
+15:53:14 === ВАЛІДАЦІЯ br170: CORE=-170 CACHE=-140 (mailbox=-170,-140) ===
+15:53:14 y-cruncher 10хв (correctness)
+15:55:21   y-cruncher: FAIL_COMPUTE (rc=0, Passed=2)
+15:55:21 PL-bound 8хв (matrixprod, переармування кожні 90с)
+16:03:30   Vcore=889mV P-freq=3975MHz temp=81C draw=79.3W
+16:03:30 нові WHEA/MCE: 0
+16:03:30 === ВЕРДИКТ br170: FAIL_COMPUTE ===

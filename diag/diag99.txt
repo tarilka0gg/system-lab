@@ -1,0 +1,26 @@
+  8
+---частоти всіх ядер---
+cpu MHz		: 3961.937
+cpu MHz		: 800.000
+cpu MHz		: 2420.879
+cpu MHz		: 800.000
+cpu MHz		: 4512.360
+cpu MHz		: 4483.267
+cpu MHz		: 2485.523
+cpu MHz		: 800.000
+cpu MHz		: 4705.111
+cpu MHz		: 800.000
+cpu MHz		: 800.240
+cpu MHz		: 800.000
+cpu MHz		: 4171.047
+cpu MHz		: 800.000
+cpu MHz		: 3266.982
+cpu MHz		: 800.000
+cpu MHz		: 3435.426
+cpu MHz		: 3700.847
+cpu MHz		: 2232.828
+cpu MHz		: 3487.760
+cpu MHz		: 3148.778
+cpu MHz		: 2107.831
+cpu MHz		: 3584.373
+cpu MHz		: 3700.949

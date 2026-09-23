@@ -1,0 +1,4 @@
+/bin/eclean-dist
+---видаляю старі kernel source дерева---
+---чистка distfiles (var, окрім flatpak/kernel-matrix-out/portage-store)---
+12G	/var/cache/distfiles

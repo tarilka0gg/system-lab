@@ -1,0 +1,16 @@
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  195G   69G  124G  36% /
+131M	/boot
+2.3M	/tmp
+155M	/dev
+24M	/etc
+0	/media
+0	/mnt
+8.0G	/opt
+7.9G	/root
+du: cannot access '/run/user/1000/doc': Permission denied
+2.7M	/run
+32G	/usr
+25G	/var
+0	/srv
+72G	/

@@ -1,0 +1,8 @@
+17:21:51 === BOOST-ТЕСТ core165: CORE=-165 CACHE=-140 ===
+  CPU (0): -165.04 mV
+  GPU (1): -49.80 mV
+  CPU Cache (2): -139.65 mV
+17:21:51 y-cruncher на ядрах 0,2,4,6, 6хв
+17:28:07 max ratio=44 max P-core=4300MHz Vcore(мед)=878mV
+17:28:07 y-cruncher: PASS (Passed=8)
+17:28:07 === ВЕРДИКТ core165: PASS ===

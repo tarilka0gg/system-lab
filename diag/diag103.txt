@@ -1,0 +1,2 @@
+siblings	: 24
+cpu MHz		: 4352.019

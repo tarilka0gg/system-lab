@@ -1,0 +1,48 @@
+--- БУСТ 80W ---
+  HWP_CAPABILITIES 0x771 raw=0x1141c40
+    highest=64 guaranteed=28 efficient=20 lowest=1
+  HWP_REQUEST 0x774 raw=0x400b
+    min=11 max=64 desired=0 epp=0
+  PM_ENABLE 0x770 = 1
+  0x1AD TURBO_RATIO_LIMIT: raw=0x3030303030303434
+  0x1AE TURBO_RATIO_LIMIT_CORES: raw=0x807060504030201
+  0x64C TURBO_ACTIVATION_RATIO: raw=0x15
+  0x1A2 TEMPERATURE_TARGET: TjMax=100C TccOffset=5
+  0x198 PERF_STATUS: raw=0x1d7400002600 ratio=38 vcore=920mV
+  0x199 PERF_CTL: raw=0xb00
+  scaling_max_freq (унікальні): ['3700000', '5000000', '5200000']
+чекаю просідання...
+  t≈36s draw=79.8W freq=3547MHz
+  t≈42s draw=79.9W freq=3535MHz
+  t≈48s draw=79.9W freq=3544MHz
+  t≈54s draw=79.9W freq=3565MHz
+  t≈60s draw=80.0W freq=3550MHz
+  t≈66s draw=80.0W freq=3546MHz
+  t≈72s draw=80.0W freq=3557MHz
+  t≈78s draw=80.0W freq=3567MHz
+  t≈84s draw=80.0W freq=3569MHz
+  t≈90s draw=80.0W freq=3559MHz
+  t≈96s draw=80.0W freq=3567MHz
+  t≈102s draw=80.0W freq=3570MHz
+  t≈108s draw=80.0W freq=3552MHz
+  t≈114s draw=79.9W freq=3583MHz
+  t≈120s draw=80.0W freq=3562MHz
+  t≈126s draw=80.0W freq=3564MHz
+  t≈132s draw=79.9W freq=3575MHz
+  t≈138s draw=80.0W freq=3567MHz
+  t≈144s draw=80.0W freq=3570MHz
+  t≈150s draw=53.1W freq=2583MHz
+>>> ПРОСІДАННЯ
+--- ПІСЛЯ ПРОСІДАННЯ 45W ---
+  HWP_CAPABILITIES 0x771 raw=0x1141c40
+    highest=64 guaranteed=28 efficient=20 lowest=1
+  HWP_REQUEST 0x774 raw=0x400b
+    min=11 max=64 desired=0 epp=0
+  PM_ENABLE 0x770 = 1
+  0x1AD TURBO_RATIO_LIMIT: raw=0x3030303030303434
+  0x1AE TURBO_RATIO_LIMIT_CORES: raw=0x807060504030201
+  0x64C TURBO_ACTIVATION_RATIO: raw=0x15
+  0x1A2 TEMPERATURE_TARGET: TjMax=100C TccOffset=5
+  0x198 PERF_STATUS: raw=0x191400001c00 ratio=28 vcore=784mV
+  0x199 PERF_CTL: raw=0xb00
+  scaling_max_freq (унікальні): ['3700000', '5000000', '5200000']

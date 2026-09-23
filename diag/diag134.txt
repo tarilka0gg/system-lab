@@ -1,0 +1,22 @@
+7.1.6-cachyos-trim11-tuned
+---limine.conf entries---
+timeout: 5
+default_entry: 2
+
+/Gentoo (7.1.6-cachyos-trim11-tuned)
+    protocol: linux
+    kernel_path: boot():/EFI/limine/vmlinuz-7.1.6-cachyos-trim11-tuned
+    module_path: boot():/EFI/limine/intel-uc.img
+    cmdline: root=PARTUUID=f1c49ebf-d717-42f3-b887-aa57f8e79a97 ro zswap.enabled=0 efi_pstore.pstore_disable=0
+
+/Gentoo (7.1.8-cachyos1-tuned) [autofdo+propeller, baseline — no profile yet]
+    protocol: linux
+    kernel_path: boot():/EFI/limine/vmlinuz-7.1.8-cachyos1-tuned
+    module_path: boot():/EFI/limine/intel-uc.img
+    cmdline: root=PARTUUID=f1c49ebf-d717-42f3-b887-aa57f8e79a97 ro zswap.enabled=0 efi_pstore.pstore_disable=0
+
+/Gentoo (7.1.3-cachyos-trim10-tuned) [fallback]
+    protocol: linux
+    kernel_path: boot():/EFI/limine/vmlinuz-7.1.3-cachyos-trim10-tuned
+    module_path: boot():/EFI/limine/intel-uc.img
+    cmdline: root=PARTUUID=f1c49ebf-d717-42f3-b887-aa57f8e79a97 ro zswap.enabled=0 efi_pstore.pstore_disable=0

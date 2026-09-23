@@ -1,0 +1,103 @@
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  195G  193G     0 100% /
+/dev/nvme0n1p2  195G  193G     0 100% /
+73077 /usr/lib/llvm/22/bin/llvm-profgen --kernel --perfdata=/usr/src/linux/tools/perf/kernel-compilation.data --binary=/usr/src/linux/vmlinux -o /usr/src/linux/tools/perf/kernel-compilation.afdo
+x
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  195G  167G   26G  87% /
+131M	/boot
+155M	/dev
+24M	/etc
+0	/media
+0	/mnt
+8.0G	/opt
+7.9G	/root
+du: cannot access '/run/user/1000/doc': Permission denied
+2.7M	/run
+32G	/usr
+25G	/var
+0	/srv
+72G	/
+done
+31M	/var/cache/edb
+136K	/var/cache/ldconfig
+12G	/var/cache/distfiles
+32K	/var/cache/binpkgs
+0	/var/cache/man
+8.0M	/var/cache/fontconfig
+44K	/var/cache/rc
+1.8M	/var/cache/revdep-rebuild
+0	/var/cache/powertop
+53M	/var/cache/eix
+31M	/var/cache/fwupd
+150M	/var/cache/binhost
+12G	/var/cache
+254M	/var/db/pkg
+780M	/var/db/repos
+1.1G	/var/db
+0	/var/empty
+12K	/var/lib/gentoo
+16K	/var/lib/portage
+0	/var/lib/ip6tables
+0	/var/lib/iptables
+12K	/var/lib/dhcpcd
+4.0K	/var/lib/misc
+4.0K	/var/lib/dbus
+4.0K	/var/lib/seedrng
+52K	/var/lib/NetworkManager
+0	/var/lib/polkit-1
+40K	/var/lib/bluetooth
+4.0K	/var/lib/sddm
+0	/var/lib/elogind
+256K	/var/lib/upower
+0	/var/lib/udisks2
+4.0K	/var/lib/chrony
+4.0K	/var/lib/power-profiles-daemon
+43M	/var/lib/tor
+0	/var/lib/nftables
+124K	/var/lib/containers
+0	/var/lib/cni
+56K	/var/lib/tailscale
+0	/var/lib/AccountsService
+6.0G	/var/lib/flatpak
+12K	/var/lib/coolercontrol
+2.1M	/var/lib/fwupd
+0	/var/lib/iwd
+4.0K	/var/lib/btrfs
+1.3G	/var/lib/portage-store
+0	/var/lib/tpm2-tss
+8.0M	/var/lib/logmein-hamachi
+7.3G	/var/lib
+784K	/var/log/portage
+0	/var/log/sandbox
+0	/var/log/cups
+0	/var/log/chrony
+0	/var/log/nvtopps
+8.0K	/var/log/portage-store
+13M	/var/log
+0	/var/spool/mail
+0	/var/spool/cups
+0	/var/spool
+926M	/var/tmp/portage
+3.3G	/var/tmp/kernel-matrix-out
+4.2G	/var/tmp
+25G	/var
+Data, single: total=188.58GiB, used=162.79GiB
+System, DUP: total=8.00MiB, used=48.00KiB
+Metadata, DUP: total=3.00GiB, used=1.72GiB
+GlobalReserve, single: total=285.20MiB, used=0.00B
+done2
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  195G  167G   26G  87% /
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  195G  167G   26G  87% /
+done3
+---orphan---
+root         249  0.0  0.0      0     0 ?        S    14:40   0:00 [btrfs-cleaner]
+root         250  0.0  0.0      0     0 ?        S    14:40   0:00 [btrfs-transaction]
+root        1341  0.0  0.0      0     0 ?        S    14:40   0:00 [btrfs-cleaner]
+root        1342  0.0  0.0      0     0 ?        S    14:40   0:03 [btrfs-transaction]
+root       76252  0.0  0.0   7808  4152 ?        Ss   20:17   0:00 /bin/bash -c source /root/.claude/shell-snapshots/snapshot-bash-1789228319746-uo8bw7.sh 2>/dev/null || true && shopt -u extglob 2>/dev/null || true && { \builtin unalias -- 'unsetenv'; \builtin unset -f -- 'unsetenv'; } >/dev/null 2>&1 || true && eval 'btrfs subvolume list -a -p -c -d / >> /home/tarilka0gg/diag.txt 2>&1 echo "---orphan---" >> /home/tarilka0gg/diag.txt ps aux | grep -i "btrfs-clean\|btrfs-transaction" >> /home/tarilka0gg/diag.txt 2>&1 echo done4 >> /home/tarilka0gg/diag.txt' < /dev/null && pwd -P >| /tmp/claude-3812-cwd
+root       76256  0.0  0.0   7808  2348 ?        S    20:17   0:00 /bin/bash -c source /root/.claude/shell-snapshots/snapshot-bash-1789228319746-uo8bw7.sh 2>/dev/null || true && shopt -u extglob 2>/dev/null || true && { \builtin unalias -- 'unsetenv'; \builtin unset -f -- 'unsetenv'; } >/dev/null 2>&1 || true && eval 'btrfs subvolume list -a -p -c -d / >> /home/tarilka0gg/diag.txt 2>&1 echo "---orphan---" >> /home/tarilka0gg/diag.txt ps aux | grep -i "btrfs-clean\|btrfs-transaction" >> /home/tarilka0gg/diag.txt 2>&1 echo done4 >> /home/tarilka0gg/diag.txt' < /dev/null && pwd -P >| /tmp/claude-3812-cwd
+root       76257  0.0  0.0 1268952 6924 ?        S    20:17   0:00 ugrep -G --ignore-files --hidden -I --exclude-dir=.git --exclude-dir=.svn --exclude-dir=.hg --exclude-dir=.bzr --exclude-dir=.jj --exclude-dir=.sl -i btrfs-clean\|btrfs-transaction
+done4

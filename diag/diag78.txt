@@ -1,0 +1,9 @@
+root     1101238  2.5  2.0 823992 669732 ?       S    21:22   0:01 /usr/lib/llvm/22/bin/llvm-profgen --kernel --perfdata=/home/tarilka0gg/autofdo-work/kernel-compilation.data --binary=/usr/src/linux/vmlinux -o /home/tarilka0gg/autofdo-work/kernel-compilation.afdo
+root     1101245 99.5 10.3 64415748 3381144 ?    R    21:22   0:50 /bin/perf script --show-mmap-events -F ip,brstack -i /home/tarilka0gg/autofdo-work/kernel-compilation.data
+---
+warning: 0.04%(17/45130) of functions failed to determine function entry due to inconsistent name from symbol table and dwarf info.
+---disk---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  195G   55G  135G  29% /
+/dev/nvme0n1p3  759G  439G  316G  59% /home
+ls: cannot access '/home/tarilka0gg/autofdo-work/kernel-compilation.afdo': No such file or directory

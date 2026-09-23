@@ -1,0 +1,7 @@
+15:01:59 === ВАЛІДАЦІЯ asym1-c160: CORE=-160 CACHE=-140 (mailbox=-160,-140) ===
+15:01:59 y-cruncher 10хв (correctness)
+15:12:09   y-cruncher: FAIL_COMPUTE (rc=0, Passed=10)
+15:12:09 PL-bound 8хв (matrixprod, переармування кожні 90с)
+15:20:18   Vcore=893mV P-freq=3894MHz temp=80C draw=79.3W
+15:20:18 нові WHEA/MCE: 0
+15:20:18 === ВЕРДИКТ asym1-c160: FAIL_COMPUTE ===

@@ -1,0 +1,7 @@
+17:03:31 === ВАЛІДАЦІЯ harness-test175: CORE=-175 CACHE=-140 (mailbox=-175,-140) ===
+17:03:31 y-cruncher 5хв (correctness)
+17:05:36   y-cruncher: FAIL_COMPUTE (rc=0, Passed=2)
+17:05:36 PL-bound 3хв (matrixprod, переармування кожні 90с)
+17:08:44   Vcore=891mV P-freq=3950MHz temp=79C draw=78.2W
+17:08:44 нові WHEA/MCE: 0
+17:08:44 === ВЕРДИКТ harness-test175: FAIL_COMPUTE ===

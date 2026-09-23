@@ -1,0 +1,4 @@
+завершився на ітерації 2
+-rw------- 1 root root 65295473436 Sep 12 21:12 /usr/src/linux/tools/perf/kernel-compilation.data
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  195G  168G   25G  88% /

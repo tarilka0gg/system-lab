@@ -1,0 +1,16 @@
+19
+  CC      arch/x86/entry/vdso/vma.o
+  CC      mm/mempool.o
+  CC      init/do_mounts_initrd.o
+  CC      fs/file_table.o
+  CC      kernel/cpu.o
+  CC      crypto/scatterwalk.o
+  CC      security/keys/keyctl.o
+  CC      block/elevator.o
+  CC      ipc/sem.o
+  CC      arch/x86/entry/vdso/extable.o
+  CC      mm/oom_kill.o
+  CC      kernel/exit.o
+  CC      init/initramfs.o
+  CC      fs/super.o
+  CC      crypto/proc.o

@@ -1,0 +1,21 @@
+98G	/tmp
+2.2M	/tmp/node-compile-cache
+32K	/tmp/noctalia-media-art
+8.0K	/tmp/pressure-vessel-libs-eS7LdI
+8.0K	/tmp/noctalia-weather
+4.0K	/tmp/scoped_dirmx6dKv
+4.0K	/tmp/.millennium-pv-2soSkU
+4.0K	/tmp/dumps
+4.0K	/tmp/.com.valvesoftware.Steam.5XnW5X
+0	/tmp/yazi-1000
+0	/tmp/.X11-unix
+0	/tmp/.wine-1000
+0	/tmp/steamJMdHmH
+0	/tmp/steam
+0	/tmp/.ICE-unix
+0	/tmp/claude-0
+0	/tmp/cc-socks
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  195G  193G     0 100% /
+/dev/nvme0n1p3  759G  565G  191G  75% /home
+/dev/nvme0n1p2  195G  193G     0 100% /

@@ -1,0 +1,6 @@
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi        25Gi       314Mi       4.1Gi         9Gi       5.7Gi
+Swap:             0B          0B          0B
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  195G  168G   25G  88% /
+-rw------- 1 root root 65113912056 Sep 12 21:12 /usr/src/linux/tools/perf/kernel-compilation.data

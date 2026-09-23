@@ -1,0 +1,17 @@
+#!/bin/sh
+exec tail -n +3 $0
+# This file provides an easy way to add custom menu entries.  Simply type the
+# menu entries you want to add after this comment.  Be careful not to change
+# the 'exec tail' line above.
+
+menuentry 'Gentoo, Linux 7.1.3-cachyos-trim3-tuned (БЕЗ initramfs)' --class gentoo --class gnu-linux --class gnu --class os --id 'gentoo-trim3-noinitramfs' {
+	load_video
+	insmod gzio
+	insmod part_gpt
+	insmod btrfs
+	search --no-floppy --fs-uuid --set=root 1661ff0b-703f-43b8-adaa-f1b1b552c45c
+	echo	'Завантаження 7.1.3-cachyos-trim3-tuned без initramfs...'
+	linux	/boot/vmlinuz-7.1.3-cachyos-trim3-tuned root=PARTUUID=f1c49ebf-d717-42f3-b887-aa57f8e79a97 ro apparmor=1 security=apparmor
+	echo	'Мікрокод Intel...'
+	initrd	/boot/intel-uc.img
+}

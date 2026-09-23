@@ -1,0 +1,37 @@
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  195G  116G   74G  62% /
+/dev/nvme0n1p3  759G  377G  378G  50% /home
+---памʼять---
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi       7.9Gi        15Gi       1.6Gi       9.3Gi        23Gi
+Swap:             0B          0B          0B
+---залишки srctree в kernel-matrix-out---
+---perf.data---
+-rw------- 1 root root 65295473436 Sep 12 21:12 /usr/src/linux/tools/perf/kernel-compilation.data
+---btrfs реальне використання---
+Overall:
+    Device size:		 194.60GiB
+    Device allocated:		 174.02GiB
+    Device unallocated:		  20.57GiB
+    Device missing:		     0.00B
+    Device slack:		     0.00B
+    Used:			 115.51GiB
+    Free (estimated):		  73.38GiB	(min: 63.10GiB)
+    Free (statfs, df):		  73.38GiB
+    Data ratio:			      1.00
+    Metadata ratio:		      2.00
+    Global reserve:		 321.58MiB	(used: 16.00KiB)
+    Multiple profiles:		        no
+
+Data,single: Size:166.01GiB, Used:113.20GiB (68.19%)
+   /dev/nvme0n1p2	 166.01GiB
+
+Metadata,DUP: Size:4.00GiB, Used:1.16GiB (28.95%)
+   /dev/nvme0n1p2	   8.00GiB
+
+System,DUP: Size:8.00MiB, Used:48.00KiB (0.59%)
+   /dev/nvme0n1p2	  16.00MiB
+
+Unallocated:
+   /dev/nvme0n1p2	  20.57GiB
+---зайві процеси---

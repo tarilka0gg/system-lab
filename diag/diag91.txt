@@ -1,0 +1,1 @@
+/home/tarilka0gg/.config/zen/epzukka9.Default (release)/prefs.js:user_pref("dom.ipc.processCount", 4);

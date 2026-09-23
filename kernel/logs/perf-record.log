@@ -1,0 +1,6 @@
+[ perf record: Woken up 76457 times to write data ]
+sh: line 1: perf-read-vdso32: command not found
+Warning:
+4 out of order events recorded.
+Failed to open /proc/schedstat
+[ perf record: Captured and wrote 19140.179 MB /usr/src/linux/tools/perf/kernel-compilation.data (184727300 samples) ]
